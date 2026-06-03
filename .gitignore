@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets & runtime
+wp-authority-builder/config/secrets.env
+wp-authority-builder/state/*.json
+
+# OS
+Thumbs.db
+.DS_Store

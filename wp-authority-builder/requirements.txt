@@ -1,0 +1,5 @@
+# Floor versions (>=) so pip resolves wheels compatible with the installed Python (3.14+).
+paramiko>=3.5
+requests>=2.32
+python-dotenv>=1.0
+pytest>=8.3
