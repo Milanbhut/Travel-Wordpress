@@ -30,6 +30,10 @@ class Config:
         self.unsplash_key: Optional[str] = env.get("UNSPLASH_ACCESS_KEY") or None
         self.pexels_key: Optional[str] = env.get("PEXELS_API_KEY") or None
         self.adsense_pub_id: Optional[str] = env.get("ADSENSE_PUB_ID") or None
+        # Cloudflare fronts the Hostinger origin (DNS + CDN/proxy). Used for QA cache-purge
+        # and SSL/HTTPS verification (Plan E). Optional for Gate 1.
+        self.cloudflare_api_token: Optional[str] = env.get("CLOUDFLARE_API_TOKEN") or None
+        self.cf_zone_id: Optional[str] = env.get("CF_ZONE_ID") or None
 
     @property
     def has_ssh(self) -> bool:
