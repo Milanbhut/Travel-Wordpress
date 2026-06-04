@@ -1,0 +1,1732 @@
+{
+  "domain": "overlaytop.com",
+  "niche": "Travel on a Budget",
+  "total": 90,
+  "author_totals": {
+    "maya-okonkwo": 22,
+    "tom-whitfield": 15,
+    "diego-alvarez": 19,
+    "sofia-marchetti": 18,
+    "priya-nair": 16
+  },
+  "archetype_totals": {
+    "explainer": 12,
+    "listicle": 24,
+    "comparison": 12,
+    "how-to": 18,
+    "mistakes-and-fixes": 12,
+    "case-study": 12
+  },
+  "articles": [
+    {
+      "slug": "what-is-error-fare",
+      "title": "What an Error Fare Actually Is (And How to Spot One)",
+      "archetype": "explainer",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "airport departure board glitch",
+      "angle": "Demystifies how mistake fares happen and the telltale signs a too-good price is a genuine pricing error.",
+      "internal_links": [
+        "flight-search-tools-compared",
+        "google-flights-vs-skyscanner",
+        "best-travel-card-foreign-spending"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "flight-search-tools-compared",
+      "title": "7 Flight Search Tools That Beat Booking Directly With Airlines",
+      "archetype": "listicle",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "laptop flight search screen",
+      "angle": "Ranks the metasearch and aggregator tools worth opening first when hunting a cheap seat.",
+      "internal_links": [
+        "google-flights-vs-skyscanner",
+        "miles-without-flying",
+        "dynamic-currency-conversion"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "google-flights-vs-skyscanner",
+      "title": "Google Flights vs Skyscanner: Which Finds You the Cheaper Seat?",
+      "archetype": "comparison",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "two phones price comparison",
+      "angle": "Runs the same five routes through both engines to show where each one wins and loses.",
+      "internal_links": [
+        "miles-without-flying",
+        "airfare-price-timing-myth",
+        "small-saving-habits"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "miles-without-flying",
+      "title": "How to Build a Frequent-Flyer Miles Balance Without Ever Flying",
+      "archetype": "how-to",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "loyalty card stack desk",
+      "angle": "Earns enough points for a free ticket purely through everyday spending and sign-up bonuses.",
+      "internal_links": [
+        "airfare-price-timing-myth",
+        "hidden-city-ticketing-traps",
+        "avoid-atm-fees-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "airfare-price-timing-myth",
+      "title": "The Tuesday-Booking Myth and What Actually Moves Airfare Prices",
+      "archetype": "explainer",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "price chart fluctuation graph",
+      "angle": "Debunks the day-of-week folklore and explains the real demand signals that set fares.",
+      "internal_links": [
+        "hidden-city-ticketing-traps",
+        "fare-alerts-setup",
+        "booking-mistakes-inflate-cost"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "hidden-city-ticketing-traps",
+      "title": "5 Hidden-City Ticketing Traps That Can Cost You More Than You Save",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "airport connection gate signage",
+      "angle": "Walks through the specific ways skiplagging backfires and how cautious flyers avoid the penalties.",
+      "internal_links": [
+        "fare-alerts-setup",
+        "lisbon-tokyo-cheap-case",
+        "travel-insurance-cost-vs-risk"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "fare-alerts-setup",
+      "title": "Setting Up Fare Alerts That Catch a Drop While You Sleep",
+      "archetype": "how-to",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "phone notification price drop",
+      "angle": "Configures layered price alerts across tools so a sudden dip never slips past you.",
+      "internal_links": [
+        "lisbon-tokyo-cheap-case",
+        "budget-airlines-worth-it",
+        "money-saving-travel-apps"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "lisbon-tokyo-cheap-case",
+      "title": "How One Reader Flew Lisbon to Tokyo Return for Under 300 Dollars",
+      "archetype": "case-study",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "tokyo street neon evening",
+      "angle": "Reconstructs the exact error-fare booking, routing and timing behind one improbably cheap long-haul.",
+      "internal_links": [
+        "budget-airlines-worth-it",
+        "round-the-world-ticket-value",
+        "trip-budget-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "budget-airlines-worth-it",
+      "title": "4 Budget Airlines Worth the Fine Print and 3 That Aren't",
+      "archetype": "listicle",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "low cost airline tarmac",
+      "angle": "Separates the no-frills carriers that deliver real value from the ones whose fees erase the saving.",
+      "internal_links": [
+        "round-the-world-ticket-value",
+        "positioning-flights-explained",
+        "pay-in-local-currency"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "round-the-world-ticket-value",
+      "title": "8 Routes Where a Round-the-World Ticket Beats Booking Separately",
+      "archetype": "listicle",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "world map pinned routes",
+      "angle": "Shows the multi-stop itineraries where an alliance RTW fare quietly undercuts piecing it together.",
+      "internal_links": [
+        "positioning-flights-explained",
+        "layover-mistakes-fixes",
+        "tourist-trap-pricing"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "positioning-flights-explained",
+      "title": "Positioning Flights: How a Cheap Hop Leads to a Far Cheaper Fare",
+      "archetype": "how-to",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "regional plane small airport",
+      "angle": "Teaches the deliberate short connector flight that lets you board a much cheaper departure city.",
+      "internal_links": [
+        "layover-mistakes-fixes",
+        "family-europe-points-case",
+        "forty-percent-savings-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "layover-mistakes-fixes",
+      "title": "6 Airport Layover Mistakes That Turn a Bargain Into a Missed Flight",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "traveler running airport terminal",
+      "angle": "Covers the connection-time miscalculations that strand budget flyers and the buffers that prevent them.",
+      "internal_links": [
+        "family-europe-points-case",
+        "signs-overpaying-flight",
+        "city-tourist-pass-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "family-europe-points-case",
+      "title": "How a Family of Four Crossed Europe on Points for Almost Nothing",
+      "archetype": "case-study",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "family boarding aircraft steps",
+      "angle": "Breaks down the card bonuses and transfer partners one family stacked to fly four people nearly free.",
+      "internal_links": [
+        "signs-overpaying-flight",
+        "basic-economy-vs-standard",
+        "avoid-roaming-charges-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "signs-overpaying-flight",
+      "title": "9 Signs You're About to Overpay for a Flight",
+      "archetype": "listicle",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "stressed traveler ticket counter",
+      "angle": "Lists the booking-page warning flags that mean you should close the tab and search again.",
+      "internal_links": [
+        "basic-economy-vs-standard",
+        "what-is-error-fare",
+        "free-things-expensive-cities"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "basic-economy-vs-standard",
+      "title": "Basic Economy or Standard Fare: Reading the Trade-Off Before You Click",
+      "archetype": "comparison",
+      "category_slug": "flights",
+      "category_title": "Cheap Flights & Airfare Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "economy cabin seats row",
+      "angle": "Compares stripped-back and standard fares feature by feature so the cheaper one isn't a false economy.",
+      "internal_links": [
+        "what-is-error-fare",
+        "flight-search-tools-compared",
+        "cashback-slow-travel-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "house-sitting-explained",
+      "title": "What House-Sitting Really Involves Before You Stay Somewhere Free",
+      "archetype": "explainer",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "cottage living room cat",
+      "angle": "Lays out the responsibilities, platforms and trust dynamics behind swapping pet care for free lodging.",
+      "internal_links": [
+        "hostel-features-checklist",
+        "dorm-vs-private-room",
+        "southeast-asia-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "hostel-features-checklist",
+      "title": "8 Hostel Features That Separate a Great Night From a Sleepless One",
+      "archetype": "listicle",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "tidy hostel dorm bunks",
+      "angle": "Identifies the listing details that predict whether a cheap dorm is restful or regrettable.",
+      "internal_links": [
+        "dorm-vs-private-room",
+        "long-stay-discount-how-to",
+        "shoulder-season-sweet-spot"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "dorm-vs-private-room",
+      "title": "Hostel Dorm vs Private Room: When Paying More Saves You Money",
+      "archetype": "comparison",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "private hostel room window",
+      "angle": "Maps the trip situations where a private room's higher price actually lowers your total cost.",
+      "internal_links": [
+        "long-stay-discount-how-to",
+        "overnight-transport-as-bed",
+        "portugal-vs-spain-cost"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "long-stay-discount-how-to",
+      "title": "How to Land a Long-Stay Discount on a Month-Long Booking",
+      "archetype": "how-to",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "apartment keys table sunlight",
+      "angle": "Negotiates weekly and monthly rates directly with hosts to slash the nightly price on extended stays.",
+      "internal_links": [
+        "overnight-transport-as-bed",
+        "house-sitting-application-mistakes",
+        "balkans-budget-route"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "overnight-transport-as-bed",
+      "title": "7 Night-Train and Bus Routes That Double as Your Bed",
+      "archetype": "listicle",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "night train sleeper bunk",
+      "angle": "Explains how overnight transport doubles as accommodation and which routes make the swap worthwhile.",
+      "internal_links": [
+        "house-sitting-application-mistakes",
+        "vet-guesthouse-reviews",
+        "cheap-weekend-cities"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "house-sitting-application-mistakes",
+      "title": "5 House-Sitting Application Mistakes That Get You Passed Over",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "laptop profile photo writing",
+      "angle": "Fixes the weak-profile errors that keep first-timers from ever landing a sit.",
+      "internal_links": [
+        "vet-guesthouse-reviews",
+        "rent-free-summer-case",
+        "price-a-country-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "vet-guesthouse-reviews",
+      "title": "How to Vet a Cheap Guesthouse From Reviews Alone",
+      "archetype": "how-to",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "guesthouse courtyard plants",
+      "angle": "Reads between the lines of online reviews to judge a budget guesthouse you can't visit first.",
+      "internal_links": [
+        "rent-free-summer-case",
+        "booking-site-price-tricks",
+        "mexico-month-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "rent-free-summer-case",
+      "title": "How a Solo Traveler Lived in Three Cities Rent-Free for a Summer",
+      "archetype": "case-study",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "backpacker apartment balcony",
+      "angle": "Traces the back-to-back sits and work-exchanges one traveler chained into a rent-free season.",
+      "internal_links": [
+        "booking-site-price-tricks",
+        "work-exchange-explained",
+        "deceptively-expensive-destinations"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "booking-site-price-tricks",
+      "title": "7 Booking-Site Tricks for Finding Rooms Below the Listed Price",
+      "archetype": "listicle",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "hotel booking phone screen",
+      "angle": "Collects the loyalty, currency and timing levers that surface a lower rate than the headline number.",
+      "internal_links": [
+        "work-exchange-explained",
+        "capsule-vs-hostel",
+        "underrated-eastern-capitals"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "work-exchange-explained",
+      "title": "Work Exchanges Explained: Trading Hours for a Free Bunk",
+      "archetype": "explainer",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "hostel volunteer painting wall",
+      "angle": "Breaks down how a few daily work hours covers your bed on platforms built for skill-swaps.",
+      "internal_links": [
+        "capsule-vs-hostel",
+        "last-minute-bed-how-to",
+        "what-makes-destination-cheap"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "capsule-vs-hostel",
+      "title": "Capsule Hotels vs Hostels: Which Cheap Bed Suits You?",
+      "archetype": "comparison",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "capsule hotel sleeping pod",
+      "angle": "Weighs privacy, price and quiet between capsule pods and hostel dorms for the light-sleeping budget traveler.",
+      "internal_links": [
+        "last-minute-bed-how-to",
+        "hidden-accommodation-fees",
+        "greece-vs-thailand-islands"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "last-minute-bed-how-to",
+      "title": "How to Book a Last-Minute Bed Without Paying a Panic Premium",
+      "archetype": "how-to",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "traveler phone street dusk",
+      "angle": "Finds a same-night room at a fair price using standby apps and walk-in tactics instead of desperation rates.",
+      "internal_links": [
+        "hidden-accommodation-fees",
+        "unexpected-cheap-sleeps",
+        "layover-city-mini-holiday"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "hidden-accommodation-fees",
+      "title": "6 Hidden Fees That Inflate a Cheap Room After You Book",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "receipt magnifying glass desk",
+      "angle": "Surfaces the cleaning, city-tax and resort charges that quietly undo a low nightly rate.",
+      "internal_links": [
+        "unexpected-cheap-sleeps",
+        "house-swap-couple-case",
+        "off-season-beach-towns"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "unexpected-cheap-sleeps",
+      "title": "9 Unexpected Places to Sleep Cheap That Aren't Hotels",
+      "archetype": "listicle",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "monastery guest dormitory hall",
+      "angle": "Catalogues monasteries, university halls and farm stays that beat hostels on price and character.",
+      "internal_links": [
+        "house-swap-couple-case",
+        "house-sitting-explained",
+        "south-america-career-break-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "house-swap-couple-case",
+      "title": "How a Retired Couple Cut Their Travel Lodging Bill by House-Swapping",
+      "archetype": "case-study",
+      "category_slug": "stays",
+      "category_title": "Budget Stays & Accommodation",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "two homes exchange concept",
+      "angle": "Documents the home-exchange network one couple used to travel for months with near-zero lodging cost.",
+      "internal_links": [
+        "house-sitting-explained",
+        "hostel-features-checklist",
+        "second-cities-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "southeast-asia-value",
+      "title": "Where Your Money Stretches Furthest in Southeast Asia Right Now",
+      "archetype": "listicle",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "vietnam rice terraces morning",
+      "angle": "Ranks the Southeast Asian bases where a modest daily budget still buys a comfortable week.",
+      "internal_links": [
+        "shoulder-season-sweet-spot",
+        "portugal-vs-spain-cost",
+        "house-sitting-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "shoulder-season-sweet-spot",
+      "title": "Why Shoulder Season Is the Sweet Spot for Cheap, Crowd-Free Trips",
+      "archetype": "explainer",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "empty european plaza autumn",
+      "angle": "Explains the few weeks each year when prices drop but weather and access stay good.",
+      "internal_links": [
+        "portugal-vs-spain-cost",
+        "balkans-budget-route",
+        "hostel-features-checklist"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "portugal-vs-spain-cost",
+      "title": "Portugal vs Spain: Which Iberian Trip Costs Less Day to Day?",
+      "archetype": "comparison",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "porto riverside colorful houses",
+      "angle": "Compares daily spend across food, transport and stays to settle the cheaper Iberian escape.",
+      "internal_links": [
+        "balkans-budget-route",
+        "cheap-weekend-cities",
+        "dorm-vs-private-room"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "balkans-budget-route",
+      "title": "A 10-Day Balkans Route That Stays Under 50 Dollars a Day",
+      "archetype": "how-to",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "kotor bay mountains water",
+      "angle": "Lays out a country-hopping Balkans itinerary engineered to hold a tight daily budget.",
+      "internal_links": [
+        "cheap-weekend-cities",
+        "price-a-country-how-to",
+        "long-stay-discount-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "cheap-weekend-cities",
+      "title": "7 Cities Where a Weekend Costs Less Than Dinner Back Home",
+      "archetype": "listicle",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "krakow old town square",
+      "angle": "Spotlights affordable city breaks where a full weekend rivals one pricey night out elsewhere.",
+      "internal_links": [
+        "price-a-country-how-to",
+        "mexico-month-case",
+        "overnight-transport-as-bed"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "price-a-country-how-to",
+      "title": "How to Price a Country Before You Commit to Going",
+      "archetype": "how-to",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "travel budget notebook coffee",
+      "angle": "Builds a quick cost estimate for any destination using a repeatable research method.",
+      "internal_links": [
+        "mexico-month-case",
+        "deceptively-expensive-destinations",
+        "house-sitting-application-mistakes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "mexico-month-case",
+      "title": "How One Traveler Spent a Month in Mexico for the Cost of a Week in Paris",
+      "archetype": "case-study",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "oaxaca colorful street market",
+      "angle": "Itemizes the real month-in-Mexico budget that matched a single pricey European week.",
+      "internal_links": [
+        "deceptively-expensive-destinations",
+        "underrated-eastern-capitals",
+        "vet-guesthouse-reviews"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "deceptively-expensive-destinations",
+      "title": "5 'Cheap' Destinations That Quietly Drain Your Budget",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "tourist beach crowded umbrellas",
+      "angle": "Names the supposedly affordable spots where hidden costs blow past the bargain reputation.",
+      "internal_links": [
+        "underrated-eastern-capitals",
+        "what-makes-destination-cheap",
+        "rent-free-summer-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "underrated-eastern-capitals",
+      "title": "Eastern Europe's Most Underrated Capitals for Value Travel",
+      "archetype": "listicle",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "belgrade riverside skyline dusk",
+      "angle": "Surfaces the lesser-visited capitals delivering big-city experiences at small-town prices.",
+      "internal_links": [
+        "what-makes-destination-cheap",
+        "greece-vs-thailand-islands",
+        "booking-site-price-tricks"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "what-makes-destination-cheap",
+      "title": "What Makes a Destination Genuinely Cheap (It Isn't the Exchange Rate)",
+      "archetype": "explainer",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "local food stall counting coins",
+      "angle": "Unpacks the on-the-ground factors beyond currency that decide how far your money really goes.",
+      "internal_links": [
+        "greece-vs-thailand-islands",
+        "layover-city-mini-holiday",
+        "work-exchange-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "greece-vs-thailand-islands",
+      "title": "Island Time on a Budget: Greece vs Thailand for Cheap Beaches",
+      "archetype": "comparison",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "thai island longtail boat",
+      "angle": "Pits Greek and Thai islands against each other on ferry, food and bed costs for sun-seekers.",
+      "internal_links": [
+        "layover-city-mini-holiday",
+        "off-season-beach-towns",
+        "capsule-vs-hostel"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "layover-city-mini-holiday",
+      "title": "How to Turn a Layover City Into a Free Mini-Holiday",
+      "archetype": "how-to",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "istanbul skyline mosque sunset",
+      "angle": "Converts a long connection into a deliberate stopover that adds a destination at no extra airfare.",
+      "internal_links": [
+        "off-season-beach-towns",
+        "south-america-career-break-case",
+        "last-minute-bed-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "off-season-beach-towns",
+      "title": "6 Off-Season Beach Towns That Feel Better Empty and Cost Less",
+      "archetype": "listicle",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "quiet beach boardwalk winter",
+      "angle": "Recommends coastal towns whose low-season calm and prices outshine their packed peak.",
+      "internal_links": [
+        "south-america-career-break-case",
+        "second-cities-value",
+        "hidden-accommodation-fees"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "south-america-career-break-case",
+      "title": "How a Career Break in South America Cost Less Than Staying Home",
+      "archetype": "case-study",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "andes mountain village trail",
+      "angle": "Compares a months-long South America trip against home expenses to show the surprising math.",
+      "internal_links": [
+        "second-cities-value",
+        "southeast-asia-value",
+        "unexpected-cheap-sleeps"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "second-cities-value",
+      "title": "Only Visiting Capitals? The Budget Mistake Costing You the Best Trips",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "destinations",
+      "category_title": "Affordable Destinations",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "porto tram narrow street",
+      "angle": "Argues that a country's overlooked second city delivers more for less than its headline capital.",
+      "internal_links": [
+        "southeast-asia-value",
+        "shoulder-season-sweet-spot",
+        "house-swap-couple-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-travel-card-foreign-spending",
+      "title": "Which Travel Card Saves You the Most on Foreign Spending?",
+      "archetype": "comparison",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "credit cards fanned table",
+      "angle": "Compares no-fee debit and credit cards on real overseas transactions to crown the cheapest to carry.",
+      "internal_links": [
+        "dynamic-currency-conversion",
+        "small-saving-habits",
+        "what-is-error-fare"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "dynamic-currency-conversion",
+      "title": "How Dynamic Currency Conversion Skims Money at the Card Machine",
+      "archetype": "explainer",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "card payment terminal closeup",
+      "angle": "Explains the 'pay in your home currency' prompt that quietly costs you and how to refuse it.",
+      "internal_links": [
+        "small-saving-habits",
+        "avoid-atm-fees-how-to",
+        "flight-search-tools-compared"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "small-saving-habits",
+      "title": "11 Small Travel Habits That Add Up to Big Savings",
+      "archetype": "listicle",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "coins jar travel map",
+      "angle": "Collects the tiny repeatable behaviours that compound into a noticeably cheaper trip.",
+      "internal_links": [
+        "avoid-atm-fees-how-to",
+        "booking-mistakes-inflate-cost",
+        "google-flights-vs-skyscanner"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "avoid-atm-fees-how-to",
+      "title": "How to Avoid ATM Fees Almost Anywhere You Travel",
+      "archetype": "how-to",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "atm machine street withdrawal",
+      "angle": "Combines the right account, network choice and withdrawal habits to stop paying to access cash.",
+      "internal_links": [
+        "booking-mistakes-inflate-cost",
+        "travel-insurance-cost-vs-risk",
+        "miles-without-flying"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "booking-mistakes-inflate-cost",
+      "title": "7 Booking Mistakes That Quietly Inflate Your Trip Cost",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "frustrated person laptop bills",
+      "angle": "Fixes the default checkout choices and add-ons that pad a budget trip without you noticing.",
+      "internal_links": [
+        "travel-insurance-cost-vs-risk",
+        "money-saving-travel-apps",
+        "airfare-price-timing-myth"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "travel-insurance-cost-vs-risk",
+      "title": "The Real Cost of Travel Insurance vs Going Without",
+      "archetype": "comparison",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "insurance document clipboard pen",
+      "angle": "Weighs premium prices against likely out-of-pocket losses to find when cover actually pays.",
+      "internal_links": [
+        "money-saving-travel-apps",
+        "trip-budget-how-to",
+        "hidden-city-ticketing-traps"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "money-saving-travel-apps",
+      "title": "9 Apps That Cut Everyday Travel Spending",
+      "archetype": "listicle",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "smartphone travel apps grid",
+      "angle": "Curates the genuinely useful money apps for transport, deals and tracking while abroad.",
+      "internal_links": [
+        "trip-budget-how-to",
+        "pay-in-local-currency",
+        "fare-alerts-setup"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "trip-budget-how-to",
+      "title": "How to Build a Trip Budget You'll Actually Stick To",
+      "archetype": "how-to",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "budget spreadsheet calculator desk",
+      "angle": "Sets up a realistic, category-based travel budget with built-in slack so it survives contact with reality.",
+      "internal_links": [
+        "pay-in-local-currency",
+        "tourist-trap-pricing",
+        "lisbon-tokyo-cheap-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "pay-in-local-currency",
+      "title": "Why Paying in Local Currency Almost Always Beats Your Home Currency",
+      "archetype": "explainer",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "foreign banknotes coins mixed",
+      "angle": "Clarifies the conversion mechanics that make 'local currency' the cheaper button nearly every time.",
+      "internal_links": [
+        "tourist-trap-pricing",
+        "forty-percent-savings-case",
+        "budget-airlines-worth-it"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "tourist-trap-pricing",
+      "title": "5 Tourist Traps That Charge Double for the Same Experience",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "crowded tourist landmark queue",
+      "angle": "Pinpoints the inflated-price tourist services with identical cheaper alternatives steps away.",
+      "internal_links": [
+        "forty-percent-savings-case",
+        "city-tourist-pass-value",
+        "round-the-world-ticket-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "forty-percent-savings-case",
+      "title": "How One Traveler Cut a Two-Week Trip Cost by Forty Percent",
+      "archetype": "case-study",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "travel receipts spread table",
+      "angle": "Audits the before-and-after spending one traveler trimmed without skipping a single experience.",
+      "internal_links": [
+        "city-tourist-pass-value",
+        "avoid-roaming-charges-how-to",
+        "positioning-flights-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "city-tourist-pass-value",
+      "title": "6 City Tourist Passes That Actually Pay for Themselves",
+      "archetype": "listicle",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "city attraction pass card",
+      "angle": "Tests whether bundled sightseeing passes beat paying per attraction for typical visitor itineraries.",
+      "internal_links": [
+        "avoid-roaming-charges-how-to",
+        "free-things-expensive-cities",
+        "layover-mistakes-fixes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "avoid-roaming-charges-how-to",
+      "title": "How to Get Online Abroad Without a Roaming Bill Shock",
+      "archetype": "how-to",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "esim phone settings screen",
+      "angle": "Sets up eSIMs and local data so you stay connected without the carrier surprise on your return.",
+      "internal_links": [
+        "free-things-expensive-cities",
+        "cashback-slow-travel-case",
+        "family-europe-points-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "free-things-expensive-cities",
+      "title": "8 Free Things to Do in Expensive Cities",
+      "archetype": "listicle",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "free museum entrance crowd",
+      "angle": "Lists the no-cost museums, walks and viewpoints that make pricey cities affordable for a day.",
+      "internal_links": [
+        "cashback-slow-travel-case",
+        "best-travel-card-foreign-spending",
+        "signs-overpaying-flight"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "cashback-slow-travel-case",
+      "title": "How a Couple Funded Slow Travel With Cashback and Rewards",
+      "archetype": "case-study",
+      "category_slug": "hacks",
+      "category_title": "Money-Saving Travel Hacks",
+      "author_slug": "maya-okonkwo",
+      "author_name": "Maya Okonkwo",
+      "image_query": "loyalty rewards phone screen",
+      "angle": "Shows the everyday rewards stacking one couple turned into a recurring travel fund.",
+      "internal_links": [
+        "best-travel-card-foreign-spending",
+        "dynamic-currency-conversion",
+        "basic-economy-vs-standard"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "carry-on-two-week-packing",
+      "title": "The 14-Item Carry-On Packing List for a Two-Week Trip",
+      "archetype": "listicle",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "open carry-on packed clothes",
+      "angle": "Breaks down the exact wardrobe and toiletry math that keeps a fortnight inside one cabin bag.",
+      "internal_links": [
+        "budget-gear-that-lasts",
+        "packing-cubes-vs-compression",
+        "what-is-error-fare"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "budget-gear-that-lasts",
+      "title": "9 Budget Gear Items That Outlast Their Premium Rivals",
+      "archetype": "listicle",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "worn travel backpack closeup",
+      "angle": "Names the inexpensive travel kit that survives years of abuse better than pricier alternatives.",
+      "internal_links": [
+        "packing-cubes-vs-compression",
+        "pack-light-skip-checked",
+        "flight-search-tools-compared"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "packing-cubes-vs-compression",
+      "title": "Packing Cubes vs Compression Bags: Which Saves More Space?",
+      "archetype": "comparison",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "packing cubes folded clothes",
+      "angle": "Tests both organisers with the same clothes to settle which truly shrinks your load.",
+      "internal_links": [
+        "pack-light-skip-checked",
+        "forty-litre-bag-limit",
+        "google-flights-vs-skyscanner"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "pack-light-skip-checked",
+      "title": "How to Pack Light Enough to Skip Checked Baggage for Good",
+      "archetype": "how-to",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "minimalist travel kit flatlay",
+      "angle": "Builds a carry-on-only system that lets you walk past the bag drop on every trip.",
+      "internal_links": [
+        "forty-litre-bag-limit",
+        "overpacking-mistakes-fixes",
+        "miles-without-flying"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "forty-litre-bag-limit",
+      "title": "Why a 40-Litre Bag Is the Limit Most Travelers Should Respect",
+      "archetype": "explainer",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "backpack size airport gauge",
+      "angle": "Explains the airline-sizer logic and packing discipline that make 40 litres the practical ceiling.",
+      "internal_links": [
+        "overpacking-mistakes-fixes",
+        "dodge-baggage-fees-how-to",
+        "airfare-price-timing-myth"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "overpacking-mistakes-fixes",
+      "title": "6 Overpacking Mistakes and the Fixes That Halve Your Load",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "overstuffed suitcase clothes spilling",
+      "angle": "Targets the just-in-case items first-timers always bring and the rules that leave them home.",
+      "internal_links": [
+        "dodge-baggage-fees-how-to",
+        "one-bag-year-case",
+        "hidden-city-ticketing-traps"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "dodge-baggage-fees-how-to",
+      "title": "How to Dodge Budget-Airline Baggage Fees Without Checking a Bag",
+      "archetype": "how-to",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "cabin bag overhead locker",
+      "angle": "Sizes and weighs a personal-item-plus-cabin setup to stay under every low-cost carrier's limit.",
+      "internal_links": [
+        "one-bag-year-case",
+        "multi-use-packing-items",
+        "fare-alerts-setup"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "one-bag-year-case",
+      "title": "How a Minimalist Traveled a Year Out of One Backpack",
+      "archetype": "case-study",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "single backpack mountain viewpoint",
+      "angle": "Inventories the exact one-bag kit that covered twelve months across climates and continents.",
+      "internal_links": [
+        "multi-use-packing-items",
+        "personal-item-only-explained",
+        "lisbon-tokyo-cheap-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "multi-use-packing-items",
+      "title": "7 Multi-Use Items That Replace Half Your Packing List",
+      "archetype": "listicle",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "travel scarf folded neutral",
+      "angle": "Spotlights the do-many-jobs gear that quietly deletes single-purpose items from your bag.",
+      "internal_links": [
+        "personal-item-only-explained",
+        "hard-vs-soft-luggage",
+        "budget-airlines-worth-it"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "personal-item-only-explained",
+      "title": "What 'Personal Item Only' Really Lets You Bring",
+      "archetype": "explainer",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "under seat bag dimensions",
+      "angle": "Decodes the smallest baggage tier so you know exactly what a personal-item fare can carry.",
+      "internal_links": [
+        "hard-vs-soft-luggage",
+        "packing-habits-baggage-fees",
+        "round-the-world-ticket-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "hard-vs-soft-luggage",
+      "title": "Hard Shell or Soft Bag: Choosing Luggage That Won't Cost You",
+      "archetype": "comparison",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "hardshell softside suitcases pair",
+      "angle": "Compares durability, weight and packability to pick luggage that avoids fees and replacements.",
+      "internal_links": [
+        "packing-habits-baggage-fees",
+        "things-never-to-pack",
+        "positioning-flights-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "packing-habits-baggage-fees",
+      "title": "5 Packing Habits That Trigger Baggage Fees at the Gate",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "gate agent weighing bag",
+      "angle": "Catches the last-minute packing moves that tip you over the limit just before boarding.",
+      "internal_links": [
+        "things-never-to-pack",
+        "laundry-on-the-road-how-to",
+        "layover-mistakes-fixes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "things-never-to-pack",
+      "title": "10 Things Frequent Budget Travelers Never Pack",
+      "archetype": "listicle",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "discarded travel items table",
+      "angle": "Lists the dead-weight items seasoned cheap travelers learned to leave behind for good.",
+      "internal_links": [
+        "laundry-on-the-road-how-to",
+        "family-carry-on-case",
+        "family-europe-points-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "laundry-on-the-road-how-to",
+      "title": "How to Do Laundry on the Road So You Can Pack Less",
+      "archetype": "how-to",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "tom-whitfield",
+      "author_name": "Tom Whitfield",
+      "image_query": "sink laundry travel line",
+      "angle": "Sets up a wash-as-you-go routine that shrinks your clothing pile to a few well-chosen pieces.",
+      "internal_links": [
+        "family-carry-on-case",
+        "carry-on-two-week-packing",
+        "signs-overpaying-flight"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "family-carry-on-case",
+      "title": "How a Family of Five Flew Carry-On Only and Saved on Every Ticket",
+      "archetype": "case-study",
+      "category_slug": "packing",
+      "category_title": "Smart Packing & Gear",
+      "author_slug": "priya-nair",
+      "author_name": "Priya Nair",
+      "image_query": "family small backpacks airport",
+      "angle": "Details the per-person packing system that let a family of five skip checked bags entirely.",
+      "internal_links": [
+        "carry-on-two-week-packing",
+        "budget-gear-that-lasts",
+        "basic-economy-vs-standard"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "eat-local-market-how-to",
+      "title": "How to Eat Your Way Through a Local Market for Pocket Change",
+      "archetype": "how-to",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "vibrant produce market stalls",
+      "angle": "Turns a neighbourhood market into a full day of cheap, varied meals with a simple shopping plan.",
+      "internal_links": [
+        "best-cheap-street-foods",
+        "street-food-vs-restaurants",
+        "southeast-asia-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-cheap-street-foods",
+      "title": "9 Street Foods That Prove Cheap Can Taste Best",
+      "archetype": "listicle",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "sizzling street food grill",
+      "angle": "Celebrates the under-a-dollar street dishes that locals queue for and tourists overlook.",
+      "internal_links": [
+        "street-food-vs-restaurants",
+        "hostel-kitchen-cooking-how-to",
+        "shoulder-season-sweet-spot"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "street-food-vs-restaurants",
+      "title": "Street Food vs Restaurants: Where the Real Value Is at Each Meal",
+      "archetype": "comparison",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "street vendor versus cafe",
+      "angle": "Maps which meals are better eaten standing up and which justify a sit-down on a tight budget.",
+      "internal_links": [
+        "hostel-kitchen-cooking-how-to",
+        "eat-where-locals-do",
+        "portugal-vs-spain-cost"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "hostel-kitchen-cooking-how-to",
+      "title": "How to Self-Cater From a Hostel Kitchen With Almost No Gear",
+      "archetype": "how-to",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "shared hostel kitchen pots",
+      "angle": "Cooks satisfying meals using only the one pan and dull knife every hostel kitchen seems to have.",
+      "internal_links": [
+        "eat-where-locals-do",
+        "food-overspending-mistakes",
+        "balkans-budget-route"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "eat-where-locals-do",
+      "title": "Why Eating Where the Locals Do Costs Less and Tastes Better",
+      "archetype": "explainer",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "busy local diner lunch",
+      "angle": "Explains the simple signals that lead you to authentic cheap eats instead of marked-up tourist menus.",
+      "internal_links": [
+        "food-overspending-mistakes",
+        "gluten-free-budget-travel",
+        "cheap-weekend-cities"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "food-overspending-mistakes",
+      "title": "6 Ways Travelers Overspend on Food Without Realizing",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "cafe bill coffee table",
+      "angle": "Pinpoints the airport, hotel and convenience habits that bleed a food budget dry.",
+      "internal_links": [
+        "gluten-free-budget-travel",
+        "tokyo-ten-dollar-case",
+        "price-a-country-how-to"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "gluten-free-budget-travel",
+      "title": "How to Eat Gluten-Free on a Budget While Traveling",
+      "archetype": "how-to",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "fresh vegetables market basket",
+      "angle": "Keeps a coeliac-safe diet affordable abroad with naturally free-from staples and key phrases.",
+      "internal_links": [
+        "tokyo-ten-dollar-case",
+        "supermarket-cheap-meals",
+        "mexico-month-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "tokyo-ten-dollar-case",
+      "title": "How a Backpacker Ate Well in Tokyo on Ten Dollars a Day",
+      "archetype": "case-study",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "diego-alvarez",
+      "author_name": "Diego Álvarez",
+      "image_query": "tokyo convenience store food",
+      "angle": "Logs the convenience-store and standing-bar meals that kept one traveler full in a pricey food city.",
+      "internal_links": [
+        "supermarket-cheap-meals",
+        "menu-of-the-day-explained",
+        "deceptively-expensive-destinations"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "supermarket-cheap-meals",
+      "title": "8 Supermarket Buys That Make the Cheapest Travel Meals",
+      "archetype": "listicle",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "grocery basket bread cheese",
+      "angle": "Picks the shelf-stable and fresh staples that assemble into no-cook meals for next to nothing.",
+      "internal_links": [
+        "menu-of-the-day-explained",
+        "cooking-in-vs-eating-out",
+        "underrated-eastern-capitals"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "menu-of-the-day-explained",
+      "title": "What a 'Menu of the Day' Really Gets You for the Price",
+      "archetype": "explainer",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "chalkboard lunch menu cafe",
+      "angle": "Reveals why the fixed lunch menu is the best-value restaurant meal in much of the world.",
+      "internal_links": [
+        "cooking-in-vs-eating-out",
+        "hotel-breakfast-two-meals",
+        "what-makes-destination-cheap"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "cooking-in-vs-eating-out",
+      "title": "Cooking In vs Eating Out: The Daily Food-Budget Showdown",
+      "archetype": "comparison",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "home cooked meal versus restaurant",
+      "angle": "Runs the numbers on self-catering against eating out to find the real daily break-even.",
+      "internal_links": [
+        "hotel-breakfast-two-meals",
+        "vegetarian-food-mistakes",
+        "greece-vs-thailand-islands"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "hotel-breakfast-two-meals",
+      "title": "8 Ways to Stretch a Free Hotel Breakfast Into Lunch",
+      "archetype": "listicle",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "buffet breakfast spread plates",
+      "angle": "Turns an included breakfast into lunch too, with the etiquette that keeps it fair.",
+      "internal_links": [
+        "vegetarian-food-mistakes",
+        "drinks-budget-habits",
+        "layover-city-mini-holiday"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "vegetarian-food-mistakes",
+      "title": "5 Vegetarian Travel-Food Mistakes That Cost Time and Money",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "vegetarian market vegetables colorful",
+      "angle": "Solves the language and sourcing slip-ups that make meat-free eating abroad pricier than it should be.",
+      "internal_links": [
+        "drinks-budget-habits",
+        "vanlife-food-budget-case",
+        "off-season-beach-towns"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "drinks-budget-habits",
+      "title": "7 Drinks Habits That Wreck an Otherwise Cheap Food Budget",
+      "archetype": "listicle",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "cafe drinks glasses table",
+      "angle": "Flags the coffees, bottled water and bar rounds that quietly outspend your actual meals.",
+      "internal_links": [
+        "vanlife-food-budget-case",
+        "eat-local-market-how-to",
+        "south-america-career-break-case"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "vanlife-food-budget-case",
+      "title": "How a Vanlife Couple Fed Themselves for Under 100 Dollars a Week",
+      "archetype": "case-study",
+      "category_slug": "food",
+      "category_title": "Eating Well for Less",
+      "author_slug": "sofia-marchetti",
+      "author_name": "Sofia Marchetti",
+      "image_query": "camper van kitchen cooking",
+      "angle": "Breaks down the batch-cooking and market routine that fed two people for a week on a small sum.",
+      "internal_links": [
+        "eat-local-market-how-to",
+        "best-cheap-street-foods",
+        "second-cities-value"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    }
+  ]
+}
