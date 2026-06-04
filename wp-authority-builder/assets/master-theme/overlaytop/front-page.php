@@ -9,7 +9,7 @@ get_header();
 
 $ot_hero = new WP_Query(
 	array(
-		'posts_per_page'      => 3,
+		'posts_per_page'      => 10,
 		'ignore_sticky_posts' => true,
 		'no_found_rows'       => true,
 		'post_status'         => 'publish',
