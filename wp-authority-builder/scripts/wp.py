@@ -47,6 +47,9 @@ class WPClient:
 
     def _wp_prefix(self) -> str:
         path = f" --path={shlex.quote(self.cfg.wp_path)}" if self.cfg.wp_path else ""
+        if self.cfg.wp_cli_php:
+            # Run WP-CLI under a specific PHP (e.g. 8.2) instead of the host default (7.4).
+            return f"{shlex.quote(self.cfg.wp_cli_php)} $(command -v wp){path}"
         return f"wp{path}"
 
     # --- public API ---

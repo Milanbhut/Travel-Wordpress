@@ -67,3 +67,12 @@ def test_wp_requires_wpcli_channel():
     c = WPClient(_ssh_cfg())  # channel not set
     with pytest.raises(WPError):
         c.wp(["post", "list"])
+
+
+def test_wp_prefix_uses_configured_php():
+    cfg = Config({
+        "SSH_HOST": "h", "SSH_USER": "u", "SSH_PASS": "p",
+        "WP_PATH": "/p", "WP_CLI_PHP": "/opt/alt/php82/usr/bin/php",
+    })
+    c = WPClient(cfg)
+    assert c._wp_prefix() == "/opt/alt/php82/usr/bin/php $(command -v wp) --path=/p"
