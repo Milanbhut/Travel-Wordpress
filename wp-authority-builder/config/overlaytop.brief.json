@@ -7,6 +7,11 @@
     "wordmark": "Overlaytop",
     "tagline": "Smart, honest ways to see more of the world and spend a lot less doing it."
   },
+  "contact": {
+    "email": "info@overlaytop.com",
+    "country_of_operation": null,
+    "country_placeholder": "[INSERT ACTUAL COUNTRY OF OPERATION]"
+  },
   "design": {
     "fonts": { "heading": "Fraunces", "body": "Inter" },
     "tokens": {
