@@ -34,6 +34,13 @@ class Config:
         # and SSL/HTTPS verification (Plan E). Optional for Gate 1.
         self.cloudflare_api_token: Optional[str] = env.get("CLOUDFLARE_API_TOKEN") or None
         self.cf_zone_id: Optional[str] = env.get("CF_ZONE_ID") or None
+        # Database + WP-CLI runtime (for installing/managing WordPress)
+        self.db_name: Optional[str] = env.get("DB_NAME") or None
+        self.db_user: Optional[str] = env.get("DB_USER") or None
+        self.db_password: Optional[str] = env.get("DB_PASSWORD") or None
+        self.db_host: str = env.get("DB_HOST") or "localhost"
+        self.wp_cli_php: Optional[str] = env.get("WP_CLI_PHP") or None
+        self.wp_admin_password: Optional[str] = env.get("WP_ADMIN_PASSWORD") or None
 
     @property
     def has_ssh(self) -> bool:
