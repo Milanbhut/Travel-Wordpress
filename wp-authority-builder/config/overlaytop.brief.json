@@ -1,0 +1,46 @@
+{
+  "domain": "overlaytop.com",
+  "niche": "Travel on a Budget",
+  "approved_date": "2026-06-04",
+  "brand": {
+    "name": "Overlaytop",
+    "wordmark": "Overlaytop",
+    "tagline": "Smart, honest ways to see more of the world and spend a lot less doing it."
+  },
+  "design": {
+    "fonts": { "heading": "Fraunces", "body": "Inter" },
+    "tokens": {
+      "--teal-50": "#eef6f5",
+      "--teal-100": "#d6eae7",
+      "--teal-300": "#8fc7bf",
+      "--teal-500": "#2f8f82",
+      "--teal-700": "#1f6157",
+      "--teal-900": "#143f39",
+      "--accent": "#e8734d",
+      "--accent-dark": "#cf5f3c",
+      "--cream": "#fbf7f1",
+      "--paper": "#ffffff",
+      "--ink-900": "#1b2420",
+      "--ink-700": "#38433d",
+      "--ink-500": "#5c655f",
+      "--ink-300": "#98a09b",
+      "--line": "#e7e0d6",
+      "--line-soft": "#f0eae0"
+    }
+  },
+  "categories": [
+    { "label": "Flights", "title": "Cheap Flights & Airfare Hacks", "slug": "flights", "description": "Finding cheap airfare, error fares, points and miles, and the right time to book." },
+    { "label": "Stays", "title": "Budget Stays & Accommodation", "slug": "stays", "description": "Hostels, guesthouses, house-sitting, and long-stay tricks that cut accommodation costs." },
+    { "label": "Destinations", "title": "Affordable Destinations", "slug": "destinations", "description": "Where your money goes furthest — affordable countries, cities, and seasons to visit." },
+    { "label": "Hacks", "title": "Money-Saving Travel Hacks", "slug": "hacks", "description": "Everyday money-saving tactics, apps, and habits that keep every trip cheap." },
+    { "label": "Packing", "title": "Smart Packing & Gear", "slug": "packing", "description": "Packing light, budget gear that lasts, and avoiding fees and forgotten essentials." },
+    { "label": "Food", "title": "Eating Well for Less", "slug": "food", "description": "Eating well for less — markets, street food, and self-catering on the road." }
+  ],
+  "authors": [
+    { "name": "Maya Okonkwo", "slug": "maya-okonkwo", "role": "Founder & Lead Writer", "beats": ["flights", "hacks"], "expertise": "Cheap flights, points & miles, routing", "voice": "Warm, anecdotal, encouraging; first-person stories from the road", "articles": 24, "photo_query": "african woman traveler portrait outdoors" },
+    { "name": "Diego Álvarez", "slug": "diego-alvarez", "role": "Staff Writer", "beats": ["stays", "destinations"], "expertise": "Hostels, long-term stays, backpacking", "voice": "Blunt, energetic, numbers-heavy — 'here's exactly what I paid'", "articles": 21, "photo_query": "latino man backpacker portrait" },
+    { "name": "Priya Nair", "slug": "priya-nair", "role": "Contributing Editor", "beats": ["packing", "destinations"], "expertise": "Trip planning, family travel, logistics", "voice": "Organized, reassuring, checklist-driven and calm", "articles": 18, "photo_query": "indian woman professional portrait" },
+    { "name": "Tom Whitfield", "slug": "tom-whitfield", "role": "Deals Researcher", "beats": ["hacks", "packing"], "expertise": "Fare alerts, travel apps, gear", "voice": "Analytical, data-driven, dry humor", "articles": 15, "photo_query": "man casual portrait glasses smiling" },
+    { "name": "Sofia Marchetti", "slug": "sofia-marchetti", "role": "Contributor", "beats": ["food", "destinations"], "expertise": "Budget food, local markets, affordable destinations", "voice": "Sensory, vivid, curious and descriptive", "articles": 12, "photo_query": "italian woman portrait smiling cafe" }
+  ]
+}
