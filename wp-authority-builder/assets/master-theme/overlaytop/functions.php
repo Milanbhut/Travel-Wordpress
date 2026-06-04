@@ -124,7 +124,7 @@ add_filter( 'body_class', 'overlaytop_body_classes' );
 /**
  * Load includes (schema, breadcrumbs, template tags) when present.
  */
-foreach ( array( 'template-tags', 'breadcrumbs', 'schema' ) as $inc ) {
+foreach ( array( 'template-tags', 'breadcrumbs', 'authors', 'schema' ) as $inc ) {
 	$file = get_theme_file_path( "inc/{$inc}.php" );
 	if ( file_exists( $file ) ) {
 		require_once $file;
