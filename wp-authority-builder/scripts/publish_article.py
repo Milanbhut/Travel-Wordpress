@@ -16,7 +16,7 @@ import re
 import sys
 
 from scripts.config import load_config, AGENT_DIR
-from scripts.images import search_unsplash, trigger_unsplash_download, import_image_to_wp
+from scripts.images import search_unsplash, search_pexels, trigger_unsplash_download, import_image_to_wp
 from scripts.wp import WPClient, WPError
 
 PLAN = AGENT_DIR / "config" / "overlaytop.editorial-plan.json"
@@ -113,22 +113,35 @@ def main() -> int:
             f"--post_excerpt={excerpt}", f"--post_content={html}", "--porcelain",
         ]).strip()
 
+        queries = [q for q in (e.get("image_query"), e["category_title"], "budget travel scenery") if q]
+        results = []
         if cfg.unsplash_key:
-            queries = [q for q in (e.get("image_query"), e["category_title"], "budget travel scenery") if q]
-            results = []
             for q in queries:
-                results = search_unsplash(q, cfg.unsplash_key, per_page=15)
+                try:
+                    results = search_unsplash(q, cfg.unsplash_key, per_page=15)
+                except Exception:
+                    results = []
                 if results:
                     break
-            pick = next((r for r in results if r["id"] not in used), results[0] if results else None)
-            if pick:
-                att = import_image_to_wp(
-                    c, cfg, pick["raw"] + "&w=1600&q=80&fit=crop&fm=jpg",
-                    filename=f"{slug}.jpg", post_id=post, featured=True, title=e["title"], alt=pick["alt"],
-                )
-                if att:
-                    used.add(pick["id"])
-                    save_used(used)
+        if not results and cfg.pexels_key:
+            for q in queries:
+                try:
+                    results = search_pexels(q, cfg.pexels_key, per_page=15)
+                except Exception:
+                    results = []
+                if results:
+                    break
+        pick = next((r for r in results if r["id"] not in used), results[0] if results else None)
+        if pick:
+            img_url = pick["raw"] + "&w=1600&q=80&fit=crop&fm=jpg" if pick["src"] == "unsplash" else pick["raw"]
+            att = import_image_to_wp(
+                c, cfg, img_url,
+                filename=f"{slug}.jpg", post_id=post, featured=True, title=e["title"], alt=pick["alt"],
+            )
+            if att:
+                used.add(pick["id"])
+                save_used(used)
+                if pick.get("download_location"):
                     trigger_unsplash_download(pick["download_location"], cfg.unsplash_key)
         published.append((slug, post, wc))
         print(f"[published] {slug} -> post {post} ({wc} words)")
