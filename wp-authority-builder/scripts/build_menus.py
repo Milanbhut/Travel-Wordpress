@@ -56,8 +56,8 @@ def main() -> int:
     wt(["menu", "delete", "Footer"])
     fm = c.wp(["menu", "create", "Footer", "--porcelain"]).strip()
     footer_pages = [
-        ("about", "About"), ("contact", "Contact"), ("privacy-policy", "Privacy Policy"),
-        ("terms", "Terms of Use"), ("disclaimer", "Disclaimer"),
+        ("about", "About"), ("contact", "Contact"), ("blog", "Blog"), ("categories", "Categories"),
+        ("privacy-policy", "Privacy Policy"), ("terms", "Terms of Use"), ("disclaimer", "Disclaimer"),
         ("editorial-policy", "Editorial Policy"), ("affiliate-disclosure", "Affiliate Disclosure"),
     ]
     for slug, label in footer_pages:
