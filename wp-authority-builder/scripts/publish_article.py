@@ -114,7 +114,12 @@ def main() -> int:
         ]).strip()
 
         if cfg.unsplash_key:
-            results = search_unsplash(e.get("image_query") or e["title"], cfg.unsplash_key, per_page=15)
+            queries = [q for q in (e.get("image_query"), e["category_title"], "budget travel scenery") if q]
+            results = []
+            for q in queries:
+                results = search_unsplash(q, cfg.unsplash_key, per_page=15)
+                if results:
+                    break
             pick = next((r for r in results if r["id"] not in used), results[0] if results else None)
             if pick:
                 att = import_image_to_wp(
