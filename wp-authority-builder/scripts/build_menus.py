@@ -34,7 +34,7 @@ def main() -> int:
             return "ERR:" + str(e)
 
     home = c.wp(["option", "get", "home"]).strip()
-    page_id = lambda slug: first_id(wt(["post", "list", "--post_type=page", f"--name={slug}", "--field=ID"]))
+    page_id = lambda slug: first_id(wt(["post", "list", "--post_type=page", f"--name={slug}", "--post_status=publish", "--field=ID"]))
     cat_id = lambda slug: first_id(wt(["term", "list", "category", f"--slug={slug}", "--field=term_id"]))
 
     # Header / Primary

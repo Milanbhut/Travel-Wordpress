@@ -24,6 +24,7 @@
     drawer.classList.toggle('is-open', open);
     if (backdrop) backdrop.classList.toggle('is-open', open);
     drawer.setAttribute('aria-hidden', open ? 'false' : 'true');
+    if (open) { drawer.removeAttribute('inert'); } else { drawer.setAttribute('inert', ''); }
     if (openBtn) openBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
     doc.body.style.overflow = open ? 'hidden' : '';
     if (open) {
@@ -45,6 +46,7 @@
   function setSearch(open) {
     if (!overlay) return;
     overlay.classList.toggle('is-open', open);
+    if (open) { overlay.removeAttribute('inert'); } else { overlay.setAttribute('inert', ''); }
     doc.body.style.overflow = open ? 'hidden' : '';
     if (open) {
       var input = overlay.querySelector('input[type=search], input[type=text]');

@@ -5,6 +5,8 @@ Idempotent: skips pages that already exist. Run: python -m scripts.build_pages
 """
 from __future__ import annotations
 
+import json
+
 from scripts.config import load_config
 from scripts.wp import WPClient, WPError
 
@@ -172,10 +174,17 @@ def main() -> int:
     pages = list(PAGES) + [("Contact", "contact", contact_html(form_sc))]
 
     for title, slug, html in pages:
-        existing = wp_try(["post", "list", "--post_type=page", f"--name={slug}", "--post_status=any", "--field=ID"]).strip()
-        if existing and existing.split()[0].isdigit():
-            print(f"[exists] {slug} (page {existing.split()[0]})")
+        listed = wp_try(["post", "list", "--post_type=page", f"--name={slug}", "--post_status=any", "--fields=ID,post_status", "--format=json"])
+        rows = json.loads(listed) if listed.strip().startswith("[") else []
+        published = [r for r in rows if r.get("post_status") == "publish"]
+        if published:
+            print(f"[exists] {slug} (page {published[0]['ID']})")
             continue
+        # Remove any non-published stub squatting this slug (e.g. WordPress' default
+        # Privacy Policy draft) so the real page gets the clean slug, not "<slug>-2".
+        for r in rows:
+            wp_try(["post", "delete", str(r["ID"]), "--force"])
+            print(f"[removed stub] {slug} (was page {r['ID']}, {r.get('post_status')})")
         pid = c.wp([
             "post", "create", "--post_type=page", "--post_status=publish",
             f"--post_title={title}", f"--post_name={slug}", f"--post_content={html}", "--porcelain",

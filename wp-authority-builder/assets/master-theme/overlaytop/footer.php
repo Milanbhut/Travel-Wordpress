@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="footer__col">
-			<h4><?php esc_html_e( 'Explore', 'overlaytop' ); ?></h4>
+			<h2><?php esc_html_e( 'Explore', 'overlaytop' ); ?></h2>
 			<ul>
 				<?php
 				wp_list_categories(
@@ -37,7 +37,7 @@
 		</div>
 
 		<div class="footer__col">
-			<h4><?php esc_html_e( 'Pages', 'overlaytop' ); ?></h4>
+			<h2><?php esc_html_e( 'Pages', 'overlaytop' ); ?></h2>
 			<?php
 			if ( has_nav_menu( 'footer' ) ) {
 				wp_nav_menu(
@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="footer__col">
-			<h4><?php esc_html_e( 'About', 'overlaytop' ); ?></h4>
+			<h2><?php esc_html_e( 'About', 'overlaytop' ); ?></h2>
 			<p style="color:#aab4af;font-size:.92rem;line-height:1.6">
 				<?php esc_html_e( 'Honest, road-tested advice for seeing more of the world on a smaller budget.', 'overlaytop' ); ?>
 			</p>

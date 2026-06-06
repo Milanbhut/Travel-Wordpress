@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'OVERLAYTOP_VERSION', '1.0.0' );
+define( 'OVERLAYTOP_VERSION', '1.0.3' );
 
 /**
  * Theme setup.

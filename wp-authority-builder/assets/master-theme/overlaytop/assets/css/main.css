@@ -58,7 +58,7 @@ p{margin-bottom:1.1em}
 
 /* ---------- Buttons ---------- */
 .btn{
-  --btn-bg:var(--primary);--btn-fg:var(--on-primary);
+  --btn-bg:var(--primary-strong);--btn-fg:var(--on-primary);
   display:inline-flex;align-items:center;gap:.55ch;
   font-family:var(--font-sans);font-weight:600;font-size:.97rem;
   padding:.78em 1.4em;border-radius:999px;border:1.5px solid transparent;
@@ -177,7 +177,7 @@ p{margin-bottom:1.1em}
 /* ---------- Pagination ---------- */
 .pagination{display:flex;justify-content:center;gap:.4rem;margin-top:2.6rem}
 .pagination .page-numbers{display:grid;place-items:center;min-width:42px;height:42px;padding:0 .6rem;border-radius:11px;border:1px solid var(--line);background:var(--surface);color:var(--ink-700);font-weight:600}
-.pagination .page-numbers.current{background:var(--primary);color:#fff;border-color:var(--primary)}
+.pagination .page-numbers.current{background:var(--primary-strong);color:#fff;border-color:var(--primary-strong)}
 .pagination a.page-numbers:hover{border-color:var(--teal-300);color:var(--primary-strong)}
 
 /* ==========================================================================
@@ -187,7 +187,7 @@ p{margin-bottom:1.1em}
 .footer__top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:2.5rem;padding-block:clamp(2.6rem,2rem + 2vw,3.6rem)}
 .footer__brand .brand{color:#fff}
 .footer__brand p{color:#aab4af;max-width:34ch;margin-top:.9rem;font-size:.95rem}
-.footer__col h4{color:#fff;font-family:var(--font-sans);font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1rem}
+.footer__col h2{color:#fff;font-family:var(--font-sans);font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1rem}
 .footer__col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.6rem}
 .footer__col a{color:#bcc5c0;font-size:.95rem}
 .footer__col a:hover{color:#fff}
@@ -326,6 +326,14 @@ p{margin-bottom:1.1em}
 .cat-card__title{font-family:var(--font-serif);font-weight:600;font-size:1.35rem;color:var(--ink-900)}
 .cat-card__desc{font-size:.95rem;color:var(--text-muted);line-height:1.5}
 .cat-card__count{margin-top:.2rem;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--primary-strong)}
+
+/* Tablet / small-desktop: tighten the desktop nav so all items fit without overflow (~821–1120px) */
+@media (min-width:821px) and (max-width:1120px){
+  .header__inner{gap:.8rem}
+  .primary-nav ul{gap:.12rem}
+  .primary-nav a{padding:.5rem .55rem;font-size:.9rem}
+  .primary-nav .current-menu-item>a::after{left:.55rem;right:.55rem}
+}
 
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}

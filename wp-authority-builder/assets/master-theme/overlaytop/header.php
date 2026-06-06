@@ -53,7 +53,7 @@
 </header>
 
 <div class="drawer-backdrop js-drawer-close"></div>
-<aside class="mobile-drawer" id="mobile-drawer" aria-label="<?php esc_attr_e( 'Mobile menu', 'overlaytop' ); ?>" aria-hidden="true">
+<aside class="mobile-drawer" id="mobile-drawer" aria-label="<?php esc_attr_e( 'Mobile menu', 'overlaytop' ); ?>" aria-hidden="true" inert>
 	<div class="drawer__head">
 		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 		<button class="icon-btn js-drawer-close" aria-label="<?php esc_attr_e( 'Close menu', 'overlaytop' ); ?>">
@@ -74,7 +74,7 @@
 	</nav>
 </aside>
 
-<div class="search-overlay js-search-overlay" role="dialog" aria-modal="true" aria-label="<?php esc_attr_e( 'Search the site', 'overlaytop' ); ?>">
+<div class="search-overlay js-search-overlay" role="dialog" aria-modal="true" aria-label="<?php esc_attr_e( 'Search the site', 'overlaytop' ); ?>" inert>
 	<div class="search-overlay__box">
 		<?php get_search_form(); ?>
 	</div>
