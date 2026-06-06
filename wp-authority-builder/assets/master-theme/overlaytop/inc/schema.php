@@ -48,7 +48,10 @@ function overlaytop_meta_tags() {
 		echo '<meta name="twitter:image" content="' . esc_url( $img ) . '">' . "\n";
 	}
 }
-add_action( 'wp_head', 'overlaytop_meta_tags', 5 );
+// Skip the theme's own meta tags when an SEO plugin (e.g. Rank Math) is handling them.
+if ( ! function_exists( 'rank_math' ) ) {
+	add_action( 'wp_head', 'overlaytop_meta_tags', 5 );
+}
 
 /**
  * The JSON-LD @graph: Organization, WebSite, and (on posts) Person, BlogPosting,
@@ -151,4 +154,6 @@ function overlaytop_json_ld() {
 	$data = array( '@context' => 'https://schema.org', '@graph' => $graph );
 	echo "\n" . '<script type="application/ld+json">' . wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
 }
-add_action( 'wp_head', 'overlaytop_json_ld', 10 );
+if ( ! function_exists( 'rank_math' ) ) {
+	add_action( 'wp_head', 'overlaytop_json_ld', 10 );
+}
