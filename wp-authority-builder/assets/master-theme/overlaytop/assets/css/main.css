@@ -93,6 +93,8 @@ p{margin-bottom:1.1em}
 }
 .header__inner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;height:var(--header-h)}
 .brand{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--font-serif);font-weight:600;font-size:1.4rem;color:var(--ink-900);letter-spacing:-.02em}
+.custom-logo-link{display:inline-flex;align-items:center}
+.custom-logo{height:42px;width:auto;display:block}
 .brand:hover{color:var(--ink-900)}
 .brand__mark{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--teal-500),var(--teal-700));color:#fff;box-shadow:var(--shadow-sm)}
 .brand__mark svg{width:19px;height:19px}
@@ -175,7 +177,8 @@ p{margin-bottom:1.1em}
 .post-card__meta{margin-top:auto;display:flex;align-items:center;gap:.5rem;font-size:.85rem;color:var(--text-muted)}
 
 /* ---------- Pagination ---------- */
-.pagination{display:flex;justify-content:center;gap:.4rem;margin-top:2.6rem}
+.pagination{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem;margin-top:2.6rem}
+.pagination .nav-links{display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem}
 .pagination .page-numbers{display:grid;place-items:center;min-width:42px;height:42px;padding:0 .6rem;border-radius:11px;border:1px solid var(--line);background:var(--surface);color:var(--ink-700);font-weight:600}
 .pagination .page-numbers.current{background:var(--primary-strong);color:#fff;border-color:var(--primary-strong)}
 .pagination a.page-numbers:hover{border-color:var(--teal-300);color:var(--primary-strong)}
@@ -302,6 +305,7 @@ p{margin-bottom:1.1em}
 .faq__a{padding:0 1.2rem 1.1rem;color:var(--ink-700)}
 
 .author-bio{max-width:var(--read-w);display:flex;gap:1.4rem;align-items:flex-start;margin-top:2.8rem;padding:1.7rem;background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}
+.author-bio__avatar{flex:none;width:96px;height:96px}
 .author-bio__avatar img{width:96px;height:96px;border-radius:50%;object-fit:cover;box-shadow:var(--shadow-sm)}
 .author-bio__eyebrow{font-family:var(--font-sans);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--primary-strong);margin-bottom:.25rem}
 .author-bio__name{font-size:1.4rem;margin-bottom:.1rem}

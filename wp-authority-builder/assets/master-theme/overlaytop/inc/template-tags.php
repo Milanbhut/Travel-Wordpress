@@ -71,7 +71,7 @@ function overlaytop_author_box( $author_id = null ) {
 		<div class="author-bio__avatar"><?php echo get_avatar( $author_id, 112, '', $name ); ?></div>
 		<div class="author-bio__body">
 			<p class="author-bio__eyebrow"><?php esc_html_e( 'About the author', 'overlaytop' ); ?></p>
-			<h3 class="author-bio__name"><a href="<?php echo esc_url( $url ); ?>"><?php echo esc_html( $name ); ?></a></h3>
+			<h3 class="author-bio__name"><a rel="author" href="<?php echo esc_url( $url ); ?>"><?php echo esc_html( $name ); ?></a></h3>
 			<?php if ( $role ) : ?><p class="author-bio__role"><?php echo esc_html( $role ); ?></p><?php endif; ?>
 			<p class="author-bio__text"><?php echo esc_html( $bio ); ?></p>
 			<div class="author-bio__meta"><span><?php printf( esc_html__( '%d articles published', 'overlaytop' ), $count ); ?></span></div>

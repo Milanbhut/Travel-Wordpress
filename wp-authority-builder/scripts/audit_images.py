@@ -135,6 +135,12 @@ def main() -> int:
             seen.append((p["post_name"], nh if nh is not None else h))
             if new_att:
                 replaced += 1
+                # Delete the now-orphaned duplicate attachment so it doesn't linger as
+                # identical bytes in the media library (an AdSense duplicate-image flag).
+                try:
+                    c.wp(["post", "delete", str(t), "--force"])
+                except WPError:
+                    pass
                 print(f"  replaced duplicate: {p['post_name']}")
         else:
             seen.append((p["post_name"], h))

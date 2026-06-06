@@ -26,7 +26,7 @@ while ( have_posts() ) :
 			<div class="single-hero__byline">
 				<?php echo get_avatar( $ot_author, 46 ); ?>
 				<div>
-					<a class="single-hero__author" href="<?php echo esc_url( get_author_posts_url( $ot_author ) ); ?>">
+					<a class="single-hero__author" rel="author" href="<?php echo esc_url( get_author_posts_url( $ot_author ) ); ?>">
 						<?php printf( esc_html__( 'By %s', 'overlaytop' ), esc_html( get_the_author() ) ); ?>
 					</a>
 					<span class="single-hero__dates">

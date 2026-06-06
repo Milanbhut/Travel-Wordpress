@@ -64,19 +64,32 @@ slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scri
 - Theme `inc/schema.php` ships JSON-LD (BlogPosting/FAQPage/BreadcrumbList/Person/Organization/WebSite) +
   OG/Twitter automatically.
 - `scripts.seo_files` (robots.txt allowing `Mediapartners-Google` + ads.txt) · `scripts.make_favicon` ·
+  `scripts.make_logo` (on-brand wordmark → WP custom logo; the AdSense logo check needs one set) ·
   install Complianz (`wp plugin install complianz-gdpr --activate`) **and run its setup wizard** for TCF.
 
 **5. QA + report**
-- `scripts.audit_images` (backfill missing + perceptual-hash dedupe → all images distinct).
+- `scripts.audit_images` (backfill missing + perceptual-hash dedupe → all images distinct; deletes the
+  replaced attachments so no byte-duplicate images linger in the media library).
 - `scripts.audit_links` (zero orphans / zero broken internal links).
-- `scripts.stagger_dates` (natural publishing cadence over ~3 weeks).
+- `scripts.stagger_dates` (natural cadence over ~6 weeks; sets post_date **and** post_date_gmt so the
+  oldest post clears the 30-day domain-maturity floor while the recent 30 days stay active).
+- `scripts.adsense_scan` — installs + activates the **AdSense Checklist** plugin
+  (`assets/plugins/adsense-checklist`) and runs it headlessly. **Run on every site and resolve every
+  *open* finding before handoff**, re-running until only known exceptions remain: *analytics* needs the
+  owner's GA4 ID (set `OVERLAYTOP_GA4_ID` or the `overlaytop_ga4_id` option and the theme injects gtag);
+  *HTTPS* is a CLI-only false flag (`is_ssl()` is false headless — confirm in a browser); *CDN* is optional.
+  The *manual-review* items are human judgment (original/edited content, genuine audience, etc.).
+  Check targets to design content toward: About ≥300 words; Privacy must contain `third-party`, `google`,
+  `cookies`, `opt-out`; every article ≥1000 words with H2s and Flesch-Kincaid grade 6–12.
 - `scripts.final_report` (totals, word stats, images, schema, author distribution).
 - Screenshots: `scripts.preview <path> <name>` builds a local browsable copy (works pre-DNS); once the
   domain resolves, do the live 7-breakpoint + console-error sweep.
 
 ## Diagnostics / ops helpers
 `scripts.wpcli <wp args>` · `scripts.sh "<shell>"` · `scripts.fetch_origin <path> [--full]` (fetches the
-origin bypassing DNS + CDN cache).
+origin bypassing DNS + CDN cache) · `scripts.php_eval <file.php>` (run PHP on the server with WP loaded) ·
+`scripts.readability <file.html | --summary>` (Flesch-Kincaid grade) · `scripts.pull_plugin <slug>`
+(download a server plugin into `assets/plugins/`).
 
 ## Honest limits
 - **Provisioning boundary:** a blank WP (or at least an empty DB) must exist first; the agent owns

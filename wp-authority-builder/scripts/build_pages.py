@@ -21,16 +21,18 @@ def p(*paras):
 
 
 ABOUT = p(
-    "<p>Overlaytop began with a simple frustration: most travel advice is written for people who aren't really counting. We wanted the opposite &mdash; honest, road-tested guidance for travellers who'd rather see more of the world and spend a lot less doing it.</p>",
+    "<p>Overlaytop began with a simple frustration: most travel advice is written for people who aren't really counting. We wanted the opposite &mdash; honest, road-tested guidance for travellers who would rather see more of the world and spend a lot less doing it.</p>",
     "<h2>What we're here to solve</h2>",
     "<p>Budget travel is full of myths, outdated tips, and advice that quietly assumes a bigger wallet than most of us have. We cut through that. Every guide is built around real numbers, real trade-offs, and the small decisions that actually move the cost of a trip.</p>",
+    "<h2>What you'll find here</h2>",
+    "<p>Our guides cover six corners of budget travel: cheap flights and airfare hacks, affordable places to stay, destinations that stretch your money furthest, smart packing and gear, eating well for less, and the money-saving habits that tie a whole trip together. Each article answers a real question a traveller actually asks before they book &mdash; not a vague listicle, but a clear, usable answer you can act on the same day.</p>",
     "<h2>How we work</h2>",
-    "<p>Our writers are travellers first. They've slept in the hostels, missed the connections, and learned the lessons the expensive way so you don't have to. Each article is researched, written in a real human voice, and reviewed before it goes live.</p>",
+    "<p>Our writers are travellers first. They have slept in the hostels, missed the connections, and learned the lessons the expensive way so you do not have to. Each article is researched, written in a real human voice, and reviewed by an editor before it goes live.</p>",
     "<h2>Our content standards</h2>",
-    "<ul><li>Practical and specific &mdash; no filler, no padding.</li><li>Honest about trade-offs, including when spending a little more saves money overall.</li><li>Written and edited by real people with names, faces, and opinions.</li><li>Updated when things change.</li></ul>",
+    "<ul><li>Practical and specific &mdash; no filler, no padding.</li><li>Honest about trade-offs, including when spending a little more saves money overall.</li><li>Written and edited by real people with names, faces, and opinions.</li><li>Updated when prices, routes, and rules change.</li></ul>",
     "<h2>The team</h2>",
-    "<p>Overlaytop is written by a small editorial team &mdash; Maya, Diego, Priya, Tom, and Sofia &mdash; each covering the corners of budget travel they know best, from cheap flights and clever stays to eating well for next to nothing. You'll find their bylines and short bios on every article they write.</p>",
-    f"<p>Have a question, a correction, or a story to share? We'd genuinely like to hear it &mdash; reach us any time at <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or through our <a href=\"/contact/\">contact page</a>.</p>",
+    "<p>Overlaytop is written by a small editorial team &mdash; Maya, Diego, Priya, Tom, and Sofia &mdash; each covering the corners of budget travel they know best, from cheap flights and clever stays to eating well for next to nothing. You will find their bylines and short bios on every article they write, so you always know who is giving you advice and why they are worth listening to.</p>",
+    f"<p>Have a question, a correction, or a story to share? We would genuinely like to hear it &mdash; reach us any time at <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or through our <a href=\"/contact/\">contact page</a>.</p>",
 )
 
 PRIVACY = p(
@@ -48,7 +50,7 @@ PRIVACY = p(
     "<p>You can review and control how ads are personalised to you using Google's official tools:</p>",
     '<ul><li><a href="https://adssettings.google.com" target="_blank" rel="noopener nofollow">Google Ads Settings &mdash; adssettings.google.com</a></li>'
     '<li><a href="https://myadcenter.google.com" target="_blank" rel="noopener nofollow">Google My Ad Center &mdash; myadcenter.google.com</a></li></ul>',
-    '<p>You may also opt out of personalised advertising from many other providers through the industry pages at '
+    '<p>You may also opt-out of personalised advertising from many other providers through the industry pages at '
     '<a href="https://optout.aboutads.info" target="_blank" rel="noopener nofollow">optout.aboutads.info</a> and '
     '<a href="https://www.youronlinechoices.com" target="_blank" rel="noopener nofollow">youronlinechoices.com</a>. '
     'Opting out does not remove ads &mdash; it makes them less tailored to you.</p>',

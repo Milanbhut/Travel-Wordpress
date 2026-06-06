@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'OVERLAYTOP_VERSION', '1.0.3' );
+define( 'OVERLAYTOP_VERSION', '1.0.6' );
 
 /**
  * Theme setup.
@@ -84,6 +84,23 @@ function overlaytop_resource_hints( $hints, $relation ) {
 	return $hints;
 }
 add_filter( 'wp_resource_hints', 'overlaytop_resource_hints', 10, 2 );
+
+/**
+ * Inject a GA4 (gtag) tag when a Measurement ID is configured — via the
+ * OVERLAYTOP_GA4_ID constant or the 'overlaytop_ga4_id' option. No ID, no output.
+ */
+function overlaytop_analytics() {
+	$id = defined( 'OVERLAYTOP_GA4_ID' ) ? OVERLAYTOP_GA4_ID : get_option( 'overlaytop_ga4_id', '' );
+	$id = trim( (string) $id );
+	if ( '' === $id ) {
+		return;
+	}
+	?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo esc_attr( $id ); ?>"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','<?php echo esc_js( $id ); ?>');</script>
+	<?php
+}
+add_action( 'wp_head', 'overlaytop_analytics', 20 );
 
 /**
  * Excerpt tweaks.
