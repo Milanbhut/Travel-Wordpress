@@ -9,16 +9,12 @@ get_header();
 
 while ( have_posts() ) :
 	the_post();
-	$ot_cats   = get_the_category();
 	$ot_author = (int) get_the_author_meta( 'ID' );
 	?>
 	<article <?php post_class( 'single' ); ?>>
 		<?php overlaytop_breadcrumbs(); ?>
 
 		<header class="single-hero container">
-			<?php if ( ! empty( $ot_cats ) ) : ?>
-				<a class="cat-pill" href="<?php echo esc_url( get_category_link( $ot_cats[0]->term_id ) ); ?>"><?php echo esc_html( $ot_cats[0]->name ); ?></a>
-			<?php endif; ?>
 			<h1 class="single-hero__title"><?php the_title(); ?></h1>
 			<?php if ( has_excerpt() ) : ?>
 				<p class="single-hero__lead"><?php echo esc_html( get_the_excerpt() ); ?></p>

@@ -62,7 +62,7 @@ get_header();
 		);
 		?>
 	<?php else : ?>
-		<p><?php esc_html_e( 'Nothing here yet — new guides are on the way.', 'overlaytop' ); ?></p>
+		<p><?php esc_html_e( 'Nothing here yet, new guides are on the way.', 'overlaytop' ); ?></p>
 	<?php endif; ?>
 </div>
 <?php

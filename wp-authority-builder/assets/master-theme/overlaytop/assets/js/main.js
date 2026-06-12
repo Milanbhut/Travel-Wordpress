@@ -62,6 +62,31 @@
     });
   }
 
+  /* FAQ accordion (progressive enhancement — without JS the answers stay visible) */
+  var faqItems = doc.querySelectorAll('.faq .faq__item');
+  Array.prototype.forEach.call(faqItems, function (item, i) {
+    var q = item.querySelector('.faq__q');
+    var a = item.querySelector('.faq__a');
+    if (!q || !a) return;
+    item.classList.add('is-accordion');
+    if (!a.id) a.id = 'faq-a-' + i;
+    q.setAttribute('role', 'button');
+    q.setAttribute('tabindex', '0');
+    q.setAttribute('aria-expanded', 'false');
+    q.setAttribute('aria-controls', a.id);
+    var toggle = function () {
+      var open = item.classList.toggle('is-open');
+      q.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    q.addEventListener('click', toggle);
+    q.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ' || e.keyCode === 13 || e.keyCode === 32) {
+        e.preventDefault();
+        toggle();
+      }
+    });
+  });
+
   /* Escape closes any open overlay */
   doc.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' || e.keyCode === 27) {

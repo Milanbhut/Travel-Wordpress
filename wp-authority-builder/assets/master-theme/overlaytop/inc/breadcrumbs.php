@@ -20,13 +20,20 @@ function overlaytop_breadcrumbs() {
 	if ( is_singular( 'post' ) ) {
 		$cats = get_the_category();
 		if ( ! empty( $cats ) ) {
+			// Path ends at the category — the article title is the H1 directly below, so it
+			// is intentionally not repeated as a final crumb.
 			echo $sep . '<li><a href="' . esc_url( get_category_link( $cats[0]->term_id ) ) . '">' . esc_html( $cats[0]->name ) . '</a></li>';
+		} else {
+			echo $sep . '<li aria-current="page">' . esc_html( get_the_title() ) . '</li>';
 		}
-		echo $sep . '<li aria-current="page">' . esc_html( get_the_title() ) . '</li>';
 	} elseif ( is_category() || is_tax() || is_tag() ) {
 		echo $sep . '<li aria-current="page">' . esc_html( single_term_title( '', false ) ) . '</li>';
 	} elseif ( is_page() ) {
 		echo $sep . '<li aria-current="page">' . esc_html( get_the_title() ) . '</li>';
+	} elseif ( is_author() ) {
+		$ot_a = get_queried_object();
+		$ot_an = ( $ot_a && isset( $ot_a->display_name ) ) ? $ot_a->display_name : __( 'Author', 'overlaytop' );
+		echo $sep . '<li aria-current="page">' . esc_html( $ot_an ) . '</li>';
 	} elseif ( is_search() ) {
 		echo $sep . '<li aria-current="page">' . esc_html__( 'Search', 'overlaytop' ) . '</li>';
 	}

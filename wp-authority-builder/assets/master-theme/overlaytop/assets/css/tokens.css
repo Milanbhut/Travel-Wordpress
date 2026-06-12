@@ -24,7 +24,7 @@
 
   /* Structure */
   --max-w:1200px;
-  --read-w:720px;
+  --read-w:760px;
   --gutter:clamp(1rem, 2.6vw, 2rem);
   --radius-sm:8px; --radius:12px; --radius-lg:18px; --radius-xl:26px;
   --shadow-sm:0 1px 2px rgba(20,40,36,.05), 0 1px 1px rgba(20,40,36,.04);

@@ -66,7 +66,7 @@
 
 	<div class="container footer__bottom">
 		<span>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?>. <?php esc_html_e( 'All rights reserved.', 'overlaytop' ); ?></span>
-		<span><?php esc_html_e( 'Written and edited by real humans.', 'overlaytop' ); ?></span>
+		<span><?php printf( esc_html__( 'Created by %s with love and care.', 'overlaytop' ), esc_html( get_bloginfo( 'name' ) ) ); ?></span>
 	</div>
 </footer>
 

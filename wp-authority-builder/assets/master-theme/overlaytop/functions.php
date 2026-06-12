@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'OVERLAYTOP_VERSION', '1.0.6' );
+define( 'OVERLAYTOP_VERSION', '1.0.0' );
 
 /**
  * Theme setup.
@@ -49,21 +49,28 @@ function overlaytop_setup() {
 add_action( 'after_setup_theme', 'overlaytop_setup' );
 
 /**
+ * Cache-busting token for a theme asset (its file modified-time) so CSS/JS updates reach
+ * visitors WITHOUT bumping the theme version. Falls back to the theme version if missing.
+ */
+function overlaytop_asset_ver( $rel ) {
+	$path = get_theme_file_path( $rel );
+	return ( $path && file_exists( $path ) ) ? (string) filemtime( $path ) : OVERLAYTOP_VERSION;
+}
+
+/**
  * Enqueue styles + scripts.
  */
 function overlaytop_assets() {
-	$ver = OVERLAYTOP_VERSION;
-
 	wp_enqueue_style(
 		'overlaytop-fonts',
 		'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap',
 		array(),
 		null
 	);
-	wp_enqueue_style( 'overlaytop-tokens', get_theme_file_uri( 'assets/css/tokens.css' ), array(), $ver );
-	wp_enqueue_style( 'overlaytop-main', get_theme_file_uri( 'assets/css/main.css' ), array( 'overlaytop-tokens' ), $ver );
+	wp_enqueue_style( 'overlaytop-tokens', get_theme_file_uri( 'assets/css/tokens.css' ), array(), overlaytop_asset_ver( 'assets/css/tokens.css' ) );
+	wp_enqueue_style( 'overlaytop-main', get_theme_file_uri( 'assets/css/main.css' ), array( 'overlaytop-tokens' ), overlaytop_asset_ver( 'assets/css/main.css' ) );
 
-	wp_enqueue_script( 'overlaytop-main', get_theme_file_uri( 'assets/js/main.js' ), array(), $ver, true );
+	wp_enqueue_script( 'overlaytop-main', get_theme_file_uri( 'assets/js/main.js' ), array(), overlaytop_asset_ver( 'assets/js/main.js' ), true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -101,6 +108,10 @@ function overlaytop_analytics() {
 	<?php
 }
 add_action( 'wp_head', 'overlaytop_analytics', 20 );
+
+// Let the theme own Contact Form 7 markup — our form template is already valid HTML,
+// so skip CF7's auto-paragraph/<br> insertion.
+add_filter( 'wpcf7_autop_or_not', '__return_false' );
 
 /**
  * Excerpt tweaks.

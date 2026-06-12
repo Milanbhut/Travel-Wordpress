@@ -44,7 +44,10 @@ function overlaytop_get_toc( $post_id = null ) {
 		if ( '' === $text ) {
 			continue;
 		}
-		$items .= '<li><a href="#' . esc_attr( sanitize_title( $text ) ) . '">' . esc_html( $text ) . '</a></li>';
+		// The anchor must match the heading's generated id (built from the full text); strip any
+		// leading "1." / "2)" numbering from the visible label so the ordered list doesn't double it.
+		$label = preg_replace( '/^\s*\d+[.)]\s+/', '', $text );
+		$items .= '<li><a href="#' . esc_attr( sanitize_title( $text ) ) . '">' . esc_html( $label ) . '</a></li>';
 	}
 	if ( '' === $items ) {
 		return '';
