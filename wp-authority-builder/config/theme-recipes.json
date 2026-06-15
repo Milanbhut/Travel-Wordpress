@@ -41,6 +41,7 @@
     "balanced": {"section":"clamp(3.5rem, 6vw, 5.5rem)", "gap":"1.6rem"},
     "compact":  {"section":"clamp(3rem, 5vw, 4.5rem)", "gap":"1.3rem"}
   },
+  "home_layouts": ["bento", "editorial", "magazine", "index", "showcase"],
   "variants": {
     "hero":       ["split", "centered", "image", "minimal", "side"],
     "about":      ["left", "right", "stacked", "framed"],
@@ -50,6 +51,7 @@
     "footer":     ["dark", "minimal", "columns"]
   },
   "defaults": {
+    "home_layout":"bento",
     "palette":"ivory-botanical","font":"fraunces-inter","radius":"soft","density":"balanced",
     "hero":"split","about":"left","latest":"grid","category":"bento-a","newsletter":"band","footer":"dark"
   }

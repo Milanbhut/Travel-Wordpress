@@ -1,0 +1,308 @@
+/*
+ * Home layout: INDEX - minimal, list-driven, whitespace-heavy front.
+ * Hairlines only (1px var(--line)), shadows off by default, maximal air.
+ * Every rule scoped under .home--index. Reuses primitives: .container .btn
+ * .eyebrow .screen-reader-text.
+ */
+
+.home--index {
+	background: var(--bg);
+	color: var(--text);
+}
+
+/* ---------- 1. MINIMAL HERO (no media, lots of air) ---------- */
+.home--index .idx-hero {
+	padding-top: clamp(4rem, 9vw, 8rem);
+	padding-bottom: var(--section-y);
+	border-bottom: 1px solid var(--line);
+}
+
+.home--index .idx-hero__inner {
+	max-width: 56rem;
+}
+
+.home--index .idx-hero .eyebrow {
+	display: block;
+	margin-bottom: 1.25rem;
+}
+
+.home--index .idx-hero__title {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	line-height: 1.04;
+	letter-spacing: -0.01em;
+	font-size: clamp(2.6rem, 6.5vw, 4.75rem);
+	margin: 0 0 1.25rem;
+	color: var(--text);
+}
+
+.home--index .idx-hero__sub {
+	font-family: var(--font-sans);
+	font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+	line-height: 1.6;
+	color: var(--text-muted);
+	max-width: 40rem;
+	margin: 0 0 2rem;
+}
+
+.home--index .idx-hero__cta {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.45rem;
+	font-family: var(--font-sans);
+	font-weight: 600;
+	font-size: 1rem;
+	letter-spacing: 0.01em;
+	color: var(--primary);
+	text-decoration: none;
+	border-bottom: 1px solid var(--line);
+	padding-bottom: 0.2rem;
+	transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.home--index .idx-hero__cta:hover {
+	color: var(--primary-strong);
+	border-color: var(--primary);
+}
+
+.home--index .idx-hero__cta span {
+	transition: transform 0.18s ease;
+}
+
+.home--index .idx-hero__cta:hover span {
+	transform: translateX(3px);
+}
+
+/* ---------- Shared section heads ---------- */
+.home--index .idx-latest,
+.home--index .idx-cats,
+.home--index .idx-news {
+	padding-top: var(--section-y);
+	padding-bottom: var(--section-y);
+}
+
+.home--index .idx-latest,
+.home--index .idx-cats {
+	border-bottom: 1px solid var(--line);
+}
+
+.home--index .idx-head {
+	margin-bottom: 2.5rem;
+}
+
+.home--index .idx-head .eyebrow {
+	display: block;
+	margin-bottom: 0.6rem;
+}
+
+.home--index .idx-head__title {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	font-size: clamp(1.9rem, 3.4vw, 2.6rem);
+	margin: 0;
+	color: var(--text);
+}
+
+/* ---------- 2. LATEST (hairline-separated list) ---------- */
+.home--index .idx-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid var(--line);
+}
+
+.home--index .idx-row {
+	border-bottom: 1px solid var(--line);
+}
+
+.home--index .idx-row__link {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 1.6rem 0;
+	text-decoration: none;
+	color: inherit;
+	transition: opacity 0.18s ease;
+}
+
+.home--index .idx-row__link:hover {
+	opacity: 0.78;
+}
+
+.home--index .idx-row__thumb {
+	flex: 0 0 auto;
+	width: 84px;
+	height: 84px;
+	border-radius: var(--radius-sm);
+	overflow: hidden;
+	background: var(--soft);
+	border: 1px solid var(--line);
+}
+
+.home--index .idx-row__thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.home--index .idx-row__body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+	min-width: 0;
+}
+
+.home--index .idx-row__kicker {
+	font-family: var(--font-sans);
+	font-size: 0.72rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.14em;
+	color: var(--accent);
+}
+
+.home--index .idx-row__title {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	line-height: 1.2;
+	font-size: clamp(1.15rem, 2vw, 1.5rem);
+	color: var(--text);
+}
+
+.home--index .idx-row__meta {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-family: var(--font-sans);
+	font-size: 0.85rem;
+	color: var(--text-muted);
+}
+
+/* ---------- 3. CATEGORY INDEX (tidy 2-column list) ---------- */
+.home--index .idx-catlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: var(--grid-gap);
+	border-top: 1px solid var(--line);
+}
+
+.home--index .idx-catlist__item {
+	border-bottom: 1px solid var(--line);
+}
+
+.home--index .idx-catlist__link {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1rem;
+	padding: 1.15rem 0;
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.18s ease;
+}
+
+.home--index .idx-catlist__link:hover {
+	color: var(--primary);
+}
+
+.home--index .idx-catlist__name {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+}
+
+.home--index .idx-catlist__count {
+	font-family: var(--font-sans);
+	font-size: 0.9rem;
+	font-variant-numeric: tabular-nums;
+	color: var(--text-muted);
+}
+
+/* ---------- 4. QUIET NEWSLETTER (soft-tint inline card) ---------- */
+.home--index .idx-news__card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2.5rem;
+	flex-wrap: wrap;
+	background: var(--soft);
+	border: 1px solid var(--line);
+	border-radius: var(--radius-lg);
+	padding: clamp(2rem, 4vw, 3.25rem);
+}
+
+.home--index .idx-news__copy {
+	flex: 1 1 22rem;
+	min-width: 0;
+}
+
+.home--index .idx-news__title {
+	font-family: var(--font-serif);
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	font-size: clamp(1.6rem, 3vw, 2.25rem);
+	margin: 0 0 0.6rem;
+	color: var(--text);
+}
+
+.home--index .idx-news__sub {
+	font-family: var(--font-sans);
+	font-size: 1rem;
+	line-height: 1.6;
+	color: var(--text-muted);
+	margin: 0;
+	max-width: 34rem;
+}
+
+.home--index .idx-news__form {
+	flex: 1 1 18rem;
+}
+
+.home--index .idx-news__fields {
+	display: flex;
+	gap: 0.6rem;
+	flex-wrap: wrap;
+}
+
+.home--index .idx-news__fields input[type="email"] {
+	flex: 1 1 12rem;
+	min-width: 0;
+	font-family: var(--font-sans);
+	font-size: 1rem;
+	padding: 0.8rem 1rem;
+	color: var(--text);
+	background: var(--surface);
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+}
+
+.home--index .idx-news__fields input[type="email"]:focus {
+	outline: none;
+	border-color: var(--primary);
+}
+
+/* ---------- Mobile: collapse multi-col grids to 1 col ---------- */
+@media (max-width: 760px) {
+	.home--index .idx-catlist {
+		grid-template-columns: 1fr;
+	}
+
+	.home--index .idx-row__thumb {
+		width: 64px;
+		height: 64px;
+	}
+
+	.home--index .idx-row__link {
+		gap: 1rem;
+	}
+
+	.home--index .idx-news__card {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

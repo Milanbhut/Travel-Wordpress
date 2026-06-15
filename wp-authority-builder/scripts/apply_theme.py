@@ -52,15 +52,17 @@ def _find(items: list, name: str) -> dict:
 def pick_recipe(domain: str, brief: dict, cat: dict) -> dict:
     """Return the recipe to use - honoring a brief-pinned one, else a seeded pick."""
     existing = (brief.get("design") or {}).get("recipe") or {}
-    if existing.get("palette"):
-        return existing
     rng = _seeded_rng(domain)
+    if existing.get("palette"):
+        existing.setdefault("home_layout", rng.choice(cat.get("home_layouts", ["bento"])))
+        return existing
     niche = (brief.get("niche") or domain or "").lower()
     words = {w for w in niche.replace("&", " ").replace("-", " ").split() if len(w) > 2}
     matches = [p for p in cat["palettes"] if set(p.get("niches", [])) & words]
     palette = rng.choice(matches) if matches else rng.choice(cat["palettes"])
     v = cat["variants"]
     return {
+        "home_layout": rng.choice(cat.get("home_layouts", ["bento"])),
         "palette": palette["name"],
         "font": rng.choice(cat["fonts"])["name"],
         "radius": rng.choice(list(cat["radii"].keys())),
@@ -115,6 +117,7 @@ def write_tokens_css(recipe: dict, cat: dict) -> str:
 def set_mods(client: WPClient, recipe: dict, font: dict) -> None:
     mods = {
         "ot_recipe": recipe["palette"],
+        "ot_home_layout": recipe.get("home_layout", "bento"),
         "ot_v_hero": recipe["hero"],
         "ot_v_about": recipe["about"],
         "ot_v_latest": recipe["latest"],

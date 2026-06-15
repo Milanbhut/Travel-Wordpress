@@ -1,0 +1,252 @@
+/* Home layout: SHOWCASE - image-forward front.
+   Scoped under .home--showcase. Reuses primitives: .container .btn .pill .eyebrow
+   .post-card .cat-pill .screen-reader-text. Tokens only, no hardcoded brand colors. */
+
+.home--showcase{
+	font-family:var(--font-sans);
+	color:var(--text);
+}
+
+/* ---------- 1. VISUAL HERO ---------- */
+.home--showcase .showcase-hero{
+	padding:var(--gutter) var(--gutter) 0;
+}
+.home--showcase .showcase-hero__frame{
+	position:relative;
+	display:block;
+	width:100%;
+	max-width:var(--max-w);
+	margin-inline:auto;
+	border-radius:var(--radius-lg);
+	overflow:hidden;
+	border:1px solid var(--line);
+	text-decoration:none;
+}
+.home--showcase .showcase-hero__media{
+	display:block;
+	aspect-ratio:16 / 9;
+	background:var(--soft);
+}
+.home--showcase .showcase-hero__media img{
+	display:block;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	transition:transform var(--t);
+}
+.home--showcase .showcase-hero__frame:hover .showcase-hero__media img{
+	transform:scale(1.03);
+}
+.home--showcase .showcase-hero__overlay{
+	position:absolute;
+	inset:0;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:flex-end;
+	gap:.85rem;
+	padding:clamp(1.5rem, 4vw, 3.25rem);
+	background:linear-gradient(to top, rgba(8,16,24,.82) 0%, rgba(8,16,24,.45) 42%, rgba(8,16,24,0) 78%);
+	color:var(--on-primary);
+}
+.home--showcase .showcase-hero__overlay .eyebrow{
+	color:var(--on-primary);
+	opacity:.92;
+}
+.home--showcase .showcase-hero__overlay .eyebrow::before{
+	background:var(--on-primary);
+}
+.home--showcase .showcase-hero__pill{
+	color:var(--on-primary);
+	background:rgba(255,255,255,.16);
+	border:1px solid rgba(255,255,255,.28);
+}
+.home--showcase .showcase-hero__title{
+	margin:0;
+	font-family:var(--font-serif);
+	font-weight:700;
+	line-height:1.05;
+	font-size:clamp(2rem, 5.2vw, 4rem);
+	max-width:18ch;
+	color:var(--on-primary);
+}
+.home--showcase .showcase-hero__sub{
+	display:block;
+	max-width:54ch;
+	font-size:clamp(1rem, 1.4vw, 1.18rem);
+	line-height:1.55;
+	color:var(--on-primary);
+	opacity:.9;
+}
+.home--showcase .showcase-hero__cta{
+	margin-top:.5rem;
+}
+
+/* ---------- 2. FEATURED BY TOPIC ---------- */
+.home--showcase .showcase-topics{
+	padding-block:var(--section-y);
+}
+.home--showcase .showcase-topics__head{
+	margin-bottom:2.25rem;
+}
+.home--showcase .showcase-topics__heading{
+	margin:.45rem 0 0;
+	font-family:var(--font-serif);
+	font-weight:700;
+	line-height:1.1;
+	font-size:clamp(1.7rem, 3.4vw, 2.6rem);
+}
+.home--showcase .showcase-topics__grid{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	gap:var(--grid-gap);
+}
+.home--showcase .showcase-topic{
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	border:1px solid var(--line);
+	border-radius:var(--radius-lg);
+	overflow:hidden;
+	background:var(--surface);
+	text-decoration:none;
+	transition:transform var(--t), box-shadow var(--t), border-color var(--t);
+}
+.home--showcase .showcase-topic:hover{
+	transform:translateY(-3px);
+	box-shadow:var(--shadow-sm);
+}
+.home--showcase .showcase-topic__media{
+	display:block;
+	aspect-ratio:4 / 3;
+	background:var(--soft);
+	overflow:hidden;
+}
+.home--showcase .showcase-topic__media img{
+	display:block;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	transition:transform var(--t);
+}
+.home--showcase .showcase-topic:hover .showcase-topic__media img{
+	transform:scale(1.05);
+}
+.home--showcase .showcase-topic__body{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	gap:.7rem;
+	padding:1.4rem 1.4rem 1.6rem;
+}
+.home--showcase .showcase-topic__title{
+	font-family:var(--font-serif);
+	font-weight:600;
+	line-height:1.2;
+	font-size:1.3rem;
+	color:var(--text);
+}
+.home--showcase .showcase-topic:hover .showcase-topic__title{
+	color:var(--primary-strong);
+}
+
+/* ---------- 3. LATEST STRIP ---------- */
+.home--showcase .showcase-latest{
+	padding-block:var(--section-y);
+	background:var(--soft);
+}
+.home--showcase .showcase-latest__head{
+	display:flex;
+	align-items:flex-end;
+	justify-content:space-between;
+	gap:1.5rem;
+	margin-bottom:2.25rem;
+}
+.home--showcase .showcase-latest__heading{
+	margin:.45rem 0 0;
+	font-family:var(--font-serif);
+	font-weight:700;
+	line-height:1.1;
+	font-size:clamp(1.7rem, 3.4vw, 2.6rem);
+}
+.home--showcase .showcase-latest__more{
+	flex:none;
+	font-family:var(--font-sans);
+	font-weight:600;
+	font-size:.9rem;
+	color:var(--primary);
+	text-decoration:none;
+	white-space:nowrap;
+}
+.home--showcase .showcase-latest__more:hover{
+	color:var(--primary-strong);
+}
+.home--showcase .showcase-latest__strip{
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	gap:var(--grid-gap);
+}
+
+/* ---------- 4. NEWSLETTER ---------- */
+.home--showcase .showcase-news{
+	padding-block:var(--section-y);
+}
+.home--showcase .showcase-news__inner{
+	display:grid;
+	grid-template-columns:1.1fr .9fr;
+	align-items:center;
+	gap:var(--grid-gap);
+	padding:clamp(2rem, 4vw, 3.25rem);
+	border:1px solid var(--line);
+	border-radius:var(--radius-lg);
+	background:var(--surface);
+}
+.home--showcase .showcase-news__title{
+	margin:0 0 .6rem;
+	font-family:var(--font-serif);
+	font-weight:700;
+	line-height:1.12;
+	font-size:clamp(1.6rem, 3vw, 2.3rem);
+}
+.home--showcase .showcase-news__sub{
+	margin:0;
+	max-width:48ch;
+	color:var(--text-muted);
+	line-height:1.6;
+}
+.home--showcase .showcase-news__fields{
+	display:flex;
+	gap:.6rem;
+	flex-wrap:wrap;
+}
+.home--showcase .showcase-news__fields input[type="email"]{
+	flex:1 1 14rem;
+	min-width:0;
+	padding:.85rem 1rem;
+	font-family:var(--font-sans);
+	font-size:1rem;
+	color:var(--text);
+	background:var(--bg);
+	border:1px solid var(--line);
+	border-radius:var(--radius);
+}
+.home--showcase .showcase-news__fields input[type="email"]:focus{
+	outline:none;
+	border-color:var(--primary);
+}
+
+/* ---------- MOBILE: collapse multi-col grids to 1 col ---------- */
+@media (max-width:760px){
+	.home--showcase .showcase-hero__media{
+		aspect-ratio:4 / 5;
+	}
+	.home--showcase .showcase-topics__grid{
+		grid-template-columns:1fr;
+	}
+	.home--showcase .showcase-latest__strip{
+		grid-template-columns:1fr;
+	}
+	.home--showcase .showcase-news__inner{
+		grid-template-columns:1fr;
+	}
+}

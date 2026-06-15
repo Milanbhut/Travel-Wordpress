@@ -70,6 +70,14 @@ function overlaytop_assets() {
 	wp_enqueue_style( 'overlaytop-tokens', get_theme_file_uri( 'assets/css/tokens.css' ), array(), overlaytop_asset_ver( 'assets/css/tokens.css' ) );
 	wp_enqueue_style( 'overlaytop-main', get_theme_file_uri( 'assets/css/main.css' ), array( 'overlaytop-tokens' ), overlaytop_asset_ver( 'assets/css/main.css' ) );
 
+	// Homepage: load only the active layout's scoped CSS on the front page (bento uses main.css, no file).
+	if ( is_front_page() ) {
+		$ot_home_css = 'assets/css/home/' . sanitize_key( get_theme_mod( 'ot_home_layout', 'bento' ) ) . '.css';
+		if ( file_exists( get_theme_file_path( $ot_home_css ) ) ) {
+			wp_enqueue_style( 'overlaytop-home', get_theme_file_uri( $ot_home_css ), array( 'overlaytop-main' ), overlaytop_asset_ver( $ot_home_css ) );
+		}
+	}
+
 	wp_enqueue_script( 'overlaytop-main', get_theme_file_uri( 'assets/js/main.js' ), array(), overlaytop_asset_ver( 'assets/js/main.js' ), true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
