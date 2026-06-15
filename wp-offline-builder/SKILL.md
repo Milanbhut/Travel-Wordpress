@@ -69,7 +69,7 @@ slugs, image queries, and angles → `config/<slug>.plan-raw.json`. Then `script
   Latest 6 (3×2) → 3 bento category sections → Newsletter. The **look** varies per recipe - each
   section carries a variant class (`overlaytop_variant()`) that CSS rearranges, on top of the
   palette/font/radius from `tokens.css`. Set the **content** theme-mods during build (e.g.
-  `ot_hero_eyebrow/title/sub/trust`, `ot_about_title/body/stats/image`, `ot_home_cats`,
+  `ot_hero_eyebrow/title/sub`, `ot_about_title/body/stats/image`, `ot_home_cats`,
   `ot_news_title/sub/shortcode`) so each section has real per-site copy, not placeholders.
 - `scripts.scaffold_authors` (creates the authors with bios + real photos).
 - `scripts.build_demo` (identity, permalinks, 6 categories, one-word primary menu) - or run pieces.

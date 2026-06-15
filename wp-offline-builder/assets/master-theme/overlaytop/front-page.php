@@ -41,15 +41,6 @@ $ot_posts = $ot_recent->posts;
 				<a class="btn" href="#latest"><?php esc_html_e( 'Start reading', 'overlaytop' ); ?> <span aria-hidden="true">&rarr;</span></a>
 				<a class="btn btn--ghost" href="<?php echo esc_url( home_url( '/about/' ) ); ?>"><?php esc_html_e( 'About us', 'overlaytop' ); ?></a>
 			</div>
-			<ul class="hero__trust">
-				<?php
-				$ot_trust = array_filter( array_map( 'trim', explode( '|', get_theme_mod( 'ot_hero_trust', '90+ in-depth guides|6 focused topics|Written by experts' ) ) ) );
-				foreach ( $ot_trust as $ot_t ) :
-					$ot_parts = preg_split( '/\s+/', $ot_t, 2 );
-					?>
-					<li><b><?php echo esc_html( $ot_parts[0] ); ?></b><?php echo isset( $ot_parts[1] ) ? esc_html( $ot_parts[1] ) : ''; ?></li>
-				<?php endforeach; ?>
-			</ul>
 		</div>
 
 		<?php if ( ! empty( $ot_posts ) ) : ?>

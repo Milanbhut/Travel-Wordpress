@@ -55,7 +55,7 @@ slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scri
 - `scripts.cleanup_defaults` (removes Hello World / Sample Page).
 - The homepage is now a **fixed 5-section structure** (Hero → About text+image → Latest 6 in a 3×2 grid →
   3 bento category sections → Newsletter); only the *look* varies per recipe. Set the copy mods with
-  `wp theme mod set` during build: `ot_hero_title/ot_hero_sub/ot_hero_eyebrow/ot_hero_trust`,
+  `wp theme mod set` during build: `ot_hero_title/ot_hero_sub/ot_hero_eyebrow`,
   `ot_about_title/ot_about_body/ot_about_image/ot_about_stats`, `ot_home_cats` (3 category slugs), and
   `ot_news_title/ot_news_sub`.
 
