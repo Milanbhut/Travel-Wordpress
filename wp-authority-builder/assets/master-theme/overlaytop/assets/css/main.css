@@ -316,7 +316,7 @@ p{margin-bottom:1.1em}
 .faq__item.is-accordion .faq__a{max-height:0;overflow:hidden;opacity:0;padding-top:0;padding-bottom:0;transition:max-height .34s ease,opacity .26s ease,padding .26s ease}
 .faq__item.is-accordion.is-open .faq__a{max-height:600px;opacity:1;padding-bottom:1.1rem}
 
-.author-bio{max-width:var(--read-w);display:flex;gap:1.4rem;align-items:flex-start;margin-top:2.8rem;padding:1.7rem;background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}
+.author-bio{max-width:var(--read-w);display:flex;gap:1.4rem;align-items:flex-start;margin-top:2.8rem;margin-bottom:2.8rem;padding:1.7rem 1.7rem 2rem;background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}
 .author-bio__avatar{flex:none;width:96px;height:96px}
 .author-bio__avatar img{width:96px;height:96px;border-radius:50%;object-fit:cover;box-shadow:var(--shadow-sm)}
 .author-bio__eyebrow{font-family:var(--font-sans);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--primary-strong);margin-bottom:.25rem}
@@ -404,4 +404,270 @@ p{margin-bottom:1.1em}
 
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}
+}
+
+/* ==========================================================================
+   HOMEPAGE — recipe-driven modular sections (variation system)
+   Aesthetic: MINIMAL. Hairline 1px var(--line) borders, shadows off by default
+   (at most --shadow-sm on hover), generous --section-y whitespace, quiet
+   eyebrows/pills, serif headings. Each section has one fixed markup and
+   several layout variants that genuinely rearrange (not just spacing).
+   Every grid collapses to 1 col under 760px.
+   ========================================================================== */
+
+/* ---------- Shared section primitives ---------- */
+.hero,.about,.latest,.cat,.news{padding-block:var(--section-y)}
+.hero__inner,.about__inner,.news__inner{display:grid;gap:var(--grid-gap)}
+.hero .eyebrow,.about .eyebrow{margin-bottom:.9rem}
+.section__head{display:flex;align-items:flex-end;justify-content:space-between;gap:1rem;margin-bottom:clamp(1.6rem,1.2rem + 1.5vw,2.4rem);flex-wrap:wrap}
+.section__head .eyebrow{margin-bottom:.6rem}
+.section__more,.about__link,.cat__more{display:inline-flex;align-items:center;gap:.4ch;font-family:var(--font-sans);font-weight:600;font-size:.95rem;color:var(--primary-strong);white-space:nowrap;transition:gap var(--t-fast),color var(--t-fast)}
+.section__more:hover,.about__link:hover,.cat__more:hover{gap:.9ch;color:var(--primary-strong)}
+/* Quiet pill — small, letter-spaced, subtle soft tint */
+.pill{align-self:flex-start;display:inline-block;font-family:var(--font-sans);font-size:.68rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--text-muted);background:var(--soft);padding:.3em .65em;border-radius:var(--radius-sm)}
+
+/* ==========================================================================
+   1. HERO — variants: split (default) | centered | image | minimal | side
+   ========================================================================== */
+.hero__lead{min-width:0}
+.hero__title{font-size:clamp(2.2rem,1.4rem + 3.6vw,3.5rem);line-height:1.05;margin-bottom:1rem}
+.hero__sub{font-size:1.16rem;color:var(--text-muted);max-width:46ch;margin-bottom:1.6rem}
+.hero__cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:1.7rem}
+.hero__trust{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.8rem 1.6rem}
+.hero__trust li{display:flex;align-items:center;gap:.5ch;font-size:.92rem;color:var(--text-muted)}
+.hero__trust li b{color:var(--text);font-weight:700}
+/* Featured + minis media stack (used by split / side) */
+.hero__media{min-width:0;display:grid;gap:var(--grid-gap)}
+.hero__feature{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;background:var(--surface);transition:border-color var(--t),box-shadow var(--t)}
+.hero__feature:hover{border-color:var(--text-muted);box-shadow:var(--shadow-sm)}
+.hero__feature-media{display:block;aspect-ratio:16/10;overflow:hidden;background:var(--soft)}
+.hero__feature-media img{width:100%;height:100%;object-fit:cover}
+.hero__feature-body{display:flex;flex-direction:column;gap:.6rem;padding:1.1rem 1.2rem 1.3rem}
+.hero__feature-title{font-family:var(--font-serif);font-weight:600;font-size:clamp(1.25rem,1.05rem + .8vw,1.5rem);line-height:1.18;color:var(--text);letter-spacing:-.01em}
+.hero__minis{display:grid;grid-template-columns:1fr 1fr;gap:var(--grid-gap)}
+.hero__feature:hover .hero__feature-title{color:var(--primary-strong)}
+.mini{display:flex;flex-direction:column;gap:.55rem;color:var(--text)}
+.mini__media{display:block;aspect-ratio:4/3;overflow:hidden;border-radius:var(--radius);background:var(--soft)}
+.mini__media img{width:100%;height:100%;object-fit:cover}
+.mini__title{font-family:var(--font-serif);font-weight:600;font-size:1.02rem;line-height:1.25;color:var(--text)}
+.mini:hover .mini__title{color:var(--primary-strong)}
+
+/* split — the default 2-col: text left, featured + minis right */
+.hero--split .hero__inner{grid-template-columns:1.05fr .95fr;align-items:center}
+
+/* centered — single centered column, no media at all */
+.hero--centered .hero__inner{grid-template-columns:1fr;justify-items:center;text-align:center;max-width:760px;margin-inline:auto}
+.hero--centered .hero__media{display:none}
+.hero--centered .hero__sub{max-width:54ch}
+.hero--centered .hero__cta,.hero--centered .hero__trust{justify-content:center}
+.hero--centered .eyebrow,.hero--centered .pill{align-self:center}
+
+/* image — large single featured image on the right, no mini stack */
+.hero--image .hero__inner{grid-template-columns:1fr 1.1fr;align-items:center}
+.hero--image .hero__minis{display:none}
+.hero--image .hero__feature{border:0;border-radius:var(--radius-xl);background:transparent}
+.hero--image .hero__feature:hover{box-shadow:none}
+.hero--image .hero__feature-media{aspect-ratio:4/5;border-radius:var(--radius-xl)}
+.hero--image .hero__feature-body{padding:.9rem 0 0}
+
+/* minimal — big type only: no media, no trust row */
+.hero--minimal .hero__inner{grid-template-columns:1fr;max-width:900px}
+.hero--minimal .hero__media,.hero--minimal .hero__trust{display:none}
+.hero--minimal .hero__title{font-size:clamp(2.6rem,1.6rem + 5vw,4.6rem);letter-spacing:-.03em}
+.hero--minimal .hero__sub{font-size:1.3rem;max-width:40ch}
+
+/* side — narrow text column + tall media beside it */
+.hero--side .hero__inner{grid-template-columns:.85fr 1.15fr;align-items:stretch}
+.hero--side .hero__minis{display:none}
+.hero--side .hero__feature{height:100%}
+.hero--side .hero__feature-media{aspect-ratio:auto;height:100%;min-height:380px}
+
+/* ==========================================================================
+   2. ABOUT — variants: left (default) | right | stacked | framed
+   ========================================================================== */
+.about__inner{grid-template-columns:1fr 1fr;align-items:center;gap:clamp(1.6rem,1rem + 3vw,4rem)}
+.about__media{min-width:0}
+.about__img,.about__media img{width:100%;border-radius:var(--radius-lg);border:1px solid var(--line);object-fit:cover}
+.about__copy{min-width:0}
+.about__title{font-size:clamp(1.7rem,1.2rem + 1.8vw,2.4rem);margin-bottom:1rem}
+.about__copy p{color:var(--text-muted)}
+.about__stats{display:flex;flex-wrap:wrap;gap:1.4rem 2.4rem;margin:1.4rem 0;padding-top:1.4rem;border-top:1px solid var(--line)}
+.about__stats div{display:flex;flex-direction:column}
+.about__stats b{font-family:var(--font-serif);font-weight:600;font-size:1.7rem;line-height:1;color:var(--text)}
+.about__stats span{font-size:.85rem;color:var(--text-muted);margin-top:.25rem}
+.about__link{margin-top:.4rem}
+
+/* left — image left, copy right (default order) */
+.about--left .about__media{order:0}
+.about--left .about__copy{order:1}
+
+/* right — image right, copy left (swap) */
+.about--right .about__media{order:1}
+.about--right .about__copy{order:0}
+
+/* stacked — image full-width above centered copy */
+.about--stacked .about__inner{grid-template-columns:1fr;justify-items:center;text-align:center}
+.about--stacked .about__media{width:100%}
+.about--stacked .about__img,.about--stacked .about__media img{aspect-ratio:21/9;max-height:420px}
+.about--stacked .about__copy{max-width:680px}
+.about--stacked .eyebrow,.about--stacked .about__link{align-self:center}
+.about--stacked .about__stats{justify-content:center}
+
+/* framed — copy sits in a bordered soft panel */
+.about--framed .about__copy{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(1.6rem,1rem + 2vw,2.6rem)}
+.about--framed .about__stats{border-top-color:var(--line)}
+
+/* ==========================================================================
+   3. LATEST — variants: grid (3x2) | featured (1 big + rest) | minimal
+   Reuses the existing .post-card styling for grid items.
+   ========================================================================== */
+.latest-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,auto);gap:var(--grid-gap)}
+
+/* featured — first card spans 2 cols x 2 rows, others fill the remaining column */
+.latest--featured .latest-grid{grid-template-columns:2fr 1fr}
+.latest--featured .latest-grid .post-card:first-child{grid-row:span 2}
+.latest--featured .latest-grid .post-card:first-child .post-card__media{aspect-ratio:16/11}
+.latest--featured .latest-grid .post-card:first-child .post-card__title{font-size:clamp(1.4rem,1.1rem + 1.2vw,1.85rem)}
+
+/* minimal — borderless cards separated by hairline dividers, no media frame */
+.latest--minimal .latest-grid{gap:0 var(--grid-gap)}
+.latest--minimal .post-card{background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;padding-top:1.3rem}
+.latest--minimal .post-card:hover{transform:none;box-shadow:none}
+.latest--minimal .post-card__media{border-radius:var(--radius);margin-bottom:.4rem}
+
+/* ==========================================================================
+   4. CATEGORY (x3) — variants: bento-a | bento-b | bento-c | list
+   Markup: .cat__head (num + title/desc + more) then .bento with cells.
+   ========================================================================== */
+.cat__head{display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:.4rem 1.2rem;margin-bottom:clamp(1.6rem,1.2rem + 1.5vw,2.4rem);padding-bottom:1.2rem;border-bottom:1px solid var(--line)}
+.cat__num{font-family:var(--font-serif);font-weight:600;font-size:clamp(1.6rem,1.2rem + 1.5vw,2.4rem);line-height:1;color:var(--text-muted)}
+.cat__title{font-size:clamp(1.5rem,1.15rem + 1.5vw,2.1rem);margin:0}
+.cat__title a{color:var(--text)}
+.cat__title a:hover{color:var(--primary-strong)}
+.cat__desc{color:var(--text-muted);font-size:.98rem;margin:.4rem 0 0;max-width:60ch}
+.bento{display:grid;gap:var(--grid-gap)}
+.bento__cell{display:flex;flex-direction:column;color:var(--text);min-width:0}
+.bento__media{display:block;aspect-ratio:16/10;overflow:hidden;border-radius:var(--radius);background:var(--soft);margin-bottom:.7rem}
+.bento__media img{width:100%;height:100%;object-fit:cover}
+.bento__body{display:flex;flex-direction:column;gap:.45rem}
+.bento__title{font-family:var(--font-serif);font-weight:600;font-size:1.1rem;line-height:1.22;color:var(--text)}
+.bento__cell:hover .bento__title{color:var(--primary-strong)}
+.bento__meta{font-size:.82rem;color:var(--text-muted)}
+
+/* bento-a — big lead cell on the left + small cells on the right */
+.cat--bento-a .bento{grid-template-columns:1.4fr 1fr 1fr;grid-auto-rows:1fr}
+.cat--bento-a .bento__cell--lead{grid-column:1;grid-row:1 / span 2}
+.cat--bento-a .bento__cell--lead .bento__media{aspect-ratio:4/3;height:100%}
+.cat--bento-a .bento__cell--lead .bento__title{font-size:clamp(1.3rem,1.05rem + 1vw,1.7rem)}
+
+/* bento-b — lead spans full top row, supporting cells below */
+.cat--bento-b .bento{grid-template-columns:repeat(4,1fr)}
+.cat--bento-b .bento__cell--lead{grid-column:1 / -1}
+.cat--bento-b .bento__cell--lead .bento__media{aspect-ratio:21/9;max-height:360px}
+.cat--bento-b .bento__cell--lead .bento__body{align-items:center;text-align:center}
+.cat--bento-b .bento__cell--lead .pill{align-self:center}
+.cat--bento-b .bento__cell--lead .bento__title{font-size:clamp(1.3rem,1.05rem + 1vw,1.7rem)}
+
+/* bento-c — even masonry-ish grid, all cells equal weight */
+.cat--bento-c .bento{grid-template-columns:repeat(3,1fr)}
+.cat--bento-c .bento__cell--lead{grid-column:auto}
+.cat--bento-c .bento__cell--text{justify-content:flex-start}
+
+/* list — label column on the left + stacked hairline rows (no big tile) */
+.cat--list .bento{grid-template-columns:1fr}
+.cat--list .bento__cell{flex-direction:row;align-items:center;gap:1.1rem;padding:1rem 0;border-top:1px solid var(--line)}
+.cat--list .bento__cell:first-child{border-top:0;padding-top:0}
+.cat--list .bento__media{flex:none;width:120px;aspect-ratio:4/3;margin:0;border-radius:var(--radius-sm)}
+.cat--list .bento__body{flex:1}
+.cat--list .bento__cell--lead .bento__media{width:200px}
+.cat--list .bento__title{font-size:1.15rem}
+
+/* ==========================================================================
+   5. NEWSLETTER — variants: band (dark) | split (dark 2-col) | inline (soft) | bordered
+   ========================================================================== */
+.news__title{font-size:clamp(1.6rem,1.2rem + 1.6vw,2.3rem);margin-bottom:.6rem}
+.news__sub{color:var(--text-muted);max-width:52ch;margin:0}
+.news__fields{display:flex;gap:.6rem;flex-wrap:wrap}
+.news__fields input{flex:1;min-width:0;font-family:var(--font-sans);font-size:1rem;color:var(--text);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:.78em 1.2em;transition:border-color var(--t-fast),box-shadow var(--t-fast)}
+.news__fields input::placeholder{color:var(--text-muted)}
+.news__fields input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 18%,transparent)}
+.news__fields .btn{flex:none}
+
+/* band — full-width dark band, centered single column */
+.news--band{background:var(--dark);color:#fff}
+.news--band .news__inner{grid-template-columns:1fr;justify-items:center;text-align:center;max-width:640px;margin-inline:auto}
+.news--band .news__title{color:#fff}
+.news--band .news__sub{color:rgba(255,255,255,.72)}
+.news--band .news__form{width:100%;max-width:460px}
+.news--band .news__fields input{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.22);color:#fff}
+.news--band .news__fields input::placeholder{color:rgba(255,255,255,.55)}
+
+/* split — dark 2-col: copy left, form right */
+.news--split{background:var(--dark);color:#fff}
+.news--split .news__inner{grid-template-columns:1.1fr .9fr;align-items:center;gap:clamp(1.6rem,1rem + 3vw,3.5rem)}
+.news--split .news__title{color:#fff}
+.news--split .news__sub{color:rgba(255,255,255,.72)}
+.news--split .news__fields input{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.22);color:#fff}
+.news--split .news__fields input::placeholder{color:rgba(255,255,255,.55)}
+
+/* inline — light soft-tint card, not dark, centered */
+.news--inline .news__inner{grid-template-columns:1fr;justify-items:center;text-align:center;gap:1.4rem;background:var(--soft);border-radius:var(--radius-lg);padding:clamp(1.8rem,1.2rem + 2.5vw,3rem);max-width:760px;margin-inline:auto}
+.news--inline .news__form{width:100%;max-width:480px}
+
+/* bordered — hairline box on the page background, 2-col */
+.news--bordered .news__inner{grid-template-columns:1.1fr .9fr;align-items:center;gap:clamp(1.6rem,1rem + 3vw,3rem);border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(1.8rem,1.2rem + 2.5vw,3rem)}
+
+/* ==========================================================================
+   6. FOOTER variants (body class): dark (default) | minimal | columns
+   footer.php uses .site-footer / .footer__top / .footer__col / .footer__bottom
+   ========================================================================== */
+/* minimal — single quiet row on the page bg, hairline top rule */
+.v-footer-minimal .site-footer{background:transparent;color:var(--text-muted);margin-top:var(--section-y);border-top:1px solid var(--line)}
+.v-footer-minimal .footer__top{grid-template-columns:1fr;gap:1.2rem;text-align:center;justify-items:center;padding-block:clamp(2rem,1.5rem + 2vw,3rem)}
+.v-footer-minimal .footer__col{display:none}
+.v-footer-minimal .footer__brand .brand{color:var(--text)}
+.v-footer-minimal .footer__brand p{color:var(--text-muted);max-width:48ch;margin-inline:auto}
+.v-footer-minimal .footer__bottom{border-top-color:var(--line);color:var(--text-muted);justify-content:center;text-align:center}
+
+/* columns — wider multi-column layout on the page bg */
+.v-footer-columns .site-footer{background:transparent;color:var(--text-muted);margin-top:var(--section-y);border-top:1px solid var(--line)}
+.v-footer-columns .footer__top{grid-template-columns:1.4fr repeat(3,1fr)}
+.v-footer-columns .footer__brand .brand{color:var(--text)}
+.v-footer-columns .footer__brand p{color:var(--text-muted)}
+.v-footer-columns .footer__col h2{color:var(--text)}
+.v-footer-columns .footer__col a{color:var(--text-muted)}
+.v-footer-columns .footer__col a:hover{color:var(--primary-strong)}
+.v-footer-columns .footer__bottom{border-top-color:var(--line);color:var(--text-muted)}
+
+/* ==========================================================================
+   HOMEPAGE — mobile: every grid collapses to a single column under 760px
+   ========================================================================== */
+@media (max-width:760px){
+  .hero__inner,
+  .hero--split .hero__inner,
+  .hero--image .hero__inner,
+  .hero--side .hero__inner,
+  .about__inner,
+  .news__inner,
+  .news--split .news__inner,
+  .news--bordered .news__inner{grid-template-columns:1fr}
+  .hero--side .hero__feature-media{min-height:260px}
+  .hero__minis{grid-template-columns:1fr 1fr}
+  .about--right .about__media{order:0}
+  .about--right .about__copy{order:1}
+  .latest-grid,
+  .latest--featured .latest-grid{grid-template-columns:1fr;grid-template-rows:auto}
+  .latest--featured .latest-grid .post-card:first-child{grid-row:auto}
+  .bento,
+  .cat--bento-a .bento,
+  .cat--bento-b .bento,
+  .cat--bento-c .bento{grid-template-columns:1fr}
+  .cat--bento-a .bento__cell--lead{grid-column:auto;grid-row:auto}
+  .cat--bento-b .bento__cell--lead{grid-column:auto}
+  .cat__head{grid-template-columns:1fr;align-items:start}
+  .cat__head .cat__more{justify-self:start}
+  .cat--list .bento__cell{flex-direction:column;align-items:flex-start;gap:.7rem}
+  .cat--list .bento__media,
+  .cat--list .bento__cell--lead .bento__media{width:100%;aspect-ratio:16/10}
+  .v-footer-columns .footer__top{grid-template-columns:1fr}
 }

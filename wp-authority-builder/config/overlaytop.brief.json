@@ -13,7 +13,10 @@
     "country_placeholder": "[INSERT ACTUAL COUNTRY OF OPERATION]"
   },
   "design": {
-    "fonts": { "heading": "Fraunces", "body": "Inter" },
+    "fonts": {
+      "heading": "Fraunces",
+      "body": "Inter"
+    },
     "tokens": {
       "--teal-50": "#eef6f5",
       "--teal-100": "#d6eae7",
@@ -31,21 +34,123 @@
       "--ink-300": "#98a09b",
       "--line": "#e7e0d6",
       "--line-soft": "#f0eae0"
+    },
+    "recipe": {
+      "palette": "coastal-ocean",
+      "font": "cormorant-inter",
+      "radius": "sharp",
+      "density": "airy",
+      "hero": "image",
+      "about": "right",
+      "latest": "grid",
+      "category": "bento-a",
+      "newsletter": "split",
+      "footer": "columns"
     }
   },
   "categories": [
-    { "label": "Flights", "title": "Cheap Flights & Airfare Hacks", "slug": "flights", "description": "Finding cheap airfare, error fares, points and miles, and the right time to book." },
-    { "label": "Stays", "title": "Budget Stays & Accommodation", "slug": "stays", "description": "Hostels, guesthouses, house-sitting, and long-stay tricks that cut accommodation costs." },
-    { "label": "Destinations", "title": "Affordable Destinations", "slug": "destinations", "description": "Where your money goes furthest — affordable countries, cities, and seasons to visit." },
-    { "label": "Hacks", "title": "Money-Saving Travel Hacks", "slug": "hacks", "description": "Everyday money-saving tactics, apps, and habits that keep every trip cheap." },
-    { "label": "Packing", "title": "Smart Packing & Gear", "slug": "packing", "description": "Packing light, budget gear that lasts, and avoiding fees and forgotten essentials." },
-    { "label": "Food", "title": "Eating Well for Less", "slug": "food", "description": "Eating well for less — markets, street food, and self-catering on the road." }
+    {
+      "label": "Flights",
+      "title": "Cheap Flights & Airfare Hacks",
+      "slug": "flights",
+      "description": "Finding cheap airfare, error fares, points and miles, and the right time to book."
+    },
+    {
+      "label": "Stays",
+      "title": "Budget Stays & Accommodation",
+      "slug": "stays",
+      "description": "Hostels, guesthouses, house-sitting, and long-stay tricks that cut accommodation costs."
+    },
+    {
+      "label": "Destinations",
+      "title": "Affordable Destinations",
+      "slug": "destinations",
+      "description": "Where your money goes furthest — affordable countries, cities, and seasons to visit."
+    },
+    {
+      "label": "Hacks",
+      "title": "Money-Saving Travel Hacks",
+      "slug": "hacks",
+      "description": "Everyday money-saving tactics, apps, and habits that keep every trip cheap."
+    },
+    {
+      "label": "Packing",
+      "title": "Smart Packing & Gear",
+      "slug": "packing",
+      "description": "Packing light, budget gear that lasts, and avoiding fees and forgotten essentials."
+    },
+    {
+      "label": "Food",
+      "title": "Eating Well for Less",
+      "slug": "food",
+      "description": "Eating well for less — markets, street food, and self-catering on the road."
+    }
   ],
   "authors": [
-    { "name": "Maya Okonkwo", "slug": "maya-okonkwo", "role": "Founder & Lead Writer", "beats": ["flights", "hacks"], "expertise": "Cheap flights, points & miles, routing", "voice": "Warm, anecdotal, encouraging; first-person stories from the road", "articles": 24, "photo_query": "african woman traveler portrait outdoors" },
-    { "name": "Diego Álvarez", "slug": "diego-alvarez", "role": "Staff Writer", "beats": ["stays", "destinations"], "expertise": "Hostels, long-term stays, backpacking", "voice": "Blunt, energetic, numbers-heavy — 'here's exactly what I paid'", "articles": 21, "photo_query": "latino man backpacker portrait" },
-    { "name": "Priya Nair", "slug": "priya-nair", "role": "Contributing Editor", "beats": ["packing", "destinations"], "expertise": "Trip planning, family travel, logistics", "voice": "Organized, reassuring, checklist-driven and calm", "articles": 18, "photo_query": "indian woman professional portrait" },
-    { "name": "Tom Whitfield", "slug": "tom-whitfield", "role": "Deals Researcher", "beats": ["hacks", "packing"], "expertise": "Fare alerts, travel apps, gear", "voice": "Analytical, data-driven, dry humor", "articles": 15, "photo_query": "man casual portrait glasses smiling" },
-    { "name": "Sofia Marchetti", "slug": "sofia-marchetti", "role": "Contributor", "beats": ["food", "destinations"], "expertise": "Budget food, local markets, affordable destinations", "voice": "Sensory, vivid, curious and descriptive", "articles": 12, "photo_query": "italian woman portrait smiling cafe" }
+    {
+      "name": "Maya Okonkwo",
+      "slug": "maya-okonkwo",
+      "role": "Founder & Lead Writer",
+      "beats": [
+        "flights",
+        "hacks"
+      ],
+      "expertise": "Cheap flights, points & miles, routing",
+      "voice": "Warm, anecdotal, encouraging; first-person stories from the road",
+      "articles": 24,
+      "photo_query": "african woman traveler portrait outdoors"
+    },
+    {
+      "name": "Diego Álvarez",
+      "slug": "diego-alvarez",
+      "role": "Staff Writer",
+      "beats": [
+        "stays",
+        "destinations"
+      ],
+      "expertise": "Hostels, long-term stays, backpacking",
+      "voice": "Blunt, energetic, numbers-heavy — 'here's exactly what I paid'",
+      "articles": 21,
+      "photo_query": "latino man backpacker portrait"
+    },
+    {
+      "name": "Priya Nair",
+      "slug": "priya-nair",
+      "role": "Contributing Editor",
+      "beats": [
+        "packing",
+        "destinations"
+      ],
+      "expertise": "Trip planning, family travel, logistics",
+      "voice": "Organized, reassuring, checklist-driven and calm",
+      "articles": 18,
+      "photo_query": "indian woman professional portrait"
+    },
+    {
+      "name": "Tom Whitfield",
+      "slug": "tom-whitfield",
+      "role": "Deals Researcher",
+      "beats": [
+        "hacks",
+        "packing"
+      ],
+      "expertise": "Fare alerts, travel apps, gear",
+      "voice": "Analytical, data-driven, dry humor",
+      "articles": 15,
+      "photo_query": "man casual portrait glasses smiling"
+    },
+    {
+      "name": "Sofia Marchetti",
+      "slug": "sofia-marchetti",
+      "role": "Contributor",
+      "beats": [
+        "food",
+        "destinations"
+      ],
+      "expertise": "Budget food, local markets, affordable destinations",
+      "voice": "Sensory, vivid, curious and descriptive",
+      "articles": 12,
+      "photo_query": "italian woman portrait smiling cafe"
+    }
   ]
 }

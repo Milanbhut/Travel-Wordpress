@@ -34,20 +34,30 @@ Full design spec: `docs/superpowers/specs/2026-06-03-wp-authority-builder-design
 - `scripts.install_wp` → installs WordPress (core download + config + install) if not present.
 - `scripts.fix_permalinks` → writes `.htaccess` + pretty permalinks (LiteSpeed needs this).
 
-**0. Brand brief ★** — From the niche, generate `config/<domain>.brief.json` (name, tagline, palette
-tokens, 6 one-word category labels + full titles, 4–5 authors with voices + photo queries, contact
-email, country-of-operation). **Present for approval.** Then write the palette into the theme's
-`assets/master-theme/<slug>/assets/css/tokens.css`.
+**0. Brand brief ★** — From the niche, generate `config/<domain>.brief.json` (name, tagline, 6 one-word
+category labels + full titles, 4–5 authors with voices + photo queries, contact email,
+country-of-operation). In the `design` block, record a **recipe** (palette nudged by niche, font pair,
+radius, one layout variant per section) — choose/confirm one from `config/theme-recipes.json` and pin it
+under `design.recipe`, or leave it out and let `scripts.apply_theme` pick one deterministically. **Present
+for approval.**
 
 **0.5 Editorial plan** — Dispatch ONE subagent to draft 90 titles (15/category) with archetypes, unique
 slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scripts.build_editorial_plan`
 (assigns uneven beat-matched authors + the internal-link graph) → `config/<domain>.editorial-plan.json`.
 
 **2. Theme + structure**
+- `scripts.apply_theme <domain>` (BEFORE deploy — writes `tokens.css` from the recipe + records it in the brief).
 - `scripts.deploy_theme` (SFTP upload + `wp theme activate`).
+- `scripts.apply_theme <domain> --mods` (AFTER activate — sets the `ot_v_*` layout variants, `ot_fonts_href`,
+  and the about/hero/newsletter content mods on the live WP).
 - `scripts.scaffold_authors` (creates the authors with bios + real photos).
 - `scripts.build_demo` (identity, permalinks, 6 categories, one-word primary menu) — or run pieces.
 - `scripts.cleanup_defaults` (removes Hello World / Sample Page).
+- The homepage is now a **fixed 5-section structure** (Hero → About text+image → Latest 6 in a 3×2 grid →
+  3 bento category sections → Newsletter); only the *look* varies per recipe. Set the copy mods with
+  `wp theme mod set` during build: `ot_hero_title/ot_hero_sub/ot_hero_eyebrow/ot_hero_trust`,
+  `ot_about_title/ot_about_body/ot_about_image/ot_about_stats`, `ot_home_cats` (3 category slugs), and
+  `ot_news_title/ot_news_sub`.
 
 **3. Content (subagent-driven — the fast path)**
 - Generate all ~90 articles with **parallel subagents via the Workflow tool** (~16 concurrent). Each

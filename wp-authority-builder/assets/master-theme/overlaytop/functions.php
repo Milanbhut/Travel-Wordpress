@@ -63,7 +63,7 @@ function overlaytop_asset_ver( $rel ) {
 function overlaytop_assets() {
 	wp_enqueue_style(
 		'overlaytop-fonts',
-		'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap',
+		get_theme_mod( 'ot_fonts_href', 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap' ),
 		array(),
 		null
 	);
@@ -148,6 +148,38 @@ function overlaytop_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'overlaytop_body_classes' );
+
+/**
+ * Active layout-variant slug for a homepage section. Set per build by the recipe
+ * (apply_theme.py writes the `ot_v_<section>` theme mods); falls back to a default
+ * so the homepage always renders even before a recipe is applied.
+ */
+function overlaytop_variant( $section ) {
+	$defaults = array(
+		'hero'       => 'split',
+		'about'      => 'left',
+		'latest'     => 'grid',
+		'category'   => 'bento-a',
+		'newsletter' => 'band',
+		'footer'     => 'dark',
+	);
+	$default = isset( $defaults[ $section ] ) ? $defaults[ $section ] : '';
+	return (string) get_theme_mod( 'ot_v_' . $section, $default );
+}
+
+/**
+ * Expose the footer variant + recipe name as body classes so global CSS
+ * (footer, etc.) can react without each template reading the mod.
+ */
+function overlaytop_recipe_body_classes( $classes ) {
+	$classes[] = 'v-footer-' . overlaytop_variant( 'footer' );
+	$recipe    = get_theme_mod( 'ot_recipe', '' );
+	if ( $recipe ) {
+		$classes[] = 'recipe-' . sanitize_html_class( $recipe );
+	}
+	return $classes;
+}
+add_filter( 'body_class', 'overlaytop_recipe_body_classes' );
 
 /**
  * Load includes (schema, breadcrumbs, template tags) when present.

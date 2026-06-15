@@ -1,0 +1,56 @@
+{
+  "_note": "Source of truth for the per-build theme variation system. apply_theme.py picks a recipe (palette + font pair + radius bucket + one layout variant per homepage section) and writes tokens.css + sets theme mods. Aesthetic baseline is MINIMAL: hairline 1px borders, little/no shadow, generous whitespace, restrained type.",
+  "aesthetic": {
+    "baseline": "minimal",
+    "rules": "Hairline borders (1px var(--line)). Shadows: prefer none; at most --shadow-sm. Generous section padding (clamp 4-7rem). Quiet pills/eyebrows. Two type weights of emphasis max. Lots of air; let whitespace separate, not boxes."
+  },
+  "palettes": [
+    {"name":"cream-forest","bg":"#FBF9F4","surface":"#FFFFFF","soft":"#F3EDE1","text":"#2A2A28","muted":"#6B6B66","primary":"#2D4A3E","primary_ink":"#1D3328","accent":"#C97D60","line":"#E6E0D4","dark":"#1D3328","niches":["home","garden","homestead","nature","living"]},
+    {"name":"ivory-botanical","bg":"#FAF7F1","surface":"#FFFFFF","soft":"#F3EDE1","text":"#2A312C","muted":"#6B7068","primary":"#1D3A2A","primary_ink":"#122319","accent":"#B08A4B","line":"#E6E0D4","dark":"#15301F","niches":["plants","wellness","herbal","luxury","botanical"]},
+    {"name":"garden-orange","bg":"#FDFAF5","surface":"#FFFFFF","soft":"#E3EFE6","text":"#1A1F1C","muted":"#5A655E","primary":"#2D5A3D","primary_ink":"#1F3D2A","accent":"#D97A4A","line":"#E5E1D8","dark":"#1F3D2A","niches":["garden","nature","outdoors","plants"]},
+    {"name":"soft-sage","bg":"#F7F5F2","surface":"#FFFFFF","soft":"#EAEFEA","text":"#1E1E1E","muted":"#737373","primary":"#5B7C6F","primary_ink":"#3C5448","accent":"#C58B6F","line":"#E6E2DC","dark":"#2F3D37","niches":["lifestyle","home","minimal","mindful"]},
+    {"name":"fintech-green","bg":"#F8F6F1","surface":"#FFFFFF","soft":"#EEF4F0","text":"#1F2933","muted":"#667085","primary":"#4C956C","primary_ink":"#356B4E","accent":"#356B4E","line":"#E4E7EC","dark":"#14241C","niches":["finance","money","saving","budget","business"]},
+    {"name":"clay-slate","bg":"#FAF7F2","surface":"#FFFFFF","soft":"#F2ECE4","text":"#3E4C59","muted":"#6B7280","primary":"#3E4C59","primary_ink":"#28323B","accent":"#D08770","line":"#E7E1D7","dark":"#2B3640","niches":["parenting","family","relationships","home"]},
+    {"name":"olive-slow","bg":"#F7F2EA","surface":"#FFFFFF","soft":"#EFE6DA","text":"#2C241C","muted":"#726A60","primary":"#7A8B63","primary_ink":"#5F6E4D","accent":"#5F6E4D","line":"#E7DED1","dark":"#2C2820","niches":["herbal","food","slow-living","wellness","cooking"]},
+    {"name":"rust-workshop","bg":"#F6F2EA","surface":"#FFFFFF","soft":"#EFE9DD","text":"#21201C","muted":"#756E63","primary":"#A35A32","primary_ink":"#7D3F1F","accent":"#6B7A4F","line":"#E3DCCC","dark":"#2A2017","niches":["diy","repair","tools","craft","auto"]},
+    {"name":"sage-tan","bg":"#F7F3EC","surface":"#FBF8F2","soft":"#E3EAE0","text":"#1D2522","muted":"#7C857F","primary":"#4F6A4F","primary_ink":"#324834","accent":"#B89E6E","line":"#E3DCCC","dark":"#233324","niches":["tiny-homes","minimal","architecture","design"]},
+    {"name":"eco-mint","bg":"#FDFCFA","surface":"#FFFFFF","soft":"#E9F3EC","text":"#15241F","muted":"#6B7A73","primary":"#2D6A4F","primary_ink":"#1B4332","accent":"#52B788","line":"#E7EBE8","dark":"#1B4332","niches":["eco","sustainability","zero-waste","green","water"]},
+    {"name":"coastal-ocean","bg":"#FAF9F5","surface":"#FFFFFF","soft":"#ECF6F6","text":"#1A2330","muted":"#6B7480","primary":"#0E4960","primary_ink":"#082F40","accent":"#3A8A8A","line":"#E6E8EA","dark":"#082F40","niches":["water","coastal","travel","ocean","marine"]},
+    {"name":"tech-blue","bg":"#F8FAFC","surface":"#FFFFFF","soft":"#F1F5F9","text":"#0F172A","muted":"#475569","primary":"#2563EB","primary_ink":"#0B3A8C","accent":"#0891B2","line":"#E2E8F0","dark":"#0B1220","niches":["tech","software","gadgets","how-to","apps"]},
+    {"name":"travel-sunset","bg":"#FDFCFA","surface":"#F6F3EC","soft":"#F2EAdf","text":"#1A1A17","muted":"#5B5B54","primary":"#244635","primary_ink":"#1F3A2F","accent":"#E07B4A","line":"#EBEBE6","dark":"#1F3A2F","niches":["travel","adventure","ethical","explore"]},
+    {"name":"urban-lime","bg":"#FFFFFF","surface":"#FBFAF6","soft":"#F0F4E6","text":"#1C2530","muted":"#3A4655","primary":"#1E6B52","primary_ink":"#0F3B2E","accent":"#A8C83C","line":"#EEF1F4","dark":"#13241C","niches":["urban","modern","city","design","culture"]},
+    {"name":"mono-cream","bg":"#FFFFFF","surface":"#F7F4ED","soft":"#F2EEE4","text":"#141414","muted":"#777777","primary":"#2E7D32","primary_ink":"#245C28","accent":"#245C28","line":"#E6E3DA","dark":"#1A1A1A","niches":["minimal","editorial","news","any"]}
+  ],
+  "fonts": [
+    {"name":"fraunces-inter","head":"Fraunces","head_stack":"\"Fraunces\", Georgia, serif","body":"Inter","google":"family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700"},
+    {"name":"cormorant-inter","head":"Cormorant Garamond","head_stack":"\"Cormorant Garamond\", Georgia, serif","body":"Inter","google":"family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700"},
+    {"name":"sourceserif-inter","head":"Source Serif 4","head_stack":"\"Source Serif 4\", Georgia, serif","body":"Inter","google":"family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700"},
+    {"name":"playfair-inter","head":"Playfair Display","head_stack":"\"Playfair Display\", Georgia, serif","body":"Inter","google":"family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700"},
+    {"name":"lora-inter","head":"Lora","head_stack":"\"Lora\", Georgia, serif","body":"Inter","google":"family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700"},
+    {"name":"newsreader-inter","head":"Newsreader","head_stack":"\"Newsreader\", Georgia, serif","body":"Inter","google":"family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Inter:wght@400;500;600;700"},
+    {"name":"librebaskerville-inter","head":"Libre Baskerville","head_stack":"\"Libre Baskerville\", Georgia, serif","body":"Inter","google":"family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700"},
+    {"name":"spectral-inter","head":"Spectral","head_stack":"\"Spectral\", Georgia, serif","body":"Inter","google":"family=Spectral:wght@500;600;700&family=Inter:wght@400;500;600;700"}
+  ],
+  "radii": {
+    "sharp": {"sm":"3px","md":"5px","lg":"8px"},
+    "soft":  {"sm":"8px","md":"12px","lg":"18px"},
+    "round": {"sm":"12px","md":"18px","lg":"28px"}
+  },
+  "density": {
+    "airy":     {"section":"clamp(4.5rem, 8vw, 7rem)", "gap":"2rem"},
+    "balanced": {"section":"clamp(3.5rem, 6vw, 5.5rem)", "gap":"1.6rem"},
+    "compact":  {"section":"clamp(3rem, 5vw, 4.5rem)", "gap":"1.3rem"}
+  },
+  "variants": {
+    "hero":       ["split", "centered", "image", "minimal", "side"],
+    "about":      ["left", "right", "stacked", "framed"],
+    "latest":     ["grid", "minimal"],
+    "category":   ["bento-a", "bento-b", "bento-c", "list"],
+    "newsletter": ["band", "split", "inline", "bordered"],
+    "footer":     ["dark", "minimal", "columns"]
+  },
+  "defaults": {
+    "palette":"ivory-botanical","font":"fraunces-inter","radius":"soft","density":"balanced",
+    "hero":"split","about":"left","latest":"grid","category":"bento-a","newsletter":"band","footer":"dark"
+  }
+}
