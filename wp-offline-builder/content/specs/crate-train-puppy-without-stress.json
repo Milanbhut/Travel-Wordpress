@@ -1,0 +1,27 @@
+{
+  "slug": "crate-train-puppy-without-stress",
+  "title": "How to Crate Train a Puppy Without Stress in 7 Days",
+  "archetype": "how-to",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "A gentle day-by-day plan that turns the crate into a safe den, written for owners who fear crating feels cruel.",
+  "internal_links": [
+    {
+      "slug": "crate-vs-playpen-new-puppy",
+      "title": "Crate vs Playpen: Which Is Better for a New Puppy?"
+    },
+    {
+      "slug": "dog-walking-mistakes-and-fixes",
+      "title": "7 Dog-Walking Mistakes That Make Walks Harder (and Fixes)"
+    },
+    {
+      "slug": "why-dog-wont-listen-outside",
+      "title": "Why Won't My Dog Listen Outside? Distraction Explained"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

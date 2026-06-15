@@ -1,0 +1,27 @@
+{
+  "slug": "read-pet-food-label-correctly",
+  "title": "How to Read a Pet Food Label Without Getting Fooled",
+  "archetype": "how-to",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "Demystifies ingredient lists and guaranteed analysis so owners can judge food quality past the marketing.",
+  "internal_links": [
+    {
+      "slug": "wet-vs-dry-dog-food",
+      "title": "Wet vs Dry Dog Food: Which Should You Feed?"
+    },
+    {
+      "slug": "how-much-to-feed-my-dog",
+      "title": "How Much Should I Feed My Dog? A Simple Portion Guide"
+    },
+    {
+      "slug": "vaccines-dog-cat-actually-need",
+      "title": "What Vaccines Does My Dog or Cat Actually Need?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

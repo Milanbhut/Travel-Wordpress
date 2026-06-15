@@ -1,0 +1,27 @@
+{
+  "slug": "eye-ear-problems-owners-miss",
+  "title": "6 Eye and Ear Problems Owners Often Miss in Pets",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Highlights overlooked discharge, odor, and squinting signs and the simple home checks that catch them sooner.",
+  "internal_links": [
+    {
+      "slug": "preventive-care-saved-vet-bill",
+      "title": "How Preventive Care Saved Us From a Big Vet Bill"
+    },
+    {
+      "slug": "vaccines-dog-cat-actually-need",
+      "title": "What Vaccines Does My Dog or Cat Actually Need?"
+    },
+    {
+      "slug": "slow-feeder-stop-fast-eating",
+      "title": "How to Use a Slow Feeder to Stop Fast Eating"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

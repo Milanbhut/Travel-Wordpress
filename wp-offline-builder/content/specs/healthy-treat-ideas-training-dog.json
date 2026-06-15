@@ -1,0 +1,27 @@
+{
+  "slug": "healthy-treat-ideas-training-dog",
+  "title": "8 Healthy Treat Ideas for Training Your Dog",
+  "archetype": "listicle",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "Low-calorie, high-value treat options that keep training rewarding without padding your dog's waistline.",
+  "internal_links": [
+    {
+      "slug": "transition-pet-to-new-food",
+      "title": "How to Safely Transition Your Pet to a New Food"
+    },
+    {
+      "slug": "balanced-diet-for-pets-explained",
+      "title": "What Does a Balanced Diet Actually Mean for Pets?"
+    },
+    {
+      "slug": "prepare-pet-calm-vet-visit",
+      "title": "How to Prepare Your Pet for a Calm Vet Visit"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

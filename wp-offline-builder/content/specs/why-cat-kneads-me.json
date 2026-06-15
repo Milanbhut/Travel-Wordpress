@@ -1,0 +1,27 @@
+{
+  "slug": "why-cat-kneads-me",
+  "title": "Why Does My Cat Knead Me? The Comfort Behind the Behavior",
+  "archetype": "explainer",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Explains the kittenhood roots of kneading and what it reveals about your cat's comfort and trust in you.",
+  "internal_links": [
+    {
+      "slug": "enrich-indoor-cat-day",
+      "title": "9 Easy Ways to Enrich an Indoor Cat's Day"
+    },
+    {
+      "slug": "stop-cat-scratching-furniture",
+      "title": "How to Stop Your Cat From Scratching the Furniture"
+    },
+    {
+      "slug": "trim-dog-nails-without-drama",
+      "title": "How to Trim Your Dog's Nails Without the Drama"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

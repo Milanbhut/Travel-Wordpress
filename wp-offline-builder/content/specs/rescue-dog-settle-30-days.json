@@ -1,0 +1,27 @@
+{
+  "slug": "rescue-dog-settle-30-days",
+  "title": "How We Helped Our Shy Rescue Dog Settle In 30 Days",
+  "archetype": "case-study",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "A realistic week-by-week story of decompressing an anxious rescue, useful for anyone adopting an under-socialized dog.",
+  "internal_links": [
+    {
+      "slug": "how-much-exercise-dog-needs-daily",
+      "title": "How Much Exercise Does My Dog Really Need Each Day?"
+    },
+    {
+      "slug": "essential-items-new-dog-owners",
+      "title": "12 Essential Items Every New Dog Owner Should Buy First"
+    },
+    {
+      "slug": "training-mistakes-confuse-dog-fixes",
+      "title": "7 Training Mistakes That Confuse Your Dog (and Fixes)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

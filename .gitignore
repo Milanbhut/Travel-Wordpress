@@ -8,6 +8,15 @@ __pycache__/
 wp-authority-builder/config/secrets.env
 wp-authority-builder/state/*.json
 wp-authority-builder/preview/
+wp-offline-builder/config/secrets.env
+wp-offline-builder/state/*.json
+wp-offline-builder/preview/
+wp-offline-builder/bin/wp-cli.phar
+
+# Per-build theme artifacts: the agents ship only the "overlaytop" master theme;
+# offline builds may drop per-slug theme copies here (growhaven, petcare, ...). Ignore them.
+wp-offline-builder/assets/master-theme/*
+!wp-offline-builder/assets/master-theme/overlaytop/
 
 # OS
 Thumbs.db

@@ -1,0 +1,17 @@
+{
+  "slug": "build-a-vertical-garden",
+  "title": "Building a Vertical Garden for a Tiny Outdoor Space",
+  "archetype": "how-to",
+  "category_title": "Seasonal Tasks & Garden Projects",
+  "category_slug": "seasons",
+  "author_name": "Arjun Patel",
+  "author_voice": "Practical and checklist-driven with dry humour; tests the method on his own plot first",
+  "angle": "A weekend project to grow up a wall when floor space is scarce.",
+  "internal_links": [
+    "understanding-frost-dates",
+    "weekend-garden-projects",
+    "fruit-tree-pruning-mistakes"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

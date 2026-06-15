@@ -1,0 +1,27 @@
+{
+  "slug": "grain-free-vs-grain-inclusive-food",
+  "title": "Grain-Free vs Grain-Inclusive Dog Food: What to Know",
+  "archetype": "comparison",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Cuts through hype to compare both diet styles fairly so owners can choose based on facts, not fads.",
+  "internal_links": [
+    {
+      "slug": "healthy-treat-ideas-training-dog",
+      "title": "8 Healthy Treat Ideas for Training Your Dog"
+    },
+    {
+      "slug": "transition-pet-to-new-food",
+      "title": "How to Safely Transition Your Pet to a New Food"
+    },
+    {
+      "slug": "senior-pet-care-tips-comfortable",
+      "title": "9 Senior Pet Care Tips for a Comfortable Old Age"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

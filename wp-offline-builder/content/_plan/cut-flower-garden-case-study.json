@@ -1,0 +1,17 @@
+{
+  "slug": "cut-flower-garden-case-study",
+  "title": "A Season Growing a Backyard Cut-Flower Garden",
+  "archetype": "case-study",
+  "category_title": "Flowers & Ornamental Plants",
+  "category_slug": "flowers",
+  "author_name": "Theo Bramley",
+  "author_voice": "Enthusiastic, design-minded plantsman; paints a picture of the finished planting and the route to it",
+  "angle": "One gardener's record of crops, vase life, and lessons from a cutting patch.",
+  "internal_links": [
+    "grow-flowers-in-containers",
+    "understanding-bloom-times",
+    "grow-herbs-indoors-winter"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "two-cats-living-in-peace",
+  "title": "How We Got Two Cats to Finally Live in Peace",
+  "archetype": "case-study",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "A real reintroduction story for households where cats fight, covering scent swapping and shared-space strategies.",
+  "internal_links": [
+    {
+      "slug": "why-cat-brings-toys-night",
+      "title": "Why Does My Cat Bring Me Toys at Night?"
+    },
+    {
+      "slug": "signs-your-cat-trusts-you",
+      "title": "10 Signs Your Cat Trusts and Loves You"
+    },
+    {
+      "slug": "calm-bath-time-routine-dog",
+      "title": "How We Turned Bath Time Into a Calm Routine for Our Dog"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

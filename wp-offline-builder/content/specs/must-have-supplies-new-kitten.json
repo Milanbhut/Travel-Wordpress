@@ -1,0 +1,27 @@
+{
+  "slug": "must-have-supplies-new-kitten",
+  "title": "8 Must-Have Supplies for a New Kitten",
+  "archetype": "listicle",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "A focused kitten starter kit covering the essentials that set up safe, smooth early weeks at home.",
+  "internal_links": [
+    {
+      "slug": "wet-vs-dry-cat-food",
+      "title": "Wet vs Dry Cat Food: Which Is Right for Your Cat?"
+    },
+    {
+      "slug": "stress-free-vet-trip-anxious-cats",
+      "title": "How to Create a Stress-Free Vet Trip for Anxious Cats"
+    },
+    {
+      "slug": "brush-pet-teeth-without-fight",
+      "title": "How to Brush Your Pet's Teeth Without a Fight"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "brush-pet-teeth-without-fight",
+  "title": "How to Brush Your Pet's Teeth Without a Fight",
+  "archetype": "how-to",
+  "category_slug": "grooming",
+  "category_title": "Grooming & Daily Care",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "A step-up routine using pet toothpaste that builds tolerance and protects dental health over time.",
+  "internal_links": [
+    {
+      "slug": "professional-groomer-vs-diy",
+      "title": "Professional Groomer vs DIY: When to Call a Pro"
+    },
+    {
+      "slug": "at-home-hygiene-habits-healthier-pet",
+      "title": "10 At-Home Hygiene Habits for a Healthier Pet"
+    },
+    {
+      "slug": "must-have-supplies-new-kitten",
+      "title": "8 Must-Have Supplies for a New Kitten"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

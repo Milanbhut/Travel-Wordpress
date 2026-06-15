@@ -1,0 +1,27 @@
+{
+  "slug": "calm-bath-time-routine-dog",
+  "title": "How We Turned Bath Time Into a Calm Routine for Our Dog",
+  "archetype": "case-study",
+  "category_slug": "grooming",
+  "category_title": "Grooming & Daily Care",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "A realistic story of desensitizing a bath-hating dog using treats and pacing for stress-free washes.",
+  "internal_links": [
+    {
+      "slug": "how-often-bathe-your-dog",
+      "title": "How Often Should You Bathe Your Dog, Really?"
+    },
+    {
+      "slug": "clean-dog-ears-safely-home",
+      "title": "How to Clean Your Dog's Ears Safely at Home"
+    },
+    {
+      "slug": "two-cats-living-in-peace",
+      "title": "How We Got Two Cats to Finally Live in Peace"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

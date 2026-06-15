@@ -1,0 +1,53 @@
+{
+  "domain": "localhost/petcare",
+  "niche": "Pets / Pet Care",
+  "approved_date": "2026-06-13",
+  "brand": {
+    "name": "PetNestIQ",
+    "wordmark": "PetNestIQ",
+    "tagline": "Smart, vet-informed care for the pets who share your life."
+  },
+  "contact": {
+    "email": "maradmusalo1122@gmail.com",
+    "country_of_operation": null,
+    "country_placeholder": "[INSERT ACTUAL COUNTRY OF OPERATION]"
+  },
+  "design": {
+    "fonts": { "heading": "Poppins", "body": "Inter" },
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap",
+    "palette_name": "Fern & Clay",
+    "tokens": {
+      "--teal-50": "#eef6f0",
+      "--teal-100": "#d7ebdd",
+      "--teal-300": "#8fc7a3",
+      "--teal-500": "#3f976a",
+      "--teal-700": "#266b48",
+      "--teal-900": "#16432e",
+      "--accent": "#ef7a5a",
+      "--accent-dark": "#d9613f",
+      "--cream": "#fbf7f1",
+      "--paper": "#ffffff",
+      "--ink-900": "#1c241f",
+      "--ink-700": "#38433d",
+      "--ink-500": "#5c655f",
+      "--ink-300": "#98a09b",
+      "--line": "#e7e0d6",
+      "--line-soft": "#f0eae0"
+    }
+  },
+  "categories": [
+    { "label": "Dogs", "title": "Dog Care & Companionship", "slug": "dogs", "description": "Everyday dog care, breeds, health, and the small habits that keep dogs happy and well." },
+    { "label": "Cats", "title": "Cat Care & Behavior", "slug": "cats", "description": "Feline health, enrichment, litter and multi-cat life - care that works on a cat's terms." },
+    { "label": "Health", "title": "Pet Health & Wellness", "slug": "health", "description": "Preventive care, common symptoms, vet visits, and first aid - vet-informed and plain-spoken." },
+    { "label": "Nutrition", "title": "Nutrition & Feeding", "slug": "nutrition", "description": "What to feed, how much, and why - diets, treats, weight, and reading a label honestly." },
+    { "label": "Training", "title": "Training & Behavior", "slug": "training", "description": "Positive-reinforcement training and behavior fixes that build trust, not fear." },
+    { "label": "Grooming", "title": "Grooming & Daily Care", "slug": "grooming", "description": "Coat, nails, teeth and hygiene - confident at-home routines and when to call a pro." }
+  ],
+  "authors": [
+    { "name": "Dr. Lena Hartwell", "slug": "lena-hartwell", "role": "Founder & Veterinarian", "beats": ["health", "nutrition"], "expertise": "Small-animal veterinary medicine, preventive care, clinical nutrition", "voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners", "articles": 22, "photo_query": "woman veterinarian portrait white coat smiling" },
+    { "name": "Marcus Bell", "slug": "marcus-bell", "role": "Senior Writer & Certified Dog Trainer", "beats": ["dogs", "training"], "expertise": "Positive-reinforcement dog training, behavior, breed traits", "voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor", "articles": 21, "photo_query": "man dog trainer portrait outdoors smiling" },
+    { "name": "Sofia Reyes", "slug": "sofia-reyes", "role": "Staff Writer · Feline Specialist", "beats": ["cats", "training"], "expertise": "Cat behavior, enrichment, multi-cat households", "voice": "Curious and gentle; writes from the cat's point of view, observational and kind", "articles": 18, "photo_query": "latina woman portrait holding cat" },
+    { "name": "Priya Anand", "slug": "priya-anand", "role": "Contributing Editor", "beats": ["nutrition", "grooming"], "expertise": "Pet nutrition, at-home grooming, daily-care routines", "voice": "Organized, practical and calm - checklist-driven advice you can actually follow", "articles": 16, "photo_query": "indian woman professional portrait smiling" },
+    { "name": "Tom Okafor", "slug": "tom-okafor", "role": "Contributor", "beats": ["grooming", "dogs"], "expertise": "Grooming, pet gear, new-pet logistics", "voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it", "articles": 13, "photo_query": "black man casual portrait glasses smiling" }
+  ]
+}

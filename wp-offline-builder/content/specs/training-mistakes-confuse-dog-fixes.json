@@ -1,0 +1,27 @@
+{
+  "slug": "training-mistakes-confuse-dog-fixes",
+  "title": "7 Training Mistakes That Confuse Your Dog (and Fixes)",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Spotlights inconsistent cues and bad timing that stall progress, with corrections that rebuild clarity fast.",
+  "internal_links": [
+    {
+      "slug": "fixed-rescue-dog-leash-pulling",
+      "title": "How We Fixed Our Rescue Dog's Leash Pulling in 3 Weeks"
+    },
+    {
+      "slug": "house-train-puppy-reliable-way",
+      "title": "How to House Train a Puppy the Reliable Way"
+    },
+    {
+      "slug": "rescue-dog-settle-30-days",
+      "title": "How We Helped Our Shy Rescue Dog Settle In 30 Days"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

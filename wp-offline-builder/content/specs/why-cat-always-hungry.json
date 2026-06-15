@@ -1,0 +1,27 @@
+{
+  "slug": "why-cat-always-hungry",
+  "title": "Why Is My Cat Always Hungry? Appetite Explained",
+  "archetype": "explainer",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "Explains behavioral and medical reasons for constant begging and how to set healthy feeding boundaries.",
+  "internal_links": [
+    {
+      "slug": "feeding-mistakes-pets-gain-weight",
+      "title": "7 Feeding Mistakes That Make Pets Gain Weight (and Fixes)"
+    },
+    {
+      "slug": "overweight-dog-lose-weight-safely",
+      "title": "How We Helped Our Overweight Dog Lose Weight Safely"
+    },
+    {
+      "slug": "pet-dental-care-mistakes-fixes",
+      "title": "7 Pet Dental Care Mistakes That Harm Teeth (and Fixes)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,1732 @@
+{
+  "domain": "localhost/growhaven",
+  "niche": "Plantation & Home Gardening",
+  "total": 90,
+  "author_totals": {
+    "elena-marsh": 22,
+    "arjun-patel": 16,
+    "theo-bramley": 20,
+    "nina-whitlock": 14,
+    "rosa-delgado": 18
+  },
+  "archetype_totals": {
+    "how-to": 35,
+    "listicle": 19,
+    "comparison": 6,
+    "mistakes-and-fixes": 11,
+    "explainer": 13,
+    "case-study": 6
+  },
+  "articles": [
+    {
+      "slug": "grow-tomatoes-in-pots",
+      "title": "Growing Tomatoes in Pots on a Small Balcony",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "ripe red tomatoes growing in a balcony pot",
+      "angle": "Container-specific tomato growing for renters and balcony gardeners with limited space.",
+      "internal_links": [
+        "start-vegetable-seeds-indoors",
+        "build-a-raised-garden-bed",
+        "make-compost-fast"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "start-vegetable-seeds-indoors",
+      "title": "Starting Vegetable Seeds Indoors for an Early Harvest",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "seedling trays under a grow light on a windowsill",
+      "angle": "A step-by-step indoor seed-starting routine timed to give weeks of head start.",
+      "internal_links": [
+        "build-a-raised-garden-bed",
+        "easiest-vegetables-for-beginners",
+        "test-your-garden-soil"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "build-a-raised-garden-bed",
+      "title": "Building Your First Raised Garden Bed from Scratch",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "wooden raised garden bed filled with soil in a backyard",
+      "angle": "A weekend build covering materials, dimensions, and filling the bed correctly.",
+      "internal_links": [
+        "easiest-vegetables-for-beginners",
+        "raised-bed-vs-in-ground-vegetables",
+        "signs-of-unhealthy-soil"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "easiest-vegetables-for-beginners",
+      "title": "Easiest Vegetables to Grow When You're Just Starting Out",
+      "archetype": "listicle",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "basket of freshly harvested mixed vegetables",
+      "angle": "A ranked beginner list focused on forgiving crops with high success rates.",
+      "internal_links": [
+        "raised-bed-vs-in-ground-vegetables",
+        "why-tomato-leaves-curl",
+        "compost-vs-fertilizer"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "raised-bed-vs-in-ground-vegetables",
+      "title": "Raised Beds or In-Ground Rows: Which Suits Your Garden",
+      "archetype": "comparison",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "raised garden bed beside an in-ground vegetable row",
+      "angle": "A side-by-side of cost, drainage, and effort to help pick a growing method.",
+      "internal_links": [
+        "why-tomato-leaves-curl",
+        "grow-lettuce-year-round",
+        "mulching-benefits-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "why-tomato-leaves-curl",
+      "title": "Why Your Tomato Leaves Are Curling and How to Fix It",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "close-up of curling tomato plant leaves",
+      "angle": "Diagnosing the common causes of leaf curl and the simple fixes for each.",
+      "internal_links": [
+        "grow-lettuce-year-round",
+        "companion-planting-vegetables",
+        "improve-clay-soil"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-lettuce-year-round",
+      "title": "Keeping Lettuce on the Table Through Every Season",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "rows of green and red leaf lettuce in a garden",
+      "angle": "Succession sowing and variety choices for a continuous lettuce supply.",
+      "internal_links": [
+        "companion-planting-vegetables",
+        "grow-potatoes-in-bags",
+        "common-watering-mistakes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "companion-planting-vegetables",
+      "title": "Companion Planting Pairs That Actually Help Your Crops",
+      "archetype": "explainer",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "marigolds growing between vegetable plants",
+      "angle": "Which plant pairings genuinely improve yield and pest control, and why.",
+      "internal_links": [
+        "grow-potatoes-in-bags",
+        "kitchen-garden-layout-ideas",
+        "best-organic-soil-amendments"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-potatoes-in-bags",
+      "title": "Growing a Crop of Potatoes in Grow Bags",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "potato plants growing in fabric grow bags",
+      "angle": "A no-dig potato method using bags for patios and tiny gardens.",
+      "internal_links": [
+        "kitchen-garden-layout-ideas",
+        "common-vegetable-garden-mistakes",
+        "start-a-compost-bin"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "kitchen-garden-layout-ideas",
+      "title": "Kitchen Garden Layout Ideas for Small Backyards",
+      "archetype": "listicle",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "neat backyard kitchen garden with vegetable beds",
+      "angle": "Practical layout plans that maximize yield in a compact kitchen garden.",
+      "internal_links": [
+        "common-vegetable-garden-mistakes",
+        "grow-peppers-from-seed",
+        "identify-common-garden-pests"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "common-vegetable-garden-mistakes",
+      "title": "Vegetable Garden Mistakes That Quietly Ruin Your Harvest",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "wilting vegetable plant in dry garden soil",
+      "angle": "Overlooked errors in spacing, watering, and timing, with corrections.",
+      "internal_links": [
+        "grow-peppers-from-seed",
+        "first-vegetable-garden-case-study",
+        "natural-pest-control-methods"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-peppers-from-seed",
+      "title": "Growing Sweet and Hot Peppers from Seed to Harvest",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "colorful bell peppers growing on a plant",
+      "angle": "The full pepper journey, emphasizing warmth, patience, and ripening.",
+      "internal_links": [
+        "first-vegetable-garden-case-study",
+        "succession-planting-explained",
+        "understanding-soil-ph"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "first-vegetable-garden-case-study",
+      "title": "What a Beginner's First Vegetable Garden Really Yielded",
+      "archetype": "case-study",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "person harvesting vegetables from a home garden",
+      "angle": "A season-long account of one beginner's plot, crops, wins, and losses.",
+      "internal_links": [
+        "succession-planting-explained",
+        "grow-herbs-on-windowsill",
+        "diagnose-plant-diseases"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "succession-planting-explained",
+      "title": "Succession Planting: How to Harvest Continuously All Summer",
+      "archetype": "explainer",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "staggered rows of young and mature vegetable plants",
+      "angle": "The concept and timing behind staggered sowings for nonstop harvests.",
+      "internal_links": [
+        "grow-herbs-on-windowsill",
+        "grow-tomatoes-in-pots",
+        "feed-plants-naturally"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-herbs-on-windowsill",
+      "title": "Growing a Windowsill Herb Garden That Keeps Producing",
+      "archetype": "how-to",
+      "category_slug": "vegetables",
+      "category_title": "Vegetable & Kitchen Gardening",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "potted basil and parsley herbs on a kitchen windowsill",
+      "angle": "Indoor culinary herb growing focused on steady kitchen harvests.",
+      "internal_links": [
+        "grow-tomatoes-in-pots",
+        "start-vegetable-seeds-indoors",
+        "revive-dead-garden-soil-case-study"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "easy-annual-flowers-for-beginners",
+      "title": "Easy Annual Flowers Anyone Can Grow from Seed",
+      "archetype": "listicle",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "colorful zinnias and cosmos in a flower bed",
+      "angle": "Beginner-proof annuals that bloom fast and reliably from seed.",
+      "internal_links": [
+        "design-a-flower-border",
+        "plant-spring-flowering-bulbs",
+        "best-low-light-houseplants"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "design-a-flower-border",
+      "title": "Designing a Flower Border with Color All Season",
+      "archetype": "how-to",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "layered perennial flower border in full bloom",
+      "angle": "Layering height, color, and bloom times for a border that never goes bare.",
+      "internal_links": [
+        "plant-spring-flowering-bulbs",
+        "annuals-vs-perennials",
+        "propagate-pothos-in-water"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "plant-spring-flowering-bulbs",
+      "title": "Planting Spring Bulbs in Autumn for a Bright Garden",
+      "archetype": "how-to",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "hands planting tulip bulbs in garden soil",
+      "angle": "When and how deep to plant bulbs in fall for a spring display.",
+      "internal_links": [
+        "annuals-vs-perennials",
+        "best-flowers-for-pollinators",
+        "why-houseplant-leaves-turn-yellow"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "annuals-vs-perennials",
+      "title": "Annuals or Perennials: Choosing Flowers That Fit Your Garden",
+      "archetype": "comparison",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "mixed bed of annual and perennial flowers",
+      "angle": "Comparing cost, effort, and longevity to plan smarter flower beds.",
+      "internal_links": [
+        "best-flowers-for-pollinators",
+        "why-roses-arent-blooming",
+        "care-for-a-monstera"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-flowers-for-pollinators",
+      "title": "Flowers That Bring Bees and Butterflies to Your Garden",
+      "archetype": "listicle",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "bee on a purple coneflower bloom",
+      "angle": "A curated list of nectar-rich blooms that draw pollinators all season.",
+      "internal_links": [
+        "why-roses-arent-blooming",
+        "grow-sunflowers-tall",
+        "best-houseplants-for-beginners"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "why-roses-arent-blooming",
+      "title": "Why Your Roses Aren't Blooming and What to Change",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "rose bush with few blooms and many leaves",
+      "angle": "Common reasons roses stay leafy without flowers, and the fixes.",
+      "internal_links": [
+        "grow-sunflowers-tall",
+        "deadheading-flowers-explained",
+        "how-often-to-water-houseplants"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-sunflowers-tall",
+      "title": "Growing Towering Sunflowers Kids and Adults Love",
+      "archetype": "how-to",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "tall sunflowers against a blue sky",
+      "angle": "Variety, spacing, and support tips for the tallest, sturdiest sunflowers.",
+      "internal_links": [
+        "deadheading-flowers-explained",
+        "cottage-garden-flower-ideas",
+        "terracotta-vs-plastic-pots"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "deadheading-flowers-explained",
+      "title": "Deadheading: The Simple Habit That Keeps Flowers Coming",
+      "archetype": "explainer",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "hand snipping a spent flower bloom with scissors",
+      "angle": "What deadheading does and which flowers reward it with more blooms.",
+      "internal_links": [
+        "cottage-garden-flower-ideas",
+        "grow-dahlias-from-tubers",
+        "repot-a-rootbound-houseplant"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "cottage-garden-flower-ideas",
+      "title": "Cottage Garden Flowers for a Soft, Romantic Look",
+      "archetype": "listicle",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "informal cottage garden with foxgloves and roses",
+      "angle": "Classic cottage blooms and how to combine them for that relaxed style.",
+      "internal_links": [
+        "grow-dahlias-from-tubers",
+        "flower-bed-design-mistakes",
+        "style-houseplants-in-living-room"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-dahlias-from-tubers",
+      "title": "Growing Showstopping Dahlias from Tubers",
+      "archetype": "how-to",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "large pink dahlia flower in full bloom",
+      "angle": "Planting, staking, and feeding tubers for big late-summer blooms.",
+      "internal_links": [
+        "flower-bed-design-mistakes",
+        "shade-loving-flowering-plants",
+        "fix-overwatered-houseplant"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "flower-bed-design-mistakes",
+      "title": "Flower Bed Mistakes That Leave Gaps and Clashes",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "sparse uneven flower bed with bare patches",
+      "angle": "Spacing, color, and bloom-timing errors that spoil beds, with fixes.",
+      "internal_links": [
+        "shade-loving-flowering-plants",
+        "cut-flower-garden-case-study",
+        "humidity-loving-indoor-plants"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "shade-loving-flowering-plants",
+      "title": "Flowering Plants That Thrive in a Shady Corner",
+      "archetype": "listicle",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "impatiens and astilbe flowering in a shaded garden",
+      "angle": "Reliable bloomers for spots that get little direct sun.",
+      "internal_links": [
+        "cut-flower-garden-case-study",
+        "grow-flowers-in-containers",
+        "understanding-indoor-plant-light"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "cut-flower-garden-case-study",
+      "title": "A Season Growing a Backyard Cut-Flower Garden",
+      "archetype": "case-study",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "bucket of freshly cut garden flowers",
+      "angle": "One gardener's record of crops, vase life, and lessons from a cutting patch.",
+      "internal_links": [
+        "grow-flowers-in-containers",
+        "understanding-bloom-times",
+        "grow-herbs-indoors-winter"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-flowers-in-containers",
+      "title": "Filling Containers and Hanging Baskets with Blooms",
+      "archetype": "how-to",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "hanging basket overflowing with petunias",
+      "angle": "Soil, feeding, and plant combos for nonstop container flowers.",
+      "internal_links": [
+        "understanding-bloom-times",
+        "easy-annual-flowers-for-beginners",
+        "houseplant-collection-case-study"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "understanding-bloom-times",
+      "title": "Understanding Bloom Times to Avoid an Empty Garden",
+      "archetype": "explainer",
+      "category_slug": "flowers",
+      "category_title": "Flowers & Ornamental Plants",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "garden border with flowers at different stages of bloom",
+      "angle": "How early, mid, and late bloomers stack up for continuous color.",
+      "internal_links": [
+        "easy-annual-flowers-for-beginners",
+        "design-a-flower-border",
+        "propagate-succulents-from-leaves"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-low-light-houseplants",
+      "title": "Low-Light Houseplants That Survive Dim Rooms",
+      "archetype": "listicle",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "snake plant and pothos in a dimly lit room",
+      "angle": "Genuinely shade-tolerant indoor plants for north-facing homes.",
+      "internal_links": [
+        "propagate-pothos-in-water",
+        "why-houseplant-leaves-turn-yellow",
+        "easy-annual-flowers-for-beginners"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "propagate-pothos-in-water",
+      "title": "Propagating Pothos in Water from a Single Cutting",
+      "archetype": "how-to",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "pothos cuttings rooting in a glass of water",
+      "angle": "A foolproof water-propagation method for free new plants.",
+      "internal_links": [
+        "why-houseplant-leaves-turn-yellow",
+        "care-for-a-monstera",
+        "design-a-flower-border"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "why-houseplant-leaves-turn-yellow",
+      "title": "Why Houseplant Leaves Turn Yellow and How to Stop It",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "yellowing leaf on an indoor potted plant",
+      "angle": "Sorting watering, light, and nutrient causes of yellowing, with fixes.",
+      "internal_links": [
+        "care-for-a-monstera",
+        "best-houseplants-for-beginners",
+        "plant-spring-flowering-bulbs"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "care-for-a-monstera",
+      "title": "Caring for a Monstera So It Splits and Climbs",
+      "archetype": "how-to",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "monstera houseplant with split leaves near a window",
+      "angle": "Light, support, and humidity tips to get those signature fenestrations.",
+      "internal_links": [
+        "best-houseplants-for-beginners",
+        "how-often-to-water-houseplants",
+        "annuals-vs-perennials"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-houseplants-for-beginners",
+      "title": "Nearly Unkillable Houseplants for First-Time Owners",
+      "archetype": "listicle",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "collection of easy houseplants on a shelf",
+      "angle": "Forgiving indoor plants that tolerate neglect and irregular watering.",
+      "internal_links": [
+        "how-often-to-water-houseplants",
+        "terracotta-vs-plastic-pots",
+        "best-flowers-for-pollinators"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "how-often-to-water-houseplants",
+      "title": "How Often Should You Really Water Houseplants",
+      "archetype": "explainer",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "person checking soil moisture of a potted plant",
+      "angle": "Why schedules fail and how to water by checking the plant, not the calendar.",
+      "internal_links": [
+        "terracotta-vs-plastic-pots",
+        "repot-a-rootbound-houseplant",
+        "why-roses-arent-blooming"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "terracotta-vs-plastic-pots",
+      "title": "Terracotta or Plastic Pots: Which Your Plants Prefer",
+      "archetype": "comparison",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "terracotta and plastic plant pots side by side",
+      "angle": "Comparing drainage, weight, and watering needs for indoor pots.",
+      "internal_links": [
+        "repot-a-rootbound-houseplant",
+        "style-houseplants-in-living-room",
+        "grow-sunflowers-tall"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "repot-a-rootbound-houseplant",
+      "title": "Repotting a Rootbound Houseplant Without Shocking It",
+      "archetype": "how-to",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "rootbound plant being repotted into a larger pot",
+      "angle": "Knowing when and how to size up a pot for healthier roots.",
+      "internal_links": [
+        "style-houseplants-in-living-room",
+        "fix-overwatered-houseplant",
+        "deadheading-flowers-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "style-houseplants-in-living-room",
+      "title": "Styling Houseplants to Bring a Living Room to Life",
+      "archetype": "listicle",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "styled living room corner with several houseplants",
+      "angle": "Grouping, height, and placement ideas for a curated indoor jungle.",
+      "internal_links": [
+        "fix-overwatered-houseplant",
+        "humidity-loving-indoor-plants",
+        "cottage-garden-flower-ideas"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "fix-overwatered-houseplant",
+      "title": "Rescuing an Overwatered Houseplant Before It's Too Late",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "drooping overwatered potted plant with soggy soil",
+      "angle": "Spotting overwatering early and the steps to revive a soggy plant.",
+      "internal_links": [
+        "humidity-loving-indoor-plants",
+        "understanding-indoor-plant-light",
+        "grow-dahlias-from-tubers"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "humidity-loving-indoor-plants",
+      "title": "Indoor Plants That Love a Humid Bathroom",
+      "archetype": "listicle",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "ferns and calathea in a bright bathroom",
+      "angle": "Moisture-loving plants that thrive in steamy, humid rooms.",
+      "internal_links": [
+        "understanding-indoor-plant-light",
+        "grow-herbs-indoors-winter",
+        "flower-bed-design-mistakes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "understanding-indoor-plant-light",
+      "title": "Reading the Light in Your Home to Place Plants Right",
+      "archetype": "explainer",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "sunlight falling across houseplants by a window",
+      "angle": "Decoding bright, indirect, and low light so plants land in the right spot.",
+      "internal_links": [
+        "grow-herbs-indoors-winter",
+        "houseplant-collection-case-study",
+        "shade-loving-flowering-plants"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-herbs-indoors-winter",
+      "title": "Keeping a Herb Garden Alive Indoors Through Winter",
+      "archetype": "how-to",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "indoor herb pots under a window in winter",
+      "angle": "Light, warmth, and harvest tips for fresh herbs in the cold months.",
+      "internal_links": [
+        "houseplant-collection-case-study",
+        "propagate-succulents-from-leaves",
+        "cut-flower-garden-case-study"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "houseplant-collection-case-study",
+      "title": "How One Apartment Grew a Thriving Indoor Jungle",
+      "archetype": "case-study",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "nina-whitlock",
+      "author_name": "Nina Whitlock",
+      "image_query": "apartment filled with many thriving houseplants",
+      "angle": "A real account of building a large collection in a small rented space.",
+      "internal_links": [
+        "propagate-succulents-from-leaves",
+        "best-low-light-houseplants",
+        "grow-flowers-in-containers"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "propagate-succulents-from-leaves",
+      "title": "Propagating Succulents from a Single Fallen Leaf",
+      "archetype": "how-to",
+      "category_slug": "houseplants",
+      "category_title": "Houseplants & Indoor Greenery",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "succulent leaves sprouting tiny new roots",
+      "angle": "Turning dropped leaves into whole new succulent plants step by step.",
+      "internal_links": [
+        "best-low-light-houseplants",
+        "propagate-pothos-in-water",
+        "understanding-bloom-times"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "make-compost-fast",
+      "title": "Making Rich Compost Faster Than You Think",
+      "archetype": "how-to",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "hands holding dark finished compost",
+      "angle": "A hot-composting routine that turns scraps into compost in weeks.",
+      "internal_links": [
+        "test-your-garden-soil",
+        "signs-of-unhealthy-soil",
+        "grow-tomatoes-in-pots"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "test-your-garden-soil",
+      "title": "Testing Your Garden Soil Before You Plant Anything",
+      "archetype": "how-to",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "soil test kit with sample tubes in a garden",
+      "angle": "Simple at-home tests for pH and texture to guide planting choices.",
+      "internal_links": [
+        "signs-of-unhealthy-soil",
+        "compost-vs-fertilizer",
+        "start-vegetable-seeds-indoors"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "signs-of-unhealthy-soil",
+      "title": "Signs Your Soil Is Tired and What to Do About It",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "dry cracked compacted garden soil",
+      "angle": "Reading the clues of depleted soil and the steps to rebuild it.",
+      "internal_links": [
+        "compost-vs-fertilizer",
+        "mulching-benefits-explained",
+        "build-a-raised-garden-bed"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "compost-vs-fertilizer",
+      "title": "Compost or Fertilizer: When to Reach for Each",
+      "archetype": "comparison",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "pile of compost beside a bag of fertilizer",
+      "angle": "How the two differ and the right job for each in feeding plants.",
+      "internal_links": [
+        "mulching-benefits-explained",
+        "improve-clay-soil",
+        "easiest-vegetables-for-beginners"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "mulching-benefits-explained",
+      "title": "Why Mulch Is the Easiest Win in Any Garden",
+      "archetype": "explainer",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "wood chip mulch spread around garden plants",
+      "angle": "What mulch does for moisture, weeds, and soil, and how to apply it.",
+      "internal_links": [
+        "improve-clay-soil",
+        "common-watering-mistakes",
+        "raised-bed-vs-in-ground-vegetables"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "improve-clay-soil",
+      "title": "Turning Heavy Clay Soil into Workable Ground",
+      "archetype": "how-to",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "gardener digging organic matter into clay soil",
+      "angle": "Practical amendments and timing to loosen stubborn clay over time.",
+      "internal_links": [
+        "common-watering-mistakes",
+        "best-organic-soil-amendments",
+        "why-tomato-leaves-curl"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "common-watering-mistakes",
+      "title": "Watering Mistakes That Stress Plants Without You Noticing",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "watering can pouring onto wilted garden plant",
+      "angle": "Frequency, timing, and depth errors that harm roots, with corrections.",
+      "internal_links": [
+        "best-organic-soil-amendments",
+        "start-a-compost-bin",
+        "grow-lettuce-year-round"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-organic-soil-amendments",
+      "title": "Organic Amendments That Genuinely Improve Your Soil",
+      "archetype": "listicle",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "compost worm castings and leaf mould in piles",
+      "angle": "A practical list of amendments and what each one fixes.",
+      "internal_links": [
+        "start-a-compost-bin",
+        "identify-common-garden-pests",
+        "companion-planting-vegetables"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "start-a-compost-bin",
+      "title": "Starting a Compost Bin in a Small Backyard",
+      "archetype": "how-to",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "compost bin in the corner of a backyard",
+      "angle": "Choosing a bin, balancing greens and browns, and avoiding smells.",
+      "internal_links": [
+        "identify-common-garden-pests",
+        "natural-pest-control-methods",
+        "grow-potatoes-in-bags"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "identify-common-garden-pests",
+      "title": "Identifying Common Garden Pests Before They Spread",
+      "archetype": "listicle",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "aphids clustered on a green plant stem",
+      "angle": "A field guide to the usual culprits and early-warning damage signs.",
+      "internal_links": [
+        "natural-pest-control-methods",
+        "understanding-soil-ph",
+        "kitchen-garden-layout-ideas"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "natural-pest-control-methods",
+      "title": "Natural Ways to Keep Pests Off Your Plants",
+      "archetype": "how-to",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "ladybug on a leaf eating aphids",
+      "angle": "Non-chemical tactics from barriers to beneficial insects.",
+      "internal_links": [
+        "understanding-soil-ph",
+        "diagnose-plant-diseases",
+        "common-vegetable-garden-mistakes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "understanding-soil-ph",
+      "title": "Soil pH Made Simple: Why It Changes What Grows",
+      "archetype": "explainer",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "pH test strip held against garden soil",
+      "angle": "How acidity and alkalinity shape nutrient uptake and plant choice.",
+      "internal_links": [
+        "diagnose-plant-diseases",
+        "feed-plants-naturally",
+        "grow-peppers-from-seed"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "diagnose-plant-diseases",
+      "title": "Diagnosing Common Plant Diseases from the Leaves",
+      "archetype": "explainer",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "plant leaf showing powdery mildew spots",
+      "angle": "Reading spots, wilts, and molds to identify and treat plant disease.",
+      "internal_links": [
+        "feed-plants-naturally",
+        "revive-dead-garden-soil-case-study",
+        "first-vegetable-garden-case-study"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "feed-plants-naturally",
+      "title": "Feeding Your Plants with Homemade Natural Fertilizers",
+      "archetype": "how-to",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "liquid plant feed being poured at a plant base",
+      "angle": "Making and using free, natural feeds from kitchen and garden waste.",
+      "internal_links": [
+        "revive-dead-garden-soil-case-study",
+        "make-compost-fast",
+        "succession-planting-explained"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "revive-dead-garden-soil-case-study",
+      "title": "Bringing a Lifeless Garden Bed Back to Health",
+      "archetype": "case-study",
+      "category_slug": "soil",
+      "category_title": "Soil, Compost & Plant Care",
+      "author_slug": "elena-marsh",
+      "author_name": "Elena Marsh",
+      "image_query": "gardener amending poor soil in a raised bed",
+      "angle": "One year of rebuilding a barren bed with compost, cover crops, and mulch.",
+      "internal_links": [
+        "make-compost-fast",
+        "test-your-garden-soil",
+        "grow-herbs-on-windowsill"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "plant-a-fruit-tree",
+      "title": "Planting a Fruit Tree the Right Way for Years of Fruit",
+      "archetype": "how-to",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "person planting a young fruit tree in a garden",
+      "angle": "Site, hole prep, and staking for a tree that establishes strongly.",
+      "internal_links": [
+        "prune-apple-trees-winter",
+        "best-fruit-trees-for-small-gardens",
+        "spring-garden-checklist"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "prune-apple-trees-winter",
+      "title": "Pruning Apple Trees in Winter for a Better Crop",
+      "archetype": "how-to",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "person pruning a bare apple tree in winter",
+      "angle": "Where and when to cut dormant apple trees for shape and yield.",
+      "internal_links": [
+        "best-fruit-trees-for-small-gardens",
+        "why-fruit-tree-not-fruiting",
+        "prepare-garden-for-winter"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-fruit-trees-for-small-gardens",
+      "title": "Fruit Trees That Fit Even the Smallest Garden",
+      "archetype": "listicle",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "dwarf fruit tree growing in a small garden",
+      "angle": "Dwarf and compact varieties for tight spaces and patios.",
+      "internal_links": [
+        "why-fruit-tree-not-fruiting",
+        "grow-fruit-trees-in-pots",
+        "what-to-plant-in-autumn"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "why-fruit-tree-not-fruiting",
+      "title": "Why Your Fruit Tree Isn't Producing and How to Fix It",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "fruit tree with blossoms but little fruit",
+      "angle": "Pollination, pruning, and age issues behind a barren tree, with fixes.",
+      "internal_links": [
+        "grow-fruit-trees-in-pots",
+        "bare-root-vs-potted-trees",
+        "build-a-cold-frame"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "grow-fruit-trees-in-pots",
+      "title": "Growing Fruit Trees in Pots on a Patio",
+      "archetype": "how-to",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "potted lemon tree on a sunny patio",
+      "angle": "Container choice, feeding, and overwintering for patio fruit trees.",
+      "internal_links": [
+        "bare-root-vs-potted-trees",
+        "best-shrubs-for-privacy",
+        "summer-garden-watering-guide"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "bare-root-vs-potted-trees",
+      "title": "Bare-Root or Potted: The Smarter Way to Buy Trees",
+      "archetype": "comparison",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "bare root tree and potted tree side by side",
+      "angle": "Cost, timing, and establishment differences when buying young trees.",
+      "internal_links": [
+        "best-shrubs-for-privacy",
+        "plant-berry-bushes",
+        "essential-garden-tools"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-shrubs-for-privacy",
+      "title": "Shrubs That Make a Living Privacy Screen",
+      "archetype": "listicle",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "row of dense evergreen privacy shrubs",
+      "angle": "Fast, dense shrubs to screen a boundary without a fence.",
+      "internal_links": [
+        "plant-berry-bushes",
+        "understanding-tree-pollination",
+        "plan-a-garden-from-scratch"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "plant-berry-bushes",
+      "title": "Planting Berry Bushes for Summers of Free Fruit",
+      "archetype": "how-to",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "theo-bramley",
+      "author_name": "Theo Bramley",
+      "image_query": "ripe blueberries on a garden bush",
+      "angle": "Choosing, siting, and planting blueberries, raspberries, and currants.",
+      "internal_links": [
+        "understanding-tree-pollination",
+        "fruit-tree-pruning-mistakes",
+        "raised-bed-vs-greenhouse"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "understanding-tree-pollination",
+      "title": "Tree Pollination: Why Some Fruit Trees Need a Partner",
+      "archetype": "explainer",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "bee pollinating fruit tree blossom",
+      "angle": "Self-fertile versus partner-needing trees and how to plan for fruit.",
+      "internal_links": [
+        "fruit-tree-pruning-mistakes",
+        "prune-flowering-shrubs",
+        "winter-gardening-mistakes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "fruit-tree-pruning-mistakes",
+      "title": "Pruning Mistakes That Cost You Next Year's Fruit",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "over-pruned fruit tree with bare stubs",
+      "angle": "Common over- and under-pruning errors and how to correct course.",
+      "internal_links": [
+        "prune-flowering-shrubs",
+        "backyard-orchard-case-study",
+        "build-a-vertical-garden"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "prune-flowering-shrubs",
+      "title": "Pruning Flowering Shrubs at the Right Time",
+      "archetype": "how-to",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "person pruning a flowering hydrangea shrub",
+      "angle": "Timing cuts to bloom cycles so you never lose a season of flowers.",
+      "internal_links": [
+        "backyard-orchard-case-study",
+        "protect-fruit-trees-from-pests",
+        "understanding-frost-dates"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "backyard-orchard-case-study",
+      "title": "Turning a Small Backyard into a Productive Mini Orchard",
+      "archetype": "case-study",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "small backyard orchard with several fruit trees",
+      "angle": "A multi-year account of planting and managing a tight home orchard.",
+      "internal_links": [
+        "protect-fruit-trees-from-pests",
+        "best-low-maintenance-shrubs",
+        "weekend-garden-projects"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "protect-fruit-trees-from-pests",
+      "title": "Protecting Fruit Trees from Pests and Birds",
+      "archetype": "how-to",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "netting protecting fruit on a tree",
+      "angle": "Barriers, traps, and timing to save your crop from common threats.",
+      "internal_links": [
+        "best-low-maintenance-shrubs",
+        "understanding-tree-rootstocks",
+        "month-by-month-garden-jobs"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "best-low-maintenance-shrubs",
+      "title": "Low-Maintenance Shrubs That Look After Themselves",
+      "archetype": "listicle",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "tidy ornamental shrub in a low-care garden",
+      "angle": "Tough, easy shrubs for borders that need little pruning or fuss.",
+      "internal_links": [
+        "understanding-tree-rootstocks",
+        "plant-a-fruit-tree",
+        "first-year-garden-case-study"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "understanding-tree-rootstocks",
+      "title": "Rootstocks Explained: Why Tree Size Starts at the Roots",
+      "archetype": "explainer",
+      "category_slug": "trees",
+      "category_title": "Fruit Trees, Shrubs & Orchard",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "young grafted fruit tree showing the graft union",
+      "angle": "How rootstock choice controls a fruit tree's size and vigor.",
+      "internal_links": [
+        "plant-a-fruit-tree",
+        "prune-apple-trees-winter",
+        "set-up-drip-irrigation"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "spring-garden-checklist",
+      "title": "Your Spring Garden Checklist to Start the Season Right",
+      "archetype": "listicle",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "gardener working in a garden in early spring",
+      "angle": "The key spring jobs in order, from soil prep to first sowings.",
+      "internal_links": [
+        "prepare-garden-for-winter",
+        "what-to-plant-in-autumn",
+        "plant-a-fruit-tree"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "prepare-garden-for-winter",
+      "title": "Putting the Garden to Bed Before Winter Arrives",
+      "archetype": "how-to",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "garden bed mulched and tidied for winter",
+      "angle": "Protecting beds, plants, and tools through the cold months.",
+      "internal_links": [
+        "what-to-plant-in-autumn",
+        "build-a-cold-frame",
+        "prune-apple-trees-winter"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "what-to-plant-in-autumn",
+      "title": "What to Plant in Autumn for an Early Spring Reward",
+      "archetype": "listicle",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "autumn garden with bulbs and garlic being planted",
+      "angle": "Crops and bulbs to plant in fall that pay off next spring.",
+      "internal_links": [
+        "build-a-cold-frame",
+        "summer-garden-watering-guide",
+        "best-fruit-trees-for-small-gardens"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "build-a-cold-frame",
+      "title": "Building a Simple Cold Frame to Extend Your Season",
+      "archetype": "how-to",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "wooden cold frame with glass lid in a garden",
+      "angle": "A weekend build that protects plants and stretches the growing year.",
+      "internal_links": [
+        "summer-garden-watering-guide",
+        "essential-garden-tools",
+        "why-fruit-tree-not-fruiting"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "summer-garden-watering-guide",
+      "title": "Keeping the Garden Thriving Through a Hot, Dry Summer",
+      "archetype": "how-to",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "watering a vegetable garden on a sunny day",
+      "angle": "Watering, shading, and mulching tactics for heatwave survival.",
+      "internal_links": [
+        "essential-garden-tools",
+        "plan-a-garden-from-scratch",
+        "grow-fruit-trees-in-pots"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "essential-garden-tools",
+      "title": "The Garden Tools Worth Owning and the Ones to Skip",
+      "archetype": "listicle",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "rosa-delgado",
+      "author_name": "Rosa Delgado",
+      "image_query": "collection of essential garden hand tools",
+      "angle": "A practical starter tool kit plus gadgets that aren't worth the money.",
+      "internal_links": [
+        "plan-a-garden-from-scratch",
+        "raised-bed-vs-greenhouse",
+        "bare-root-vs-potted-trees"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "plan-a-garden-from-scratch",
+      "title": "Planning a Garden from Scratch Without Feeling Overwhelmed",
+      "archetype": "how-to",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "garden plan sketch with seed packets and pencil",
+      "angle": "A simple planning process from blank plot to a workable layout.",
+      "internal_links": [
+        "raised-bed-vs-greenhouse",
+        "winter-gardening-mistakes",
+        "best-shrubs-for-privacy"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "raised-bed-vs-greenhouse",
+      "title": "Raised Bed or Greenhouse: Where to Spend Your Budget",
+      "archetype": "comparison",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "raised garden beds beside a small greenhouse",
+      "angle": "Comparing season extension, cost, and yield for a smart first investment.",
+      "internal_links": [
+        "winter-gardening-mistakes",
+        "build-a-vertical-garden",
+        "plant-berry-bushes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "winter-gardening-mistakes",
+      "title": "Winter Gardening Mistakes That Set You Back in Spring",
+      "archetype": "mistakes-and-fixes",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "frost-damaged garden plants in winter",
+      "angle": "Off-season errors in protection and planning, and how to avoid them.",
+      "internal_links": [
+        "build-a-vertical-garden",
+        "understanding-frost-dates",
+        "understanding-tree-pollination"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "build-a-vertical-garden",
+      "title": "Building a Vertical Garden for a Tiny Outdoor Space",
+      "archetype": "how-to",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "vertical garden wall planted with greens",
+      "angle": "A weekend project to grow up a wall when floor space is scarce.",
+      "internal_links": [
+        "understanding-frost-dates",
+        "weekend-garden-projects",
+        "fruit-tree-pruning-mistakes"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "understanding-frost-dates",
+      "title": "Frost Dates Explained: The Calendar Every Gardener Needs",
+      "archetype": "explainer",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "frosted garden leaves in early morning light",
+      "angle": "How first and last frost dates shape sowing and planting timing.",
+      "internal_links": [
+        "weekend-garden-projects",
+        "month-by-month-garden-jobs",
+        "prune-flowering-shrubs"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "weekend-garden-projects",
+      "title": "Weekend Garden Projects That Make a Big Difference",
+      "archetype": "listicle",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "DIY garden project with tools and timber",
+      "angle": "Quick, high-impact builds you can finish in a single weekend.",
+      "internal_links": [
+        "month-by-month-garden-jobs",
+        "first-year-garden-case-study",
+        "backyard-orchard-case-study"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "month-by-month-garden-jobs",
+      "title": "A Month-by-Month Guide to What Your Garden Needs",
+      "archetype": "explainer",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "garden calendar with seasonal gardening notes",
+      "angle": "Breaking the gardening year into clear monthly task lists.",
+      "internal_links": [
+        "first-year-garden-case-study",
+        "set-up-drip-irrigation",
+        "protect-fruit-trees-from-pests"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "first-year-garden-case-study",
+      "title": "Lessons from Planning a Backyard Garden Over One Full Year",
+      "archetype": "case-study",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "backyard garden photographed across the seasons",
+      "angle": "A season-by-season record of one gardener's first full year of projects.",
+      "internal_links": [
+        "set-up-drip-irrigation",
+        "spring-garden-checklist",
+        "best-low-maintenance-shrubs"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    },
+    {
+      "slug": "set-up-drip-irrigation",
+      "title": "Setting Up Simple Drip Irrigation to Save Time and Water",
+      "archetype": "how-to",
+      "category_slug": "seasons",
+      "category_title": "Seasonal Tasks & Garden Projects",
+      "author_slug": "arjun-patel",
+      "author_name": "Arjun Patel",
+      "image_query": "drip irrigation lines running through a garden bed",
+      "angle": "A beginner-friendly DIY drip system for hands-off, efficient watering.",
+      "internal_links": [
+        "spring-garden-checklist",
+        "prepare-garden-for-winter",
+        "understanding-tree-rootstocks"
+      ],
+      "word_min": 1000,
+      "word_target": 1200,
+      "status": "planned"
+    }
+  ]
+}

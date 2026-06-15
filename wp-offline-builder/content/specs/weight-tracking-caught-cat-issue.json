@@ -1,0 +1,27 @@
+{
+  "slug": "weight-tracking-caught-cat-issue",
+  "title": "How Early Weight Tracking Caught Our Cat's Health Issue",
+  "archetype": "case-study",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "A realistic story showing how routine weigh-ins flagged a problem early, encouraging proactive monitoring at home.",
+  "internal_links": [
+    {
+      "slug": "why-pet-scratching-skin-causes",
+      "title": "Why Is My Pet Scratching So Much? Common Skin Causes"
+    },
+    {
+      "slug": "senior-pet-care-tips-comfortable",
+      "title": "9 Senior Pet Care Tips for a Comfortable Old Age"
+    },
+    {
+      "slug": "feeding-mistakes-pets-gain-weight",
+      "title": "7 Feeding Mistakes That Make Pets Gain Weight (and Fixes)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

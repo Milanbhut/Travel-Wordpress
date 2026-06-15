@@ -1,0 +1,27 @@
+{
+  "slug": "keep-dog-cool-safe-summer-heat",
+  "title": "How to Keep Your Dog Cool and Safe in Summer Heat",
+  "archetype": "how-to",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Practical hot-weather routines for walks, hydration, and shade that prevent overheating without overcomplicating the day.",
+  "internal_links": [
+    {
+      "slug": "new-puppy-mistakes-slow-bonding",
+      "title": "6 New Puppy Mistakes That Slow Down Bonding"
+    },
+    {
+      "slug": "routine-calmed-high-energy-collie",
+      "title": "How a Daily Routine Calmed Our High-Energy Border Collie"
+    },
+    {
+      "slug": "why-dog-ignores-commands-fixes",
+      "title": "6 Reasons Your Dog Ignores Commands (and How to Fix It)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "feeding-mistakes-pets-gain-weight",
+  "title": "7 Feeding Mistakes That Make Pets Gain Weight (and Fixes)",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Targets free-feeding, treat creep, and portion errors that quietly drive pet obesity, with practical corrections.",
+  "internal_links": [
+    {
+      "slug": "overweight-dog-lose-weight-safely",
+      "title": "How We Helped Our Overweight Dog Lose Weight Safely"
+    },
+    {
+      "slug": "grain-free-vs-grain-inclusive-food",
+      "title": "Grain-Free vs Grain-Inclusive Dog Food: What to Know"
+    },
+    {
+      "slug": "weight-tracking-caught-cat-issue",
+      "title": "How Early Weight Tracking Caught Our Cat's Health Issue"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

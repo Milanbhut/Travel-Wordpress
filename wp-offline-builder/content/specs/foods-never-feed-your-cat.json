@@ -1,0 +1,27 @@
+{
+  "slug": "foods-never-feed-your-cat",
+  "title": "9 Foods You Should Never Feed Your Cat",
+  "archetype": "listicle",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "A clear danger list of common foods toxic to cats, with quick guidance on accidental exposure.",
+  "internal_links": [
+    {
+      "slug": "slow-feeder-stop-fast-eating",
+      "title": "How to Use a Slow Feeder to Stop Fast Eating"
+    },
+    {
+      "slug": "pet-hydration-mistakes-and-fixes",
+      "title": "6 Pet Hydration Mistakes and How to Fix Them"
+    },
+    {
+      "slug": "spot-respond-pet-emergency-fast",
+      "title": "How to Spot and Respond to a Pet Emergency Fast"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

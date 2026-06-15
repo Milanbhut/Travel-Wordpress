@@ -1,0 +1,27 @@
+{
+  "slug": "stop-dog-jumping-on-people",
+  "title": "How to Stop Your Dog From Jumping on People",
+  "archetype": "how-to",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "A consistent four-paws-on-floor method that replaces jumping with a polite greeting guests will appreciate.",
+  "internal_links": [
+    {
+      "slug": "clicker-vs-verbal-marker-training",
+      "title": "Clicker vs Verbal Marker: Which Trains Faster?"
+    },
+    {
+      "slug": "training-mistakes-confuse-dog-fixes",
+      "title": "7 Training Mistakes That Confuse Your Dog (and Fixes)"
+    },
+    {
+      "slug": "crate-vs-playpen-new-puppy",
+      "title": "Crate vs Playpen: Which Is Better for a New Puppy?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

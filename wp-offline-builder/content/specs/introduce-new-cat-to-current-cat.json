@@ -1,0 +1,27 @@
+{
+  "slug": "introduce-new-cat-to-current-cat",
+  "title": "How to Introduce a New Cat to Your Current Cat Slowly",
+  "archetype": "how-to",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "A gradual, room-by-room introduction plan that minimizes territorial stress in multi-cat homes.",
+  "internal_links": [
+    {
+      "slug": "why-cat-suddenly-hiding-more",
+      "title": "Why Is My Cat Suddenly Hiding More Than Usual?"
+    },
+    {
+      "slug": "must-have-supplies-new-kitten",
+      "title": "8 Must-Have Supplies for a New Kitten"
+    },
+    {
+      "slug": "signs-dog-needs-professional-grooming",
+      "title": "9 Signs Your Dog's Coat Needs Professional Grooming"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

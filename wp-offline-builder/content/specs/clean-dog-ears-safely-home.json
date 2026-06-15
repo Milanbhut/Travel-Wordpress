@@ -1,0 +1,27 @@
+{
+  "slug": "clean-dog-ears-safely-home",
+  "title": "How to Clean Your Dog's Ears Safely at Home",
+  "archetype": "how-to",
+  "category_slug": "grooming",
+  "category_title": "Grooming & Daily Care",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "A safe, vet-aligned ear-cleaning routine that prevents infections without pushing debris deeper.",
+  "internal_links": [
+    {
+      "slug": "signs-dog-needs-professional-grooming",
+      "title": "9 Signs Your Dog's Coat Needs Professional Grooming"
+    },
+    {
+      "slug": "why-dog-sheds-so-much",
+      "title": "Why Does My Dog Shed So Much? Causes and Control"
+    },
+    {
+      "slug": "signs-your-cat-trusts-you",
+      "title": "10 Signs Your Cat Trusts and Loves You"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

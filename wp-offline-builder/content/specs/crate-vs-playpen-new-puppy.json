@@ -1,0 +1,27 @@
+{
+  "slug": "crate-vs-playpen-new-puppy",
+  "title": "Crate vs Playpen: Which Is Better for a New Puppy?",
+  "archetype": "comparison",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "Compares containment options on safety, space, and training value to help owners pick the right setup for their home.",
+  "internal_links": [
+    {
+      "slug": "dog-walking-mistakes-and-fixes",
+      "title": "7 Dog-Walking Mistakes That Make Walks Harder (and Fixes)"
+    },
+    {
+      "slug": "rescue-dog-settle-30-days",
+      "title": "How We Helped Our Shy Rescue Dog Settle In 30 Days"
+    },
+    {
+      "slug": "stop-dog-jumping-on-people",
+      "title": "How to Stop Your Dog From Jumping on People"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "stress-free-vet-trip-anxious-cats",
+  "title": "How to Create a Stress-Free Vet Trip for Anxious Cats",
+  "archetype": "how-to",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Carrier training and calming tactics that make appointments less traumatic for skittish cats and their owners.",
+  "internal_links": [
+    {
+      "slug": "cat-ignores-toys-mistakes-fixes",
+      "title": "6 Reasons Your Cat Ignores Toys (and How to Fix It)"
+    },
+    {
+      "slug": "vertical-space-transformed-indoor-cat",
+      "title": "How Vertical Space Transformed Our Bored Indoor Cat"
+    },
+    {
+      "slug": "at-home-hygiene-habits-healthier-pet",
+      "title": "10 At-Home Hygiene Habits for a Healthier Pet"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

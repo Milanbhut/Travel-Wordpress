@@ -1,0 +1,17 @@
+{
+  "slug": "first-vegetable-garden-case-study",
+  "title": "What a Beginner's First Vegetable Garden Really Yielded",
+  "archetype": "case-study",
+  "category_title": "Vegetable & Kitchen Gardening",
+  "category_slug": "vegetables",
+  "author_name": "Elena Marsh",
+  "author_voice": "Warm, methodical grower who explains the 'why' behind every job and steadies nervous beginners",
+  "angle": "A season-long account of one beginner's plot, crops, wins, and losses.",
+  "internal_links": [
+    "succession-planting-explained",
+    "grow-herbs-on-windowsill",
+    "diagnose-plant-diseases"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

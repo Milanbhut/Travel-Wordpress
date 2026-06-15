@@ -1,0 +1,17 @@
+{
+  "slug": "diagnose-plant-diseases",
+  "title": "Diagnosing Common Plant Diseases from the Leaves",
+  "archetype": "explainer",
+  "category_title": "Soil, Compost & Plant Care",
+  "category_slug": "soil",
+  "author_name": "Elena Marsh",
+  "author_voice": "Warm, methodical grower who explains the 'why' behind every job and steadies nervous beginners",
+  "angle": "Reading spots, wilts, and molds to identify and treat plant disease.",
+  "internal_links": [
+    "feed-plants-naturally",
+    "revive-dead-garden-soil-case-study",
+    "first-vegetable-garden-case-study"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

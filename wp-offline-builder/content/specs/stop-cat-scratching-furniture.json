@@ -1,0 +1,27 @@
+{
+  "slug": "stop-cat-scratching-furniture",
+  "title": "How to Stop Your Cat From Scratching the Furniture",
+  "archetype": "how-to",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "A redirect-and-reward method that protects sofas by giving cats better surfaces, no declawing involved.",
+  "internal_links": [
+    {
+      "slug": "covered-vs-open-litter-box",
+      "title": "Covered vs Open Litter Box: Which Do Cats Prefer?"
+    },
+    {
+      "slug": "litter-box-mistakes-and-fixes",
+      "title": "7 Litter Box Mistakes That Cause Accidents (and Fixes)"
+    },
+    {
+      "slug": "brush-cat-that-hates-grooming",
+      "title": "How to Brush a Cat That Hates Being Groomed"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

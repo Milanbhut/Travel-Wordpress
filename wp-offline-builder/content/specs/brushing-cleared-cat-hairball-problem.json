@@ -1,0 +1,27 @@
+{
+  "slug": "brushing-cleared-cat-hairball-problem",
+  "title": "How Regular Brushing Cleared Up Our Cat's Hairball Problem",
+  "archetype": "case-study",
+  "category_slug": "grooming",
+  "category_title": "Grooming & Daily Care",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "A real account of how a consistent brushing routine cut down hairballs and improved a long-haired cat's coat.",
+  "internal_links": [
+    {
+      "slug": "trim-dog-nails-without-drama",
+      "title": "How to Trim Your Dog's Nails Without the Drama"
+    },
+    {
+      "slug": "grooming-tools-every-owner-should-own",
+      "title": "8 Grooming Tools Every Pet Owner Should Own"
+    },
+    {
+      "slug": "vertical-space-transformed-indoor-cat",
+      "title": "How Vertical Space Transformed Our Bored Indoor Cat"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

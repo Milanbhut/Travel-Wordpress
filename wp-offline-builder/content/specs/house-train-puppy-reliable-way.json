@@ -1,0 +1,27 @@
+{
+  "slug": "house-train-puppy-reliable-way",
+  "title": "How to House Train a Puppy the Reliable Way",
+  "archetype": "how-to",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "A schedule-driven potty plan that builds clean habits fast while reducing accidents and frustration.",
+  "internal_links": [
+    {
+      "slug": "easy-tricks-teach-dog-weekend",
+      "title": "10 Easy Tricks to Teach Your Dog This Weekend"
+    },
+    {
+      "slug": "why-dog-barks-at-everything",
+      "title": "Why Does My Dog Bark at Everything? Causes and Calm Fixes"
+    },
+    {
+      "slug": "essential-items-new-dog-owners",
+      "title": "12 Essential Items Every New Dog Owner Should Buy First"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

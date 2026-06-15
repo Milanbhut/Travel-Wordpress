@@ -1,0 +1,27 @@
+{
+  "slug": "wet-vs-dry-dog-food",
+  "title": "Wet vs Dry Dog Food: Which Should You Feed?",
+  "archetype": "comparison",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Compares cost, hydration, and dental factors to help owners choose or combine food types confidently.",
+  "internal_links": [
+    {
+      "slug": "how-much-to-feed-my-dog",
+      "title": "How Much Should I Feed My Dog? A Simple Portion Guide"
+    },
+    {
+      "slug": "human-foods-safe-for-dogs",
+      "title": "10 Human Foods That Are Safe for Dogs in Moderation"
+    },
+    {
+      "slug": "early-warning-signs-pet-sick",
+      "title": "10 Early Warning Signs Your Pet May Be Sick"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

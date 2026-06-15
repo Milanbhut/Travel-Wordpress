@@ -1,0 +1,27 @@
+{
+  "slug": "early-warning-signs-pet-sick",
+  "title": "10 Early Warning Signs Your Pet May Be Sick",
+  "archetype": "listicle",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Lists subtle behavior and appetite changes that signal trouble early, helping owners act before problems worsen.",
+  "internal_links": [
+    {
+      "slug": "build-pet-first-aid-kit-home",
+      "title": "How to Build a Pet First-Aid Kit at Home"
+    },
+    {
+      "slug": "fleas-vs-ticks-tell-apart",
+      "title": "Fleas vs Ticks: How to Tell Them Apart and Respond"
+    },
+    {
+      "slug": "wet-vs-dry-dog-food",
+      "title": "Wet vs Dry Dog Food: Which Should You Feed?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

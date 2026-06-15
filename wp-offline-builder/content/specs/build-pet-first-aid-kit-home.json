@@ -1,0 +1,27 @@
+{
+  "slug": "build-pet-first-aid-kit-home",
+  "title": "How to Build a Pet First-Aid Kit at Home",
+  "archetype": "how-to",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "A practical checklist and storage guide for assembling a vet-informed first-aid kit for common minor emergencies.",
+  "internal_links": [
+    {
+      "slug": "fleas-vs-ticks-tell-apart",
+      "title": "Fleas vs Ticks: How to Tell Them Apart and Respond"
+    },
+    {
+      "slug": "pet-dental-care-mistakes-fixes",
+      "title": "7 Pet Dental Care Mistakes That Harm Teeth (and Fixes)"
+    },
+    {
+      "slug": "how-much-to-feed-my-dog",
+      "title": "How Much Should I Feed My Dog? A Simple Portion Guide"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

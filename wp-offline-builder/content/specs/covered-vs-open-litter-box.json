@@ -1,0 +1,27 @@
+{
+  "slug": "covered-vs-open-litter-box",
+  "title": "Covered vs Open Litter Box: Which Do Cats Prefer?",
+  "archetype": "comparison",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Compares hooded and open boxes on odor, privacy, and cat acceptance to help reduce litter-box refusals.",
+  "internal_links": [
+    {
+      "slug": "litter-box-mistakes-and-fixes",
+      "title": "7 Litter Box Mistakes That Cause Accidents (and Fixes)"
+    },
+    {
+      "slug": "two-cats-living-in-peace",
+      "title": "How We Got Two Cats to Finally Live in Peace"
+    },
+    {
+      "slug": "clippers-vs-scissors-home-grooming",
+      "title": "Clippers vs Scissors for At-Home Dog Grooming"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "beginner-dog-breeds-first-time-owners",
+  "title": "10 Beginner-Friendly Dog Breeds for First-Time Owners",
+  "archetype": "listicle",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "Ranks gentle, trainable breeds by temperament and care needs so new owners can match a dog to their lifestyle.",
+  "internal_links": [
+    {
+      "slug": "crate-train-puppy-without-stress",
+      "title": "How to Crate Train a Puppy Without Stress in 7 Days"
+    },
+    {
+      "slug": "crate-vs-playpen-new-puppy",
+      "title": "Crate vs Playpen: Which Is Better for a New Puppy?"
+    },
+    {
+      "slug": "positive-reinforcement-basics-owners",
+      "title": "8 Positive Reinforcement Basics Every Owner Should Know"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

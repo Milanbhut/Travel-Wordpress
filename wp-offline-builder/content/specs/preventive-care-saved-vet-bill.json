@@ -1,0 +1,27 @@
+{
+  "slug": "preventive-care-saved-vet-bill",
+  "title": "How Preventive Care Saved Us From a Big Vet Bill",
+  "archetype": "case-study",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "A relatable account of how routine checkups and parasite prevention avoided a costly health scare.",
+  "internal_links": [
+    {
+      "slug": "vaccines-dog-cat-actually-need",
+      "title": "What Vaccines Does My Dog or Cat Actually Need?"
+    },
+    {
+      "slug": "early-warning-signs-pet-sick",
+      "title": "10 Early Warning Signs Your Pet May Be Sick"
+    },
+    {
+      "slug": "pet-hydration-mistakes-and-fixes",
+      "title": "6 Pet Hydration Mistakes and How to Fix Them"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

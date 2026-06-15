@@ -1,0 +1,27 @@
+{
+  "slug": "slow-feeder-stop-fast-eating",
+  "title": "How to Use a Slow Feeder to Stop Fast Eating",
+  "archetype": "how-to",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Shows how puzzle and slow bowls curb gulping, reduce bloat risk, and add mealtime enrichment.",
+  "internal_links": [
+    {
+      "slug": "pet-hydration-mistakes-and-fixes",
+      "title": "6 Pet Hydration Mistakes and How to Fix Them"
+    },
+    {
+      "slug": "read-pet-food-label-correctly",
+      "title": "How to Read a Pet Food Label Without Getting Fooled"
+    },
+    {
+      "slug": "eye-ear-problems-owners-miss",
+      "title": "6 Eye and Ear Problems Owners Often Miss in Pets"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

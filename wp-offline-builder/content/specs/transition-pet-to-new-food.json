@@ -1,0 +1,27 @@
+{
+  "slug": "transition-pet-to-new-food",
+  "title": "How to Safely Transition Your Pet to a New Food",
+  "archetype": "how-to",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "A gradual changeover schedule that prevents stomach upset when switching brands or formulas.",
+  "internal_links": [
+    {
+      "slug": "balanced-diet-for-pets-explained",
+      "title": "What Does a Balanced Diet Actually Mean for Pets?"
+    },
+    {
+      "slug": "homemade-vs-commercial-pet-food",
+      "title": "Homemade vs Commercial Pet Food: Pros and Cons"
+    },
+    {
+      "slug": "healthy-pet-poop-warning-signs",
+      "title": "What Healthy Pet Poop Looks Like (and Warning Signs)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

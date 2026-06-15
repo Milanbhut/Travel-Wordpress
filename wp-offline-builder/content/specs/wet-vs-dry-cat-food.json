@@ -1,0 +1,27 @@
+{
+  "slug": "wet-vs-dry-cat-food",
+  "title": "Wet vs Dry Cat Food: Which Is Right for Your Cat?",
+  "archetype": "comparison",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Weighs hydration, dental, and convenience tradeoffs to guide everyday feeding choices for healthy adult cats.",
+  "internal_links": [
+    {
+      "slug": "stress-free-vet-trip-anxious-cats",
+      "title": "How to Create a Stress-Free Vet Trip for Anxious Cats"
+    },
+    {
+      "slug": "cat-ignores-toys-mistakes-fixes",
+      "title": "6 Reasons Your Cat Ignores Toys (and How to Fix It)"
+    },
+    {
+      "slug": "professional-groomer-vs-diy",
+      "title": "Professional Groomer vs DIY: When to Call a Pro"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

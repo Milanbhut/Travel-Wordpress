@@ -1,0 +1,27 @@
+{
+  "slug": "household-items-toxic-to-pets",
+  "title": "8 Common Household Items That Are Toxic to Pets",
+  "archetype": "listicle",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Names everyday foods and products that pose poisoning risks and how to pet-proof common rooms safely.",
+  "internal_links": [
+    {
+      "slug": "indoor-vs-outdoor-cat-health",
+      "title": "Indoor vs Outdoor Cat: Which Is Healthier?"
+    },
+    {
+      "slug": "spot-respond-pet-emergency-fast",
+      "title": "How to Spot and Respond to a Pet Emergency Fast"
+    },
+    {
+      "slug": "balanced-diet-for-pets-explained",
+      "title": "What Does a Balanced Diet Actually Mean for Pets?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

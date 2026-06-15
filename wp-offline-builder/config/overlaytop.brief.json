@@ -1,0 +1,158 @@
+{
+  "domain": "localhost/growhaven",
+  "niche": "Plantation & Home Gardening",
+  "approved_date": "2026-06-15",
+  "brand": {
+    "name": "GrowHaven",
+    "wordmark": "GrowHaven",
+    "tagline": "Grow a garden that feeds you, season by season."
+  },
+  "contact": {
+    "email": "maradmusalo1122@gmail.com",
+    "country_of_operation": null,
+    "country_placeholder": "[INSERT ACTUAL COUNTRY OF OPERATION]"
+  },
+  "design": {
+    "fonts": {
+      "heading": "Fraunces",
+      "body": "Inter"
+    },
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap",
+    "palette_name": "Moss & Clay",
+    "tokens": {
+      "--teal-50": "#eef3e6",
+      "--teal-100": "#dde7cd",
+      "--teal-300": "#a8c08a",
+      "--teal-500": "#5d7c3f",
+      "--teal-700": "#3f5a29",
+      "--teal-900": "#25371a",
+      "--accent": "#c2703d",
+      "--accent-dark": "#a85a2c",
+      "--cream": "#faf6ee",
+      "--paper": "#ffffff",
+      "--ink-900": "#20271c",
+      "--ink-700": "#3c4536",
+      "--ink-500": "#6a7360",
+      "--ink-300": "#9aa291",
+      "--line": "#e7e0d0",
+      "--line-soft": "#f1ebdd"
+    },
+    "recipe": {
+      "palette": "soft-sage",
+      "font": "cormorant-inter",
+      "radius": "sharp",
+      "density": "airy",
+      "hero": "image",
+      "about": "right",
+      "latest": "grid",
+      "category": "bento-a",
+      "newsletter": "split",
+      "footer": "columns"
+    }
+  },
+  "categories": [
+    {
+      "label": "Vegetables",
+      "title": "Vegetable & Kitchen Gardening",
+      "slug": "vegetables",
+      "description": "Grow-your-own crops, raised beds and kitchen gardens - from first seedlings to a season of harvests."
+    },
+    {
+      "label": "Flowers",
+      "title": "Flowers & Ornamental Plants",
+      "slug": "flowers",
+      "description": "Beds, borders and blooms - designing, planting and keeping ornamental gardens colourful through the year."
+    },
+    {
+      "label": "Houseplants",
+      "title": "Houseplants & Indoor Greenery",
+      "slug": "houseplants",
+      "description": "Indoor plant care, propagation and styling - keeping greenery thriving in real rooms with real light."
+    },
+    {
+      "label": "Soil",
+      "title": "Soil, Compost & Plant Care",
+      "slug": "soil",
+      "description": "Healthy soil, composting, watering and feeding - the unglamorous fundamentals that make everything else grow."
+    },
+    {
+      "label": "Trees",
+      "title": "Fruit Trees, Shrubs & Orchard",
+      "slug": "trees",
+      "description": "Planting and caring for fruit trees, shrubs and a home orchard - the long game of a productive plantation."
+    },
+    {
+      "label": "Seasons",
+      "title": "Seasonal Tasks & Garden Projects",
+      "slug": "seasons",
+      "description": "What to do this month and weekend builds - seasonal jobs, planning and practical garden projects."
+    }
+  ],
+  "authors": [
+    {
+      "name": "Elena Marsh",
+      "slug": "elena-marsh",
+      "role": "Founder & Master Gardener",
+      "beats": [
+        "vegetables",
+        "soil"
+      ],
+      "expertise": "Kitchen gardening, raised beds, soil health, composting",
+      "voice": "Warm, methodical grower who explains the 'why' behind every job and steadies nervous beginners",
+      "articles": 22,
+      "photo_query": "woman gardener portrait outdoors smiling"
+    },
+    {
+      "name": "Theo Bramley",
+      "slug": "theo-bramley",
+      "role": "Horticulturist",
+      "beats": [
+        "flowers",
+        "houseplants"
+      ],
+      "expertise": "Ornamental horticulture, flower borders, indoor plants",
+      "voice": "Enthusiastic, design-minded plantsman; paints a picture of the finished planting and the route to it",
+      "articles": 20,
+      "photo_query": "man horticulturist greenhouse portrait smiling"
+    },
+    {
+      "name": "Rosa Delgado",
+      "slug": "rosa-delgado",
+      "role": "Permaculture & Orchard Writer",
+      "beats": [
+        "trees",
+        "seasons"
+      ],
+      "expertise": "Fruit trees, orchard care, permaculture, seasonal planning",
+      "voice": "Patient systems-thinker who plays the long game; grounded, ecological and unhurried",
+      "articles": 18,
+      "photo_query": "latina woman farmer orchard portrait smiling"
+    },
+    {
+      "name": "Arjun Patel",
+      "slug": "arjun-patel",
+      "role": "Edible-Garden Contributor",
+      "beats": [
+        "vegetables",
+        "seasons"
+      ],
+      "expertise": "Vegetable growing, crop rotation, seasonal tasks",
+      "voice": "Practical and checklist-driven with dry humour; tests the method on his own plot first",
+      "articles": 16,
+      "photo_query": "indian man gardening vegetable garden portrait"
+    },
+    {
+      "name": "Nina Whitlock",
+      "slug": "nina-whitlock",
+      "role": "Indoor-Plant Specialist",
+      "beats": [
+        "houseplants",
+        "flowers"
+      ],
+      "expertise": "Houseplants, indoor greenery, propagation, styling",
+      "voice": "Gentle and observational; writes from the plant's point of view, calm and encouraging",
+      "articles": 14,
+      "photo_query": "woman holding houseplant portrait smiling"
+    }
+  ]
+}

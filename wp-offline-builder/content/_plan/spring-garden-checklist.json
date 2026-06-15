@@ -1,0 +1,17 @@
+{
+  "slug": "spring-garden-checklist",
+  "title": "Your Spring Garden Checklist to Start the Season Right",
+  "archetype": "listicle",
+  "category_title": "Seasonal Tasks & Garden Projects",
+  "category_slug": "seasons",
+  "author_name": "Arjun Patel",
+  "author_voice": "Practical and checklist-driven with dry humour; tests the method on his own plot first",
+  "angle": "The key spring jobs in order, from soil prep to first sowings.",
+  "internal_links": [
+    "prepare-garden-for-winter",
+    "what-to-plant-in-autumn",
+    "plant-a-fruit-tree"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

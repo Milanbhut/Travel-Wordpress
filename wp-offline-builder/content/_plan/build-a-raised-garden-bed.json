@@ -1,0 +1,17 @@
+{
+  "slug": "build-a-raised-garden-bed",
+  "title": "Building Your First Raised Garden Bed from Scratch",
+  "archetype": "how-to",
+  "category_title": "Vegetable & Kitchen Gardening",
+  "category_slug": "vegetables",
+  "author_name": "Elena Marsh",
+  "author_voice": "Warm, methodical grower who explains the 'why' behind every job and steadies nervous beginners",
+  "angle": "A weekend build covering materials, dimensions, and filling the bed correctly.",
+  "internal_links": [
+    "easiest-vegetables-for-beginners",
+    "raised-bed-vs-in-ground-vegetables",
+    "signs-of-unhealthy-soil"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

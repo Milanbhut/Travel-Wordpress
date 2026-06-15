@@ -1,0 +1,27 @@
+{
+  "slug": "indoor-vs-outdoor-cat-health",
+  "title": "Indoor vs Outdoor Cat: Which Is Healthier?",
+  "archetype": "comparison",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Compares lifespan, risks, and enrichment needs to help owners decide on a safe, balanced lifestyle for their cat.",
+  "internal_links": [
+    {
+      "slug": "spot-respond-pet-emergency-fast",
+      "title": "How to Spot and Respond to a Pet Emergency Fast"
+    },
+    {
+      "slug": "eye-ear-problems-owners-miss",
+      "title": "6 Eye and Ear Problems Owners Often Miss in Pets"
+    },
+    {
+      "slug": "homemade-vs-commercial-pet-food",
+      "title": "Homemade vs Commercial Pet Food: Pros and Cons"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

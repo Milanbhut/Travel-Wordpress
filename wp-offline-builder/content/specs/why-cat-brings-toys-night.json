@@ -1,0 +1,27 @@
+{
+  "slug": "why-cat-brings-toys-night",
+  "title": "Why Does My Cat Bring Me Toys at Night?",
+  "archetype": "explainer",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Unpacks the hunting and social instincts behind nighttime gifting and whether owners should encourage it.",
+  "internal_links": [
+    {
+      "slug": "signs-your-cat-trusts-you",
+      "title": "10 Signs Your Cat Trusts and Loves You"
+    },
+    {
+      "slug": "introduce-new-cat-to-current-cat",
+      "title": "How to Introduce a New Cat to Your Current Cat Slowly"
+    },
+    {
+      "slug": "how-often-bathe-your-dog",
+      "title": "How Often Should You Bathe Your Dog, Really?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

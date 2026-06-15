@@ -1,0 +1,27 @@
+{
+  "slug": "spot-respond-pet-emergency-fast",
+  "title": "How to Spot and Respond to a Pet Emergency Fast",
+  "archetype": "how-to",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Teaches owners to recognize true emergencies and take calm first steps before reaching the vet.",
+  "internal_links": [
+    {
+      "slug": "eye-ear-problems-owners-miss",
+      "title": "6 Eye and Ear Problems Owners Often Miss in Pets"
+    },
+    {
+      "slug": "preventive-care-saved-vet-bill",
+      "title": "How Preventive Care Saved Us From a Big Vet Bill"
+    },
+    {
+      "slug": "foods-never-feed-your-cat",
+      "title": "9 Foods You Should Never Feed Your Cat"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

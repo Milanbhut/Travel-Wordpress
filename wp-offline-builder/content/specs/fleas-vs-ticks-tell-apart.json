@@ -1,0 +1,27 @@
+{
+  "slug": "fleas-vs-ticks-tell-apart",
+  "title": "Fleas vs Ticks: How to Tell Them Apart and Respond",
+  "archetype": "comparison",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Compares appearance, risks, and removal so owners can identify and handle each parasite correctly.",
+  "internal_links": [
+    {
+      "slug": "pet-dental-care-mistakes-fixes",
+      "title": "7 Pet Dental Care Mistakes That Harm Teeth (and Fixes)"
+    },
+    {
+      "slug": "weight-tracking-caught-cat-issue",
+      "title": "How Early Weight Tracking Caught Our Cat's Health Issue"
+    },
+    {
+      "slug": "human-foods-safe-for-dogs",
+      "title": "10 Human Foods That Are Safe for Dogs in Moderation"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

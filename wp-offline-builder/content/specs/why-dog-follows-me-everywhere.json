@@ -1,0 +1,27 @@
+{
+  "slug": "why-dog-follows-me-everywhere",
+  "title": "Why Does My Dog Follow Me Everywhere? What It Means",
+  "archetype": "explainer",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "Unpacks the bonding, breed, and anxiety reasons behind a velcro dog and when the behavior is worth addressing.",
+  "internal_links": [
+    {
+      "slug": "signs-your-dog-is-happy",
+      "title": "8 Signs Your Dog Is Genuinely Happy and Content"
+    },
+    {
+      "slug": "apartment-dog-vs-house-dog",
+      "title": "Apartment Dog vs House Dog: Choosing the Right Fit"
+    },
+    {
+      "slug": "why-dog-barks-at-everything",
+      "title": "Why Does My Dog Bark at Everything? Causes and Calm Fixes"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

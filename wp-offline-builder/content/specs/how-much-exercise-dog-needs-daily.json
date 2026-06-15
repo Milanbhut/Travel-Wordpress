@@ -1,0 +1,27 @@
+{
+  "slug": "how-much-exercise-dog-needs-daily",
+  "title": "How Much Exercise Does My Dog Really Need Each Day?",
+  "archetype": "explainer",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Explains daily activity needs by age, size, and breed so owners avoid both couch-potato and over-exercised extremes.",
+  "internal_links": [
+    {
+      "slug": "essential-items-new-dog-owners",
+      "title": "12 Essential Items Every New Dog Owner Should Buy First"
+    },
+    {
+      "slug": "introduce-new-dog-to-resident-dog",
+      "title": "How to Introduce a New Dog to Your Resident Dog Calmly"
+    },
+    {
+      "slug": "fixed-rescue-dog-leash-pulling",
+      "title": "How We Fixed Our Rescue Dog's Leash Pulling in 3 Weeks"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "healthy-pet-poop-warning-signs",
+  "title": "What Healthy Pet Poop Looks Like (and Warning Signs)",
+  "archetype": "explainer",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "A plain-language guide to stool color and consistency so owners know when digestion is normal versus concerning.",
+  "internal_links": [
+    {
+      "slug": "household-items-toxic-to-pets",
+      "title": "8 Common Household Items That Are Toxic to Pets"
+    },
+    {
+      "slug": "indoor-vs-outdoor-cat-health",
+      "title": "Indoor vs Outdoor Cat: Which Is Healthier?"
+    },
+    {
+      "slug": "transition-pet-to-new-food",
+      "title": "How to Safely Transition Your Pet to a New Food"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "vertical-space-transformed-indoor-cat",
+  "title": "How Vertical Space Transformed Our Bored Indoor Cat",
+  "archetype": "case-study",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "A before-and-after story of adding shelves and trees to curb a restless indoor cat's destructive habits.",
+  "internal_links": [
+    {
+      "slug": "why-cat-kneads-me",
+      "title": "Why Does My Cat Knead Me? The Comfort Behind the Behavior"
+    },
+    {
+      "slug": "enrich-indoor-cat-day",
+      "title": "9 Easy Ways to Enrich an Indoor Cat's Day"
+    },
+    {
+      "slug": "brushing-cleared-cat-hairball-problem",
+      "title": "How Regular Brushing Cleared Up Our Cat's Hairball Problem"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

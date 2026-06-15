@@ -1,0 +1,27 @@
+{
+  "slug": "essential-items-new-dog-owners",
+  "title": "12 Essential Items Every New Dog Owner Should Buy First",
+  "archetype": "listicle",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "A no-fluff starter shopping list prioritizing what truly matters in week one over trendy gadgets.",
+  "internal_links": [
+    {
+      "slug": "introduce-new-dog-to-resident-dog",
+      "title": "How to Introduce a New Dog to Your Resident Dog Calmly"
+    },
+    {
+      "slug": "why-dog-follows-me-everywhere",
+      "title": "Why Does My Dog Follow Me Everywhere? What It Means"
+    },
+    {
+      "slug": "house-train-puppy-reliable-way",
+      "title": "How to House Train a Puppy the Reliable Way"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

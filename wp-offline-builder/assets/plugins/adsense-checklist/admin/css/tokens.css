@@ -1,0 +1,61 @@
+/* AdSense Checklist - design tokens. All colors and shapes derive from here. */
+.adsense-checklist {
+  /* Surfaces */
+  --adsc-bg:           #f8f9fa;
+  --adsc-surface:      #ffffff;
+  --adsc-border:       #e8eaed;
+  --adsc-border-soft:  #f1f3f4;
+
+  /* Text */
+  --adsc-text:         #202124;
+  --adsc-text-muted:   #5f6368;
+  --adsc-text-meta:    #80868b;
+
+  /* Accent */
+  --adsc-accent:       #1a73e8;
+  --adsc-accent-hover: #1765cc;
+  --adsc-accent-bg:    #e8f0fe;
+  --adsc-accent-text:  #1967d2;
+
+  /* Severity - Urgent (red) */
+  --adsc-urgent:       #d93025;
+  --adsc-urgent-bg:    #fce8e6;
+  --adsc-urgent-edge:  #f6cecb;
+  --adsc-urgent-soft:  #fef7f6;
+
+  /* Severity - Severe (orange) */
+  --adsc-severe:       #b06000;
+  --adsc-severe-dot:   #f29900;
+  --adsc-severe-bg:    #feefc3;
+  --adsc-severe-edge:  #fce4a8;
+  --adsc-severe-soft:  #fef9f0;
+
+  /* Severity - Moderate (yellow) */
+  --adsc-moderate:     #a15c00;
+  --adsc-moderate-dot: #fbbc04;
+  --adsc-moderate-bg:  #fef7e0;
+  --adsc-moderate-edge:#f7e09b;
+  --adsc-moderate-soft:#fffbe6;
+
+  /* Severity - Passing (green) */
+  --adsc-passing:      #137333;
+  --adsc-passing-dot:  #34a853;
+  --adsc-passing-bg:   #e6f4ea;
+  --adsc-passing-edge: #b8dcbe;
+
+  /* Severity - Manual review (gray) */
+  --adsc-manual:       #3c4043;
+  --adsc-manual-dot:   #5f6368;
+  --adsc-manual-bg:    #e8eaed;
+  --adsc-manual-edge:  #dadce0;
+
+  /* Shape */
+  --adsc-radius-card:  8px;
+  --adsc-radius-input: 4px;
+  --adsc-radius-pill:  16px;
+  --adsc-shadow-card:  0 1px 2px rgba(60,64,67,.08);
+  --adsc-shadow-elev:  0 1px 3px rgba(60,64,67,.3);
+
+  /* Fonts */
+  --adsc-font: 'Google Sans','Segoe UI',Roboto,Arial,sans-serif;
+}

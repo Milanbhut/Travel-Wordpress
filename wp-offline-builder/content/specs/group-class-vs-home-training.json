@@ -1,0 +1,27 @@
+{
+  "slug": "group-class-vs-home-training",
+  "title": "Group Class vs At-Home Training: Which Suits Your Dog?",
+  "archetype": "comparison",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Compares cost, socialization, and pace so owners choose the training format that fits their dog and schedule.",
+  "internal_links": [
+    {
+      "slug": "why-dog-ignores-commands-fixes",
+      "title": "6 Reasons Your Dog Ignores Commands (and How to Fix It)"
+    },
+    {
+      "slug": "signs-dog-ready-off-leash",
+      "title": "9 Signs Your Dog Is Ready for Off-Leash Freedom"
+    },
+    {
+      "slug": "apartment-dog-vs-house-dog",
+      "title": "Apartment Dog vs House Dog: Choosing the Right Fit"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "weekend-garden-projects",
+  "title": "Weekend Garden Projects That Make a Big Difference",
+  "archetype": "listicle",
+  "category_title": "Seasonal Tasks & Garden Projects",
+  "category_slug": "seasons",
+  "author_name": "Arjun Patel",
+  "author_voice": "Practical and checklist-driven with dry humour; tests the method on his own plot first",
+  "angle": "Quick, high-impact builds you can finish in a single weekend.",
+  "internal_links": [
+    "month-by-month-garden-jobs",
+    "first-year-garden-case-study",
+    "backyard-orchard-case-study"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

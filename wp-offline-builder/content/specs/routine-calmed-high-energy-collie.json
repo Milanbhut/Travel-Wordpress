@@ -1,0 +1,27 @@
+{
+  "slug": "routine-calmed-high-energy-collie",
+  "title": "How a Daily Routine Calmed Our High-Energy Border Collie",
+  "archetype": "case-study",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "A practical account of using structure and mental work to settle a hyper herding dog, helpful for owners of busy breeds.",
+  "internal_links": [
+    {
+      "slug": "why-dog-licks-paws",
+      "title": "Why Does My Dog Lick Its Paws? 6 Common Causes and Fixes"
+    },
+    {
+      "slug": "beginner-dog-breeds-first-time-owners",
+      "title": "10 Beginner-Friendly Dog Breeds for First-Time Owners"
+    },
+    {
+      "slug": "short-sessions-transformed-reactive-dog",
+      "title": "How Daily 10-Minute Sessions Transformed Our Reactive Dog"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

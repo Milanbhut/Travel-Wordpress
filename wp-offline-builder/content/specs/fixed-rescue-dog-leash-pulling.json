@@ -1,0 +1,27 @@
+{
+  "slug": "fixed-rescue-dog-leash-pulling",
+  "title": "How We Fixed Our Rescue Dog's Leash Pulling in 3 Weeks",
+  "archetype": "case-study",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "A realistic week-by-week story of turning a puller into a loose-leash walker using rewards and patience.",
+  "internal_links": [
+    {
+      "slug": "house-train-puppy-reliable-way",
+      "title": "How to House Train a Puppy the Reliable Way"
+    },
+    {
+      "slug": "easy-tricks-teach-dog-weekend",
+      "title": "10 Easy Tricks to Teach Your Dog This Weekend"
+    },
+    {
+      "slug": "how-much-exercise-dog-needs-daily",
+      "title": "How Much Exercise Does My Dog Really Need Each Day?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

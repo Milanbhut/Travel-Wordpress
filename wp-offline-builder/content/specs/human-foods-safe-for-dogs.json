@@ -1,0 +1,27 @@
+{
+  "slug": "human-foods-safe-for-dogs",
+  "title": "10 Human Foods That Are Safe for Dogs in Moderation",
+  "archetype": "listicle",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "A vet-informed list of safe table foods with portion notes so owners can share treats without risk.",
+  "internal_links": [
+    {
+      "slug": "why-cat-always-hungry",
+      "title": "Why Is My Cat Always Hungry? Appetite Explained"
+    },
+    {
+      "slug": "feeding-mistakes-pets-gain-weight",
+      "title": "7 Feeding Mistakes That Make Pets Gain Weight (and Fixes)"
+    },
+    {
+      "slug": "fleas-vs-ticks-tell-apart",
+      "title": "Fleas vs Ticks: How to Tell Them Apart and Respond"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

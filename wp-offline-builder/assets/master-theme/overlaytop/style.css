@@ -1,0 +1,19 @@
+/*
+Theme Name: Overlaytop
+Theme URI: https://overlaytop.com
+Author: Overlaytop Editorial
+Author URI: https://overlaytop.com/about/
+Description: Premium editorial theme for Overlaytop - budget-travel authority blog. Token-driven, fully responsive, AdSense-ready (sticky glass header, editorial hero, real author boxes, full schema).
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: overlaytop
+Tags: blog, editorial, travel, responsive, custom-logo, featured-images, translation-ready
+*/
+
+/* The design system lives in assets/css/tokens.css + assets/css/main.css (enqueued in functions.php).
+   The base typography below mirrors the real body rule in main.css so tools that read style.css
+   see readable defaults; style.css itself is not enqueued, so this has no rendering effect. */
+body { font-size: 17.5px; line-height: 1.7; }

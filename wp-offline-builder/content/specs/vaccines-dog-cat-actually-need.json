@@ -1,0 +1,27 @@
+{
+  "slug": "vaccines-dog-cat-actually-need",
+  "title": "What Vaccines Does My Dog or Cat Actually Need?",
+  "archetype": "explainer",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Breaks down core versus optional vaccines and typical schedules so owners can have informed vet conversations.",
+  "internal_links": [
+    {
+      "slug": "early-warning-signs-pet-sick",
+      "title": "10 Early Warning Signs Your Pet May Be Sick"
+    },
+    {
+      "slug": "build-pet-first-aid-kit-home",
+      "title": "How to Build a Pet First-Aid Kit at Home"
+    },
+    {
+      "slug": "read-pet-food-label-correctly",
+      "title": "How to Read a Pet Food Label Without Getting Fooled"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

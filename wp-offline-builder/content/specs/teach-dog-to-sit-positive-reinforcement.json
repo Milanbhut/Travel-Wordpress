@@ -1,0 +1,27 @@
+{
+  "slug": "teach-dog-to-sit-positive-reinforcement",
+  "title": "How to Teach Your Dog to Sit Using Positive Reinforcement",
+  "archetype": "how-to",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "A beginner-proof, reward-based method that gets a reliable sit in short, stress-free sessions.",
+  "internal_links": [
+    {
+      "slug": "positive-reinforcement-basics-owners",
+      "title": "8 Positive Reinforcement Basics Every Owner Should Know"
+    },
+    {
+      "slug": "why-dog-wont-listen-outside",
+      "title": "Why Won't My Dog Listen Outside? Distraction Explained"
+    },
+    {
+      "slug": "why-dog-licks-paws",
+      "title": "Why Does My Dog Lick Its Paws? 6 Common Causes and Fixes"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

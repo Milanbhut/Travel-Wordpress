@@ -1,0 +1,27 @@
+{
+  "slug": "why-pet-scratching-skin-causes",
+  "title": "Why Is My Pet Scratching So Much? Common Skin Causes",
+  "archetype": "explainer",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Explains allergies, dry skin, and parasites behind itching and which clues point toward a vet visit.",
+  "internal_links": [
+    {
+      "slug": "senior-pet-care-tips-comfortable",
+      "title": "9 Senior Pet Care Tips for a Comfortable Old Age"
+    },
+    {
+      "slug": "prepare-pet-calm-vet-visit",
+      "title": "How to Prepare Your Pet for a Calm Vet Visit"
+    },
+    {
+      "slug": "overweight-dog-lose-weight-safely",
+      "title": "How We Helped Our Overweight Dog Lose Weight Safely"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

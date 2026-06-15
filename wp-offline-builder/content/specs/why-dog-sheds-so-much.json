@@ -1,0 +1,27 @@
+{
+  "slug": "why-dog-sheds-so-much",
+  "title": "Why Does My Dog Shed So Much? Causes and Control",
+  "archetype": "explainer",
+  "category_slug": "grooming",
+  "category_title": "Grooming & Daily Care",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "Explains seasonal, breed, and health-related shedding and the grooming habits that keep it manageable.",
+  "internal_links": [
+    {
+      "slug": "brush-pet-teeth-without-fight",
+      "title": "How to Brush Your Pet's Teeth Without a Fight"
+    },
+    {
+      "slug": "professional-groomer-vs-diy",
+      "title": "Professional Groomer vs DIY: When to Call a Pro"
+    },
+    {
+      "slug": "why-cat-suddenly-hiding-more",
+      "title": "Why Is My Cat Suddenly Hiding More Than Usual?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

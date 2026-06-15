@@ -1,0 +1,17 @@
+{
+  "slug": "grow-tomatoes-in-pots",
+  "title": "Growing Tomatoes in Pots on a Small Balcony",
+  "archetype": "how-to",
+  "category_title": "Vegetable & Kitchen Gardening",
+  "category_slug": "vegetables",
+  "author_name": "Elena Marsh",
+  "author_voice": "Warm, methodical grower who explains the 'why' behind every job and steadies nervous beginners",
+  "angle": "Container-specific tomato growing for renters and balcony gardeners with limited space.",
+  "internal_links": [
+    "start-vegetable-seeds-indoors",
+    "build-a-raised-garden-bed",
+    "make-compost-fast"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

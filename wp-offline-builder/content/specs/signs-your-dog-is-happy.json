@@ -1,0 +1,27 @@
+{
+  "slug": "signs-your-dog-is-happy",
+  "title": "8 Signs Your Dog Is Genuinely Happy and Content",
+  "archetype": "listicle",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Translates body language and daily habits into readable happiness cues so owners can gauge their dog's wellbeing.",
+  "internal_links": [
+    {
+      "slug": "apartment-dog-vs-house-dog",
+      "title": "Apartment Dog vs House Dog: Choosing the Right Fit"
+    },
+    {
+      "slug": "keep-dog-cool-safe-summer-heat",
+      "title": "How to Keep Your Dog Cool and Safe in Summer Heat"
+    },
+    {
+      "slug": "train-reliable-recall-dog",
+      "title": "How to Train a Reliable Recall So Your Dog Comes Every Time"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

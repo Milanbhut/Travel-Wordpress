@@ -1,0 +1,27 @@
+{
+  "slug": "enrich-indoor-cat-day",
+  "title": "9 Easy Ways to Enrich an Indoor Cat's Day",
+  "archetype": "listicle",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Low-cost play, climbing, and foraging ideas that keep indoor cats stimulated and prevent boredom-driven mischief.",
+  "internal_links": [
+    {
+      "slug": "stop-cat-scratching-furniture",
+      "title": "How to Stop Your Cat From Scratching the Furniture"
+    },
+    {
+      "slug": "covered-vs-open-litter-box",
+      "title": "Covered vs Open Litter Box: Which Do Cats Prefer?"
+    },
+    {
+      "slug": "grooming-tools-every-owner-should-own",
+      "title": "8 Grooming Tools Every Pet Owner Should Own"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

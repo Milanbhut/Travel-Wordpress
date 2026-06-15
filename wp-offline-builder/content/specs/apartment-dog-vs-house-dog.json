@@ -1,0 +1,27 @@
+{
+  "slug": "apartment-dog-vs-house-dog",
+  "title": "Apartment Dog vs House Dog: Choosing the Right Fit",
+  "archetype": "comparison",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "tom-okafor",
+  "author_name": "Tom Okafor",
+  "author_voice": "Friendly and budget-savvy with dry humor; tests the gear himself before recommending it",
+  "angle": "Weighs space, energy, and noise factors to help renters and homeowners pick a dog that thrives in their setting.",
+  "internal_links": [
+    {
+      "slug": "keep-dog-cool-safe-summer-heat",
+      "title": "How to Keep Your Dog Cool and Safe in Summer Heat"
+    },
+    {
+      "slug": "new-puppy-mistakes-slow-bonding",
+      "title": "6 New Puppy Mistakes That Slow Down Bonding"
+    },
+    {
+      "slug": "group-class-vs-home-training",
+      "title": "Group Class vs At-Home Training: Which Suits Your Dog?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

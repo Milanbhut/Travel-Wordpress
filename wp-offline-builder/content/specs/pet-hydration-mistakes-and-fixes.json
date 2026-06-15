@@ -1,0 +1,27 @@
+{
+  "slug": "pet-hydration-mistakes-and-fixes",
+  "title": "6 Pet Hydration Mistakes and How to Fix Them",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "Addresses dirty bowls, poor placement, and low intake habits that leave pets under-hydrated, with simple fixes.",
+  "internal_links": [
+    {
+      "slug": "read-pet-food-label-correctly",
+      "title": "How to Read a Pet Food Label Without Getting Fooled"
+    },
+    {
+      "slug": "wet-vs-dry-dog-food",
+      "title": "Wet vs Dry Dog Food: Which Should You Feed?"
+    },
+    {
+      "slug": "preventive-care-saved-vet-bill",
+      "title": "How Preventive Care Saved Us From a Big Vet Bill"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

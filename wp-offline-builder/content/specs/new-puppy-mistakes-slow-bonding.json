@@ -1,0 +1,27 @@
+{
+  "slug": "new-puppy-mistakes-slow-bonding",
+  "title": "6 New Puppy Mistakes That Slow Down Bonding",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Identifies early missteps that erode trust with a new puppy and offers gentle adjustments for a stronger bond.",
+  "internal_links": [
+    {
+      "slug": "routine-calmed-high-energy-collie",
+      "title": "How a Daily Routine Calmed Our High-Energy Border Collie"
+    },
+    {
+      "slug": "why-dog-licks-paws",
+      "title": "Why Does My Dog Lick Its Paws? 6 Common Causes and Fixes"
+    },
+    {
+      "slug": "signs-dog-ready-off-leash",
+      "title": "9 Signs Your Dog Is Ready for Off-Leash Freedom"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

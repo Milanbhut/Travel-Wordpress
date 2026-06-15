@@ -1,0 +1,17 @@
+{
+  "slug": "month-by-month-garden-jobs",
+  "title": "A Month-by-Month Guide to What Your Garden Needs",
+  "archetype": "explainer",
+  "category_title": "Seasonal Tasks & Garden Projects",
+  "category_slug": "seasons",
+  "author_name": "Arjun Patel",
+  "author_voice": "Practical and checklist-driven with dry humour; tests the method on his own plot first",
+  "angle": "Breaking the gardening year into clear monthly task lists.",
+  "internal_links": [
+    "first-year-garden-case-study",
+    "set-up-drip-irrigation",
+    "protect-fruit-trees-from-pests"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

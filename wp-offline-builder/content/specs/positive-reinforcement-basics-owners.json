@@ -1,0 +1,27 @@
+{
+  "slug": "positive-reinforcement-basics-owners",
+  "title": "8 Positive Reinforcement Basics Every Owner Should Know",
+  "archetype": "listicle",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Core reward-training principles, from timing to marker words, that set up every future cue for success.",
+  "internal_links": [
+    {
+      "slug": "why-dog-wont-listen-outside",
+      "title": "Why Won't My Dog Listen Outside? Distraction Explained"
+    },
+    {
+      "slug": "stop-dog-jumping-on-people",
+      "title": "How to Stop Your Dog From Jumping on People"
+    },
+    {
+      "slug": "beginner-dog-breeds-first-time-owners",
+      "title": "10 Beginner-Friendly Dog Breeds for First-Time Owners"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

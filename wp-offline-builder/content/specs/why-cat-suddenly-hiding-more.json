@@ -1,0 +1,27 @@
+{
+  "slug": "why-cat-suddenly-hiding-more",
+  "title": "Why Is My Cat Suddenly Hiding More Than Usual?",
+  "archetype": "explainer",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Explains stress, illness, and environmental triggers behind new hiding and when to call the vet versus wait.",
+  "internal_links": [
+    {
+      "slug": "must-have-supplies-new-kitten",
+      "title": "8 Must-Have Supplies for a New Kitten"
+    },
+    {
+      "slug": "wet-vs-dry-cat-food",
+      "title": "Wet vs Dry Cat Food: Which Is Right for Your Cat?"
+    },
+    {
+      "slug": "why-dog-sheds-so-much",
+      "title": "Why Does My Dog Shed So Much? Causes and Control"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

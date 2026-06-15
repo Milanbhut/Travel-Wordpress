@@ -1,0 +1,27 @@
+{
+  "slug": "cat-ignores-toys-mistakes-fixes",
+  "title": "6 Reasons Your Cat Ignores Toys (and How to Fix It)",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Diagnoses why playtime falls flat and how to match toys and timing to a cat's natural hunting rhythm.",
+  "internal_links": [
+    {
+      "slug": "vertical-space-transformed-indoor-cat",
+      "title": "How Vertical Space Transformed Our Bored Indoor Cat"
+    },
+    {
+      "slug": "why-cat-kneads-me",
+      "title": "Why Does My Cat Knead Me? The Comfort Behind the Behavior"
+    },
+    {
+      "slug": "nail-trimming-mistakes-and-fixes",
+      "title": "6 Nail-Trimming Mistakes That Hurt Pets (and Fixes)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

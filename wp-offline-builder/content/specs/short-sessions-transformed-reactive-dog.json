@@ -1,0 +1,27 @@
+{
+  "slug": "short-sessions-transformed-reactive-dog",
+  "title": "How Daily 10-Minute Sessions Transformed Our Reactive Dog",
+  "archetype": "case-study",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "A practical story showing how brief, consistent training reduced reactivity and rebuilt the dog's confidence.",
+  "internal_links": [
+    {
+      "slug": "teach-dog-to-sit-positive-reinforcement",
+      "title": "How to Teach Your Dog to Sit Using Positive Reinforcement"
+    },
+    {
+      "slug": "positive-reinforcement-basics-owners",
+      "title": "8 Positive Reinforcement Basics Every Owner Should Know"
+    },
+    {
+      "slug": "routine-calmed-high-energy-collie",
+      "title": "How a Daily Routine Calmed Our High-Energy Border Collie"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

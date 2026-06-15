@@ -1,0 +1,17 @@
+{
+  "slug": "test-your-garden-soil",
+  "title": "Testing Your Garden Soil Before You Plant Anything",
+  "archetype": "how-to",
+  "category_title": "Soil, Compost & Plant Care",
+  "category_slug": "soil",
+  "author_name": "Rosa Delgado",
+  "author_voice": "Patient systems-thinker who plays the long game; grounded, ecological and unhurried",
+  "angle": "Simple at-home tests for pH and texture to guide planting choices.",
+  "internal_links": [
+    "signs-of-unhealthy-soil",
+    "compost-vs-fertilizer",
+    "start-vegetable-seeds-indoors"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

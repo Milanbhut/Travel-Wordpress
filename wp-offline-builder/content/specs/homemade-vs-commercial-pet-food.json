@@ -1,0 +1,27 @@
+{
+  "slug": "homemade-vs-commercial-pet-food",
+  "title": "Homemade vs Commercial Pet Food: Pros and Cons",
+  "archetype": "comparison",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Weighs control, cost, and nutritional safety so owners can decide whether homemade feeding is worth it.",
+  "internal_links": [
+    {
+      "slug": "foods-never-feed-your-cat",
+      "title": "9 Foods You Should Never Feed Your Cat"
+    },
+    {
+      "slug": "slow-feeder-stop-fast-eating",
+      "title": "How to Use a Slow Feeder to Stop Fast Eating"
+    },
+    {
+      "slug": "indoor-vs-outdoor-cat-health",
+      "title": "Indoor vs Outdoor Cat: Which Is Healthier?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

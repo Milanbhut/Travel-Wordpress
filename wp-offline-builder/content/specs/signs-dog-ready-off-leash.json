@@ -1,0 +1,27 @@
+{
+  "slug": "signs-dog-ready-off-leash",
+  "title": "9 Signs Your Dog Is Ready for Off-Leash Freedom",
+  "archetype": "listicle",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Behavioral readiness checks that tell owners when off-leash time is safe versus premature.",
+  "internal_links": [
+    {
+      "slug": "short-sessions-transformed-reactive-dog",
+      "title": "How Daily 10-Minute Sessions Transformed Our Reactive Dog"
+    },
+    {
+      "slug": "teach-dog-to-sit-positive-reinforcement",
+      "title": "How to Teach Your Dog to Sit Using Positive Reinforcement"
+    },
+    {
+      "slug": "new-puppy-mistakes-slow-bonding",
+      "title": "6 New Puppy Mistakes That Slow Down Bonding"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

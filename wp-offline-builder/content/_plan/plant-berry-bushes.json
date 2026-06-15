@@ -1,0 +1,17 @@
+{
+  "slug": "plant-berry-bushes",
+  "title": "Planting Berry Bushes for Summers of Free Fruit",
+  "archetype": "how-to",
+  "category_title": "Fruit Trees, Shrubs & Orchard",
+  "category_slug": "trees",
+  "author_name": "Theo Bramley",
+  "author_voice": "Enthusiastic, design-minded plantsman; paints a picture of the finished planting and the route to it",
+  "angle": "Choosing, siting, and planting blueberries, raspberries, and currants.",
+  "internal_links": [
+    "understanding-tree-pollination",
+    "fruit-tree-pruning-mistakes",
+    "raised-bed-vs-greenhouse"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

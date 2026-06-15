@@ -1,0 +1,664 @@
+{
+  "categories": [
+    {
+      "slug": "dogs",
+      "articles": [
+        {
+          "title": "Why Does My Dog Lick Its Paws? 6 Common Causes and Fixes",
+          "slug": "why-dog-licks-paws",
+          "archetype": "explainer",
+          "image_query": "dog licking paw close up",
+          "angle": "Decodes the most frequent reasons behind paw-licking, from allergies to boredom, and gives calm at-home steps for worried first-time owners."
+        },
+        {
+          "title": "10 Beginner-Friendly Dog Breeds for First-Time Owners",
+          "slug": "beginner-dog-breeds-first-time-owners",
+          "archetype": "listicle",
+          "image_query": "happy beagle puppy outdoors",
+          "angle": "Ranks gentle, trainable breeds by temperament and care needs so new owners can match a dog to their lifestyle."
+        },
+        {
+          "title": "How to Crate Train a Puppy Without Stress in 7 Days",
+          "slug": "crate-train-puppy-without-stress",
+          "archetype": "how-to",
+          "image_query": "puppy resting inside crate",
+          "angle": "A gentle day-by-day plan that turns the crate into a safe den, written for owners who fear crating feels cruel."
+        },
+        {
+          "title": "Crate vs Playpen: Which Is Better for a New Puppy?",
+          "slug": "crate-vs-playpen-new-puppy",
+          "archetype": "comparison",
+          "image_query": "puppy in indoor playpen",
+          "angle": "Compares containment options on safety, space, and training value to help owners pick the right setup for their home."
+        },
+        {
+          "title": "7 Dog-Walking Mistakes That Make Walks Harder (and Fixes)",
+          "slug": "dog-walking-mistakes-and-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "person walking dog on leash",
+          "angle": "Pinpoints common leash and timing errors that frustrate owners, with quick corrections for calmer daily walks."
+        },
+        {
+          "title": "How We Helped Our Shy Rescue Dog Settle In 30 Days",
+          "slug": "rescue-dog-settle-30-days",
+          "archetype": "case-study",
+          "image_query": "rescue dog relaxing at home",
+          "angle": "A realistic week-by-week story of decompressing an anxious rescue, useful for anyone adopting an under-socialized dog."
+        },
+        {
+          "title": "How Much Exercise Does My Dog Really Need Each Day?",
+          "slug": "how-much-exercise-dog-needs-daily",
+          "archetype": "explainer",
+          "image_query": "dog running in park field",
+          "angle": "Explains daily activity needs by age, size, and breed so owners avoid both couch-potato and over-exercised extremes."
+        },
+        {
+          "title": "12 Essential Items Every New Dog Owner Should Buy First",
+          "slug": "essential-items-new-dog-owners",
+          "archetype": "listicle",
+          "image_query": "dog supplies bowls leash bed",
+          "angle": "A no-fluff starter shopping list prioritizing what truly matters in week one over trendy gadgets."
+        },
+        {
+          "title": "How to Introduce a New Dog to Your Resident Dog Calmly",
+          "slug": "introduce-new-dog-to-resident-dog",
+          "archetype": "how-to",
+          "image_query": "two dogs meeting on leash",
+          "angle": "A step-by-step neutral-territory method that lowers tension when bringing a second dog into a one-dog home."
+        },
+        {
+          "title": "Why Does My Dog Follow Me Everywhere? What It Means",
+          "slug": "why-dog-follows-me-everywhere",
+          "archetype": "explainer",
+          "image_query": "dog following owner indoors",
+          "angle": "Unpacks the bonding, breed, and anxiety reasons behind a velcro dog and when the behavior is worth addressing."
+        },
+        {
+          "title": "8 Signs Your Dog Is Genuinely Happy and Content",
+          "slug": "signs-your-dog-is-happy",
+          "archetype": "listicle",
+          "image_query": "smiling dog wagging tail outdoors",
+          "angle": "Translates body language and daily habits into readable happiness cues so owners can gauge their dog's wellbeing."
+        },
+        {
+          "title": "Apartment Dog vs House Dog: Choosing the Right Fit",
+          "slug": "apartment-dog-vs-house-dog",
+          "archetype": "comparison",
+          "image_query": "small dog in apartment window",
+          "angle": "Weighs space, energy, and noise factors to help renters and homeowners pick a dog that thrives in their setting."
+        },
+        {
+          "title": "How to Keep Your Dog Cool and Safe in Summer Heat",
+          "slug": "keep-dog-cool-safe-summer-heat",
+          "archetype": "how-to",
+          "image_query": "dog drinking water in summer",
+          "angle": "Practical hot-weather routines for walks, hydration, and shade that prevent overheating without overcomplicating the day."
+        },
+        {
+          "title": "6 New Puppy Mistakes That Slow Down Bonding",
+          "slug": "new-puppy-mistakes-slow-bonding",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "puppy cuddling with owner",
+          "angle": "Identifies early missteps that erode trust with a new puppy and offers gentle adjustments for a stronger bond."
+        },
+        {
+          "title": "How a Daily Routine Calmed Our High-Energy Border Collie",
+          "slug": "routine-calmed-high-energy-collie",
+          "archetype": "case-study",
+          "image_query": "border collie playing fetch",
+          "angle": "A practical account of using structure and mental work to settle a hyper herding dog, helpful for owners of busy breeds."
+        }
+      ]
+    },
+    {
+      "slug": "cats",
+      "articles": [
+        {
+          "title": "Why Does My Cat Knead Me? The Comfort Behind the Behavior",
+          "slug": "why-cat-kneads-me",
+          "archetype": "explainer",
+          "image_query": "cat kneading soft blanket",
+          "angle": "Explains the kittenhood roots of kneading and what it reveals about your cat's comfort and trust in you."
+        },
+        {
+          "title": "9 Easy Ways to Enrich an Indoor Cat's Day",
+          "slug": "enrich-indoor-cat-day",
+          "archetype": "listicle",
+          "image_query": "indoor cat playing with toy",
+          "angle": "Low-cost play, climbing, and foraging ideas that keep indoor cats stimulated and prevent boredom-driven mischief."
+        },
+        {
+          "title": "How to Stop Your Cat From Scratching the Furniture",
+          "slug": "stop-cat-scratching-furniture",
+          "archetype": "how-to",
+          "image_query": "cat using scratching post",
+          "angle": "A redirect-and-reward method that protects sofas by giving cats better surfaces, no declawing involved."
+        },
+        {
+          "title": "Covered vs Open Litter Box: Which Do Cats Prefer?",
+          "slug": "covered-vs-open-litter-box",
+          "archetype": "comparison",
+          "image_query": "cat near covered litter box",
+          "angle": "Compares hooded and open boxes on odor, privacy, and cat acceptance to help reduce litter-box refusals."
+        },
+        {
+          "title": "7 Litter Box Mistakes That Cause Accidents (and Fixes)",
+          "slug": "litter-box-mistakes-and-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "clean litter box in bathroom",
+          "angle": "Targets placement, cleaning, and count errors that trigger outside-the-box accidents, with simple corrections."
+        },
+        {
+          "title": "How We Got Two Cats to Finally Live in Peace",
+          "slug": "two-cats-living-in-peace",
+          "archetype": "case-study",
+          "image_query": "two cats resting together",
+          "angle": "A real reintroduction story for households where cats fight, covering scent swapping and shared-space strategies."
+        },
+        {
+          "title": "Why Does My Cat Bring Me Toys at Night?",
+          "slug": "why-cat-brings-toys-night",
+          "archetype": "explainer",
+          "image_query": "cat carrying toy mouse",
+          "angle": "Unpacks the hunting and social instincts behind nighttime gifting and whether owners should encourage it."
+        },
+        {
+          "title": "10 Signs Your Cat Trusts and Loves You",
+          "slug": "signs-your-cat-trusts-you",
+          "archetype": "listicle",
+          "image_query": "cat headbutting owner face",
+          "angle": "Reads slow blinks, belly shows, and follow-behavior so owners can recognize feline affection that's easy to miss."
+        },
+        {
+          "title": "How to Introduce a New Cat to Your Current Cat Slowly",
+          "slug": "introduce-new-cat-to-current-cat",
+          "archetype": "how-to",
+          "image_query": "two cats sniffing through door",
+          "angle": "A gradual, room-by-room introduction plan that minimizes territorial stress in multi-cat homes."
+        },
+        {
+          "title": "Why Is My Cat Suddenly Hiding More Than Usual?",
+          "slug": "why-cat-suddenly-hiding-more",
+          "archetype": "explainer",
+          "image_query": "cat hiding under furniture",
+          "angle": "Explains stress, illness, and environmental triggers behind new hiding and when to call the vet versus wait."
+        },
+        {
+          "title": "8 Must-Have Supplies for a New Kitten",
+          "slug": "must-have-supplies-new-kitten",
+          "archetype": "listicle",
+          "image_query": "kitten with toys and bowl",
+          "angle": "A focused kitten starter kit covering the essentials that set up safe, smooth early weeks at home."
+        },
+        {
+          "title": "Wet vs Dry Cat Food: Which Is Right for Your Cat?",
+          "slug": "wet-vs-dry-cat-food",
+          "archetype": "comparison",
+          "image_query": "cat eating from food bowl",
+          "angle": "Weighs hydration, dental, and convenience tradeoffs to guide everyday feeding choices for healthy adult cats."
+        },
+        {
+          "title": "How to Create a Stress-Free Vet Trip for Anxious Cats",
+          "slug": "stress-free-vet-trip-anxious-cats",
+          "archetype": "how-to",
+          "image_query": "cat in carrier at vet",
+          "angle": "Carrier training and calming tactics that make appointments less traumatic for skittish cats and their owners."
+        },
+        {
+          "title": "6 Reasons Your Cat Ignores Toys (and How to Fix It)",
+          "slug": "cat-ignores-toys-mistakes-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "cat ignoring pile of toys",
+          "angle": "Diagnoses why playtime falls flat and how to match toys and timing to a cat's natural hunting rhythm."
+        },
+        {
+          "title": "How Vertical Space Transformed Our Bored Indoor Cat",
+          "slug": "vertical-space-transformed-indoor-cat",
+          "archetype": "case-study",
+          "image_query": "cat climbing tall cat tree",
+          "angle": "A before-and-after story of adding shelves and trees to curb a restless indoor cat's destructive habits."
+        }
+      ]
+    },
+    {
+      "slug": "health",
+      "articles": [
+        {
+          "title": "What Vaccines Does My Dog or Cat Actually Need?",
+          "slug": "vaccines-dog-cat-actually-need",
+          "archetype": "explainer",
+          "image_query": "puppy vaccination at vet",
+          "angle": "Breaks down core versus optional vaccines and typical schedules so owners can have informed vet conversations."
+        },
+        {
+          "title": "10 Early Warning Signs Your Pet May Be Sick",
+          "slug": "early-warning-signs-pet-sick",
+          "archetype": "listicle",
+          "image_query": "tired dog resting on floor",
+          "angle": "Lists subtle behavior and appetite changes that signal trouble early, helping owners act before problems worsen."
+        },
+        {
+          "title": "How to Build a Pet First-Aid Kit at Home",
+          "slug": "build-pet-first-aid-kit-home",
+          "archetype": "how-to",
+          "image_query": "pet first aid kit supplies",
+          "angle": "A practical checklist and storage guide for assembling a vet-informed first-aid kit for common minor emergencies."
+        },
+        {
+          "title": "Fleas vs Ticks: How to Tell Them Apart and Respond",
+          "slug": "fleas-vs-ticks-tell-apart",
+          "archetype": "comparison",
+          "image_query": "veterinarian checking dog fur",
+          "angle": "Compares appearance, risks, and removal so owners can identify and handle each parasite correctly."
+        },
+        {
+          "title": "7 Pet Dental Care Mistakes That Harm Teeth (and Fixes)",
+          "slug": "pet-dental-care-mistakes-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "dog teeth brushing at home",
+          "angle": "Corrects skipped brushing and product errors that lead to dental disease, with easy at-home routines."
+        },
+        {
+          "title": "How Early Weight Tracking Caught Our Cat's Health Issue",
+          "slug": "weight-tracking-caught-cat-issue",
+          "archetype": "case-study",
+          "image_query": "cat being weighed at vet",
+          "angle": "A realistic story showing how routine weigh-ins flagged a problem early, encouraging proactive monitoring at home."
+        },
+        {
+          "title": "Why Is My Pet Scratching So Much? Common Skin Causes",
+          "slug": "why-pet-scratching-skin-causes",
+          "archetype": "explainer",
+          "image_query": "dog scratching behind ear",
+          "angle": "Explains allergies, dry skin, and parasites behind itching and which clues point toward a vet visit."
+        },
+        {
+          "title": "9 Senior Pet Care Tips for a Comfortable Old Age",
+          "slug": "senior-pet-care-tips-comfortable",
+          "archetype": "listicle",
+          "image_query": "senior dog resting on bed",
+          "angle": "Mobility, diet, and comfort adjustments that help aging dogs and cats stay happy in their golden years."
+        },
+        {
+          "title": "How to Prepare Your Pet for a Calm Vet Visit",
+          "slug": "prepare-pet-calm-vet-visit",
+          "archetype": "how-to",
+          "image_query": "dog being examined by vet",
+          "angle": "Pre-appointment prep that reduces fear and helps you give the vet the information that speeds diagnosis."
+        },
+        {
+          "title": "What Healthy Pet Poop Looks Like (and Warning Signs)",
+          "slug": "healthy-pet-poop-warning-signs",
+          "archetype": "explainer",
+          "image_query": "dog on walk outdoors grass",
+          "angle": "A plain-language guide to stool color and consistency so owners know when digestion is normal versus concerning."
+        },
+        {
+          "title": "8 Common Household Items That Are Toxic to Pets",
+          "slug": "household-items-toxic-to-pets",
+          "archetype": "listicle",
+          "image_query": "curious dog in kitchen",
+          "angle": "Names everyday foods and products that pose poisoning risks and how to pet-proof common rooms safely."
+        },
+        {
+          "title": "Indoor vs Outdoor Cat: Which Is Healthier?",
+          "slug": "indoor-vs-outdoor-cat-health",
+          "archetype": "comparison",
+          "image_query": "cat sitting by open window",
+          "angle": "Compares lifespan, risks, and enrichment needs to help owners decide on a safe, balanced lifestyle for their cat."
+        },
+        {
+          "title": "How to Spot and Respond to a Pet Emergency Fast",
+          "slug": "spot-respond-pet-emergency-fast",
+          "archetype": "how-to",
+          "image_query": "owner comforting worried dog",
+          "angle": "Teaches owners to recognize true emergencies and take calm first steps before reaching the vet."
+        },
+        {
+          "title": "6 Eye and Ear Problems Owners Often Miss in Pets",
+          "slug": "eye-ear-problems-owners-miss",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "vet checking dog ears",
+          "angle": "Highlights overlooked discharge, odor, and squinting signs and the simple home checks that catch them sooner."
+        },
+        {
+          "title": "How Preventive Care Saved Us From a Big Vet Bill",
+          "slug": "preventive-care-saved-vet-bill",
+          "archetype": "case-study",
+          "image_query": "dog at routine vet checkup",
+          "angle": "A relatable account of how routine checkups and parasite prevention avoided a costly health scare."
+        }
+      ]
+    },
+    {
+      "slug": "nutrition",
+      "articles": [
+        {
+          "title": "How to Read a Pet Food Label Without Getting Fooled",
+          "slug": "read-pet-food-label-correctly",
+          "archetype": "how-to",
+          "image_query": "person reading pet food bag",
+          "angle": "Demystifies ingredient lists and guaranteed analysis so owners can judge food quality past the marketing."
+        },
+        {
+          "title": "Wet vs Dry Dog Food: Which Should You Feed?",
+          "slug": "wet-vs-dry-dog-food",
+          "archetype": "comparison",
+          "image_query": "dog food bowl with kibble",
+          "angle": "Compares cost, hydration, and dental factors to help owners choose or combine food types confidently."
+        },
+        {
+          "title": "How Much Should I Feed My Dog? A Simple Portion Guide",
+          "slug": "how-much-to-feed-my-dog",
+          "archetype": "how-to",
+          "image_query": "measuring cup with dog kibble",
+          "angle": "Turns weight, age, and activity into clear portion math so owners stop guessing at mealtime amounts."
+        },
+        {
+          "title": "10 Human Foods That Are Safe for Dogs in Moderation",
+          "slug": "human-foods-safe-for-dogs",
+          "archetype": "listicle",
+          "image_query": "dog looking at fruit bowl",
+          "angle": "A vet-informed list of safe table foods with portion notes so owners can share treats without risk."
+        },
+        {
+          "title": "Why Is My Cat Always Hungry? Appetite Explained",
+          "slug": "why-cat-always-hungry",
+          "archetype": "explainer",
+          "image_query": "cat begging near food bowl",
+          "angle": "Explains behavioral and medical reasons for constant begging and how to set healthy feeding boundaries."
+        },
+        {
+          "title": "7 Feeding Mistakes That Make Pets Gain Weight (and Fixes)",
+          "slug": "feeding-mistakes-pets-gain-weight",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "overweight cat near food bowl",
+          "angle": "Targets free-feeding, treat creep, and portion errors that quietly drive pet obesity, with practical corrections."
+        },
+        {
+          "title": "How We Helped Our Overweight Dog Lose Weight Safely",
+          "slug": "overweight-dog-lose-weight-safely",
+          "archetype": "case-study",
+          "image_query": "dog walking for exercise outdoors",
+          "angle": "A realistic plan combining measured meals and exercise that slimmed a chunky dog without crash dieting."
+        },
+        {
+          "title": "Grain-Free vs Grain-Inclusive Dog Food: What to Know",
+          "slug": "grain-free-vs-grain-inclusive-food",
+          "archetype": "comparison",
+          "image_query": "different dog food bowls comparison",
+          "angle": "Cuts through hype to compare both diet styles fairly so owners can choose based on facts, not fads."
+        },
+        {
+          "title": "8 Healthy Treat Ideas for Training Your Dog",
+          "slug": "healthy-treat-ideas-training-dog",
+          "archetype": "listicle",
+          "image_query": "dog treats in hand",
+          "angle": "Low-calorie, high-value treat options that keep training rewarding without padding your dog's waistline."
+        },
+        {
+          "title": "How to Safely Transition Your Pet to a New Food",
+          "slug": "transition-pet-to-new-food",
+          "archetype": "how-to",
+          "image_query": "mixing two types pet food",
+          "angle": "A gradual changeover schedule that prevents stomach upset when switching brands or formulas."
+        },
+        {
+          "title": "What Does a Balanced Diet Actually Mean for Pets?",
+          "slug": "balanced-diet-for-pets-explained",
+          "archetype": "explainer",
+          "image_query": "healthy pet food ingredients",
+          "angle": "Explains the core nutrients pets need and how complete-and-balanced labeling protects everyday feeding."
+        },
+        {
+          "title": "Homemade vs Commercial Pet Food: Pros and Cons",
+          "slug": "homemade-vs-commercial-pet-food",
+          "archetype": "comparison",
+          "image_query": "homemade dog food preparation",
+          "angle": "Weighs control, cost, and nutritional safety so owners can decide whether homemade feeding is worth it."
+        },
+        {
+          "title": "9 Foods You Should Never Feed Your Cat",
+          "slug": "foods-never-feed-your-cat",
+          "archetype": "listicle",
+          "image_query": "cat near kitchen counter",
+          "angle": "A clear danger list of common foods toxic to cats, with quick guidance on accidental exposure."
+        },
+        {
+          "title": "How to Use a Slow Feeder to Stop Fast Eating",
+          "slug": "slow-feeder-stop-fast-eating",
+          "archetype": "how-to",
+          "image_query": "dog eating from slow feeder",
+          "angle": "Shows how puzzle and slow bowls curb gulping, reduce bloat risk, and add mealtime enrichment."
+        },
+        {
+          "title": "6 Pet Hydration Mistakes and How to Fix Them",
+          "slug": "pet-hydration-mistakes-and-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "cat drinking from water fountain",
+          "angle": "Addresses dirty bowls, poor placement, and low intake habits that leave pets under-hydrated, with simple fixes."
+        }
+      ]
+    },
+    {
+      "slug": "training",
+      "articles": [
+        {
+          "title": "How to Teach Your Dog to Sit Using Positive Reinforcement",
+          "slug": "teach-dog-to-sit-positive-reinforcement",
+          "archetype": "how-to",
+          "image_query": "dog sitting on command outdoors",
+          "angle": "A beginner-proof, reward-based method that gets a reliable sit in short, stress-free sessions."
+        },
+        {
+          "title": "8 Positive Reinforcement Basics Every Owner Should Know",
+          "slug": "positive-reinforcement-basics-owners",
+          "archetype": "listicle",
+          "image_query": "owner training dog with treat",
+          "angle": "Core reward-training principles, from timing to marker words, that set up every future cue for success."
+        },
+        {
+          "title": "Why Won't My Dog Listen Outside? Distraction Explained",
+          "slug": "why-dog-wont-listen-outside",
+          "archetype": "explainer",
+          "image_query": "distracted dog on busy street",
+          "angle": "Explains why cues fall apart in stimulating places and how to build focus around real-world distractions."
+        },
+        {
+          "title": "How to Stop Your Dog From Jumping on People",
+          "slug": "stop-dog-jumping-on-people",
+          "archetype": "how-to",
+          "image_query": "dog greeting person at door",
+          "angle": "A consistent four-paws-on-floor method that replaces jumping with a polite greeting guests will appreciate."
+        },
+        {
+          "title": "Clicker vs Verbal Marker: Which Trains Faster?",
+          "slug": "clicker-vs-verbal-marker-training",
+          "archetype": "comparison",
+          "image_query": "dog training clicker in hand",
+          "angle": "Compares clickers and word markers on clarity and convenience to help owners pick a marker they'll use well."
+        },
+        {
+          "title": "7 Training Mistakes That Confuse Your Dog (and Fixes)",
+          "slug": "training-mistakes-confuse-dog-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "frustrated owner training dog",
+          "angle": "Spotlights inconsistent cues and bad timing that stall progress, with corrections that rebuild clarity fast."
+        },
+        {
+          "title": "How We Fixed Our Rescue Dog's Leash Pulling in 3 Weeks",
+          "slug": "fixed-rescue-dog-leash-pulling",
+          "archetype": "case-study",
+          "image_query": "dog walking calmly on leash",
+          "angle": "A realistic week-by-week story of turning a puller into a loose-leash walker using rewards and patience."
+        },
+        {
+          "title": "How to House Train a Puppy the Reliable Way",
+          "slug": "house-train-puppy-reliable-way",
+          "archetype": "how-to",
+          "image_query": "puppy on potty training pad",
+          "angle": "A schedule-driven potty plan that builds clean habits fast while reducing accidents and frustration."
+        },
+        {
+          "title": "10 Easy Tricks to Teach Your Dog This Weekend",
+          "slug": "easy-tricks-teach-dog-weekend",
+          "archetype": "listicle",
+          "image_query": "dog shaking paw with owner",
+          "angle": "Fun, quick-win tricks that build confidence and strengthen the owner-dog bond in short sessions."
+        },
+        {
+          "title": "Why Does My Dog Bark at Everything? Causes and Calm Fixes",
+          "slug": "why-dog-barks-at-everything",
+          "archetype": "explainer",
+          "image_query": "dog barking at window",
+          "angle": "Explains alarm, demand, and boredom barking and matches each type to a humane reduction strategy."
+        },
+        {
+          "title": "How to Train a Reliable Recall So Your Dog Comes Every Time",
+          "slug": "train-reliable-recall-dog",
+          "archetype": "how-to",
+          "image_query": "dog running back to owner",
+          "angle": "Builds a rock-solid 'come' through games and high-value rewards for safer off-leash and emergency moments."
+        },
+        {
+          "title": "Group Class vs At-Home Training: Which Suits Your Dog?",
+          "slug": "group-class-vs-home-training",
+          "archetype": "comparison",
+          "image_query": "dog obedience class group",
+          "angle": "Compares cost, socialization, and pace so owners choose the training format that fits their dog and schedule."
+        },
+        {
+          "title": "6 Reasons Your Dog Ignores Commands (and How to Fix It)",
+          "slug": "why-dog-ignores-commands-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "dog looking away from owner",
+          "angle": "Diagnoses why cues get ignored, from poor rewards to unclear signals, and how to restore responsiveness."
+        },
+        {
+          "title": "9 Signs Your Dog Is Ready for Off-Leash Freedom",
+          "slug": "signs-dog-ready-off-leash",
+          "archetype": "listicle",
+          "image_query": "dog running free in field",
+          "angle": "Behavioral readiness checks that tell owners when off-leash time is safe versus premature."
+        },
+        {
+          "title": "How Daily 10-Minute Sessions Transformed Our Reactive Dog",
+          "slug": "short-sessions-transformed-reactive-dog",
+          "archetype": "case-study",
+          "image_query": "calm dog focused on owner",
+          "angle": "A practical story showing how brief, consistent training reduced reactivity and rebuilt the dog's confidence."
+        }
+      ]
+    },
+    {
+      "slug": "grooming",
+      "articles": [
+        {
+          "title": "How to Trim Your Dog's Nails Without the Drama",
+          "slug": "trim-dog-nails-without-drama",
+          "archetype": "how-to",
+          "image_query": "trimming dog nails close up",
+          "angle": "A calm, gradual nail-trim method that avoids the quick and turns a dreaded task into a quick routine."
+        },
+        {
+          "title": "8 Grooming Tools Every Pet Owner Should Own",
+          "slug": "grooming-tools-every-owner-should-own",
+          "archetype": "listicle",
+          "image_query": "pet grooming brushes and tools",
+          "angle": "A practical toolkit covering brushes, clippers, and trimmers that handle most at-home grooming needs."
+        },
+        {
+          "title": "How to Brush a Cat That Hates Being Groomed",
+          "slug": "brush-cat-that-hates-grooming",
+          "archetype": "how-to",
+          "image_query": "brushing reluctant long-haired cat",
+          "angle": "Gentle desensitizing steps and the right tools that make brushing tolerable for grooming-averse cats."
+        },
+        {
+          "title": "Clippers vs Scissors for At-Home Dog Grooming",
+          "slug": "clippers-vs-scissors-home-grooming",
+          "archetype": "comparison",
+          "image_query": "dog grooming clippers and scissors",
+          "angle": "Compares safety, finish, and learning curve so owners pick the right tool for their dog's coat at home."
+        },
+        {
+          "title": "7 Dog Bathing Mistakes That Dry Out the Coat (and Fixes)",
+          "slug": "dog-bathing-mistakes-and-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "dog getting a bath outdoors",
+          "angle": "Corrects over-bathing, wrong shampoo, and poor rinsing that damage skin and coat, with healthier habits."
+        },
+        {
+          "title": "How We Turned Bath Time Into a Calm Routine for Our Dog",
+          "slug": "calm-bath-time-routine-dog",
+          "archetype": "case-study",
+          "image_query": "happy dog in bathtub",
+          "angle": "A realistic story of desensitizing a bath-hating dog using treats and pacing for stress-free washes."
+        },
+        {
+          "title": "How Often Should You Bathe Your Dog, Really?",
+          "slug": "how-often-bathe-your-dog",
+          "archetype": "explainer",
+          "image_query": "clean fluffy dog after bath",
+          "angle": "Explains bathing frequency by coat type, activity, and skin health so owners avoid over- and under-washing."
+        },
+        {
+          "title": "How to Clean Your Dog's Ears Safely at Home",
+          "slug": "clean-dog-ears-safely-home",
+          "archetype": "how-to",
+          "image_query": "cleaning dog ears with cotton",
+          "angle": "A safe, vet-aligned ear-cleaning routine that prevents infections without pushing debris deeper."
+        },
+        {
+          "title": "9 Signs Your Dog's Coat Needs Professional Grooming",
+          "slug": "signs-dog-needs-professional-grooming",
+          "archetype": "listicle",
+          "image_query": "matted dog fur close up",
+          "angle": "Matting, odor, and overgrowth cues that tell owners when at-home care isn't enough and a groomer is due."
+        },
+        {
+          "title": "Why Does My Dog Shed So Much? Causes and Control",
+          "slug": "why-dog-sheds-so-much",
+          "archetype": "explainer",
+          "image_query": "dog fur on furniture brushing",
+          "angle": "Explains seasonal, breed, and health-related shedding and the grooming habits that keep it manageable."
+        },
+        {
+          "title": "How to Brush Your Pet's Teeth Without a Fight",
+          "slug": "brush-pet-teeth-without-fight",
+          "archetype": "how-to",
+          "image_query": "brushing dog teeth gently",
+          "angle": "A step-up routine using pet toothpaste that builds tolerance and protects dental health over time."
+        },
+        {
+          "title": "Professional Groomer vs DIY: When to Call a Pro",
+          "slug": "professional-groomer-vs-diy",
+          "archetype": "comparison",
+          "image_query": "professional dog grooming salon",
+          "angle": "Weighs cost, skill, and coat complexity to help owners decide which grooming tasks to outsource."
+        },
+        {
+          "title": "10 At-Home Hygiene Habits for a Healthier Pet",
+          "slug": "at-home-hygiene-habits-healthier-pet",
+          "archetype": "listicle",
+          "image_query": "owner grooming dog at home",
+          "angle": "A simple weekly hygiene rhythm covering coat, nails, ears, and teeth that keeps pets clean between vet visits."
+        },
+        {
+          "title": "6 Nail-Trimming Mistakes That Hurt Pets (and Fixes)",
+          "slug": "nail-trimming-mistakes-and-fixes",
+          "archetype": "mistakes-and-fixes",
+          "image_query": "pet nail clipper and paw",
+          "angle": "Covers cutting too short, wrong angle, and rushing that cause pain, with corrections for safer trims."
+        },
+        {
+          "title": "How Regular Brushing Cleared Up Our Cat's Hairball Problem",
+          "slug": "brushing-cleared-cat-hairball-problem",
+          "archetype": "case-study",
+          "image_query": "brushing fluffy cat fur",
+          "angle": "A real account of how a consistent brushing routine cut down hairballs and improved a long-haired cat's coat."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "why-dog-wont-listen-outside",
+  "title": "Why Won't My Dog Listen Outside? Distraction Explained",
+  "archetype": "explainer",
+  "category_slug": "training",
+  "category_title": "Training & Behavior",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Explains why cues fall apart in stimulating places and how to build focus around real-world distractions.",
+  "internal_links": [
+    {
+      "slug": "stop-dog-jumping-on-people",
+      "title": "How to Stop Your Dog From Jumping on People"
+    },
+    {
+      "slug": "clicker-vs-verbal-marker-training",
+      "title": "Clicker vs Verbal Marker: Which Trains Faster?"
+    },
+    {
+      "slug": "crate-train-puppy-without-stress",
+      "title": "How to Crate Train a Puppy Without Stress in 7 Days"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "dog-walking-mistakes-and-fixes",
+  "title": "7 Dog-Walking Mistakes That Make Walks Harder (and Fixes)",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "dogs",
+  "category_title": "Dog Care & Companionship",
+  "author_slug": "marcus-bell",
+  "author_name": "Marcus Bell",
+  "author_voice": "Encouraging, hands-on and story-driven - lessons straight from the training floor",
+  "angle": "Pinpoints common leash and timing errors that frustrate owners, with quick corrections for calmer daily walks.",
+  "internal_links": [
+    {
+      "slug": "rescue-dog-settle-30-days",
+      "title": "How We Helped Our Shy Rescue Dog Settle In 30 Days"
+    },
+    {
+      "slug": "how-much-exercise-dog-needs-daily",
+      "title": "How Much Exercise Does My Dog Really Need Each Day?"
+    },
+    {
+      "slug": "clicker-vs-verbal-marker-training",
+      "title": "Clicker vs Verbal Marker: Which Trains Faster?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

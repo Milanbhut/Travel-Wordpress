@@ -1,0 +1,27 @@
+{
+  "slug": "litter-box-mistakes-and-fixes",
+  "title": "7 Litter Box Mistakes That Cause Accidents (and Fixes)",
+  "archetype": "mistakes-and-fixes",
+  "category_slug": "cats",
+  "category_title": "Cat Care & Behavior",
+  "author_slug": "sofia-reyes",
+  "author_name": "Sofia Reyes",
+  "author_voice": "Curious and gentle; writes from the cat's point of view, observational and kind",
+  "angle": "Targets placement, cleaning, and count errors that trigger outside-the-box accidents, with simple corrections.",
+  "internal_links": [
+    {
+      "slug": "two-cats-living-in-peace",
+      "title": "How We Got Two Cats to Finally Live in Peace"
+    },
+    {
+      "slug": "why-cat-brings-toys-night",
+      "title": "Why Does My Cat Bring Me Toys at Night?"
+    },
+    {
+      "slug": "dog-bathing-mistakes-and-fixes",
+      "title": "7 Dog Bathing Mistakes That Dry Out the Coat (and Fixes)"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

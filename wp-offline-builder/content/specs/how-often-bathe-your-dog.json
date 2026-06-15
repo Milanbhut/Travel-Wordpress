@@ -1,0 +1,27 @@
+{
+  "slug": "how-often-bathe-your-dog",
+  "title": "How Often Should You Bathe Your Dog, Really?",
+  "archetype": "explainer",
+  "category_slug": "grooming",
+  "category_title": "Grooming & Daily Care",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "Explains bathing frequency by coat type, activity, and skin health so owners avoid over- and under-washing.",
+  "internal_links": [
+    {
+      "slug": "clean-dog-ears-safely-home",
+      "title": "How to Clean Your Dog's Ears Safely at Home"
+    },
+    {
+      "slug": "signs-dog-needs-professional-grooming",
+      "title": "9 Signs Your Dog's Coat Needs Professional Grooming"
+    },
+    {
+      "slug": "why-cat-brings-toys-night",
+      "title": "Why Does My Cat Bring Me Toys at Night?"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

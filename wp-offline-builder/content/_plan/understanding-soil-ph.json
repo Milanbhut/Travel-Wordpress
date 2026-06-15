@@ -1,0 +1,17 @@
+{
+  "slug": "understanding-soil-ph",
+  "title": "Soil pH Made Simple: Why It Changes What Grows",
+  "archetype": "explainer",
+  "category_title": "Soil, Compost & Plant Care",
+  "category_slug": "soil",
+  "author_name": "Elena Marsh",
+  "author_voice": "Warm, methodical grower who explains the 'why' behind every job and steadies nervous beginners",
+  "angle": "How acidity and alkalinity shape nutrient uptake and plant choice.",
+  "internal_links": [
+    "diagnose-plant-diseases",
+    "feed-plants-naturally",
+    "grow-peppers-from-seed"
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

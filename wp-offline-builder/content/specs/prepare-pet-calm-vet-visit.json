@@ -1,0 +1,27 @@
+{
+  "slug": "prepare-pet-calm-vet-visit",
+  "title": "How to Prepare Your Pet for a Calm Vet Visit",
+  "archetype": "how-to",
+  "category_slug": "health",
+  "category_title": "Pet Health & Wellness",
+  "author_slug": "lena-hartwell",
+  "author_name": "Dr. Lena Hartwell",
+  "author_voice": "Warm but precise clinician; explains the 'why' behind every recommendation and reassures anxious owners",
+  "angle": "Pre-appointment prep that reduces fear and helps you give the vet the information that speeds diagnosis.",
+  "internal_links": [
+    {
+      "slug": "healthy-pet-poop-warning-signs",
+      "title": "What Healthy Pet Poop Looks Like (and Warning Signs)"
+    },
+    {
+      "slug": "household-items-toxic-to-pets",
+      "title": "8 Common Household Items That Are Toxic to Pets"
+    },
+    {
+      "slug": "healthy-treat-ideas-training-dog",
+      "title": "8 Healthy Treat Ideas for Training Your Dog"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}

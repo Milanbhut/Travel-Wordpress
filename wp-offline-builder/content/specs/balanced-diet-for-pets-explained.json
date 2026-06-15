@@ -1,0 +1,27 @@
+{
+  "slug": "balanced-diet-for-pets-explained",
+  "title": "What Does a Balanced Diet Actually Mean for Pets?",
+  "archetype": "explainer",
+  "category_slug": "nutrition",
+  "category_title": "Nutrition & Feeding",
+  "author_slug": "priya-anand",
+  "author_name": "Priya Anand",
+  "author_voice": "Organized, practical and calm - checklist-driven advice you can actually follow",
+  "angle": "Explains the core nutrients pets need and how complete-and-balanced labeling protects everyday feeding.",
+  "internal_links": [
+    {
+      "slug": "homemade-vs-commercial-pet-food",
+      "title": "Homemade vs Commercial Pet Food: Pros and Cons"
+    },
+    {
+      "slug": "foods-never-feed-your-cat",
+      "title": "9 Foods You Should Never Feed Your Cat"
+    },
+    {
+      "slug": "household-items-toxic-to-pets",
+      "title": "8 Common Household Items That Are Toxic to Pets"
+    }
+  ],
+  "word_min": 1000,
+  "word_target": 1200
+}
