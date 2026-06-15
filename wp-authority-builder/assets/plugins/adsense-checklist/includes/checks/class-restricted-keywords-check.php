@@ -47,7 +47,7 @@ class Restricted_Keywords_Check implements Check
 
             $findings[] = new Finding([
                 'check_key'   => $entry['key'] . '.post_' . $post->ID,
-                'situation'   => $entry['situation'] . " — possible match in post (keyword: '{$top}').",
+                'situation'   => $entry['situation'] . " - possible match in post (keyword: '{$top}').",
                 'severity'    => $entry['severity'],
                 'status'      => 'manual_review',
                 'url_example' => (string) get_permalink($post->ID),

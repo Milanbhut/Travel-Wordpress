@@ -2,7 +2,7 @@
 /**
  * Hero band: circular score gauge + status sentence + severity pill chips.
  *
- * @var array $context From Admin_Page::render() — must contain:
+ * @var array $context From Admin_Page::render() - must contain:
  *   - score    int       0-100 readiness percentage
  *   - passed   int       Count of passing checks
  *   - total    int       Total registry size
@@ -40,7 +40,7 @@ else                   { $score_class = 'adsc-gauge--red'; }
 // Status sentence
 if ($score >= 90)      { $headline = "Ready to apply. {$passing_total} of {$total} checks passing."; }
 elseif ($score >= 60)  { $headline = "Almost ready. {$passing_total} of {$total} checks passing."; }
-else                   { $headline = "{$passing_total} of {$total} checks passing — significant work remains."; }
+else                   { $headline = "{$passing_total} of {$total} checks passing - significant work remains."; }
 
 // Follow-up sentence references the highest-severity bucket with active items
 if ($counts['urgent'] > 0) {
@@ -48,7 +48,7 @@ if ($counts['urgent'] > 0) {
 } elseif ($counts['severe'] > 0) {
     $followup = "Address the {$counts['severe']} severe " . ($counts['severe'] === 1 ? 'item' : 'items') . ' before applying.';
 } else {
-    $followup = 'Most issues are minor — review and resolve at your pace.';
+    $followup = 'Most issues are minor - review and resolve at your pace.';
 }
 ?>
 <section class="adsc-hero">

@@ -48,14 +48,14 @@ class Repository
             $status    = $f->status;
 
             // Carry-forward: ignored takes precedence over resolved. Synthetic 'passed'
-            // findings are never carried — the scanner re-decides cleanly each scan.
+            // findings are never carried - the scanner re-decides cleanly each scan.
             if ($f->status !== 'passed') {
                 if ($this->was_ignored($f->check_key, $f->url_example)) {
-                    $situation .= ' — previously marked ignored; verify still not an issue.';
+                    $situation .= ' - previously marked ignored; verify still not an issue.';
                     $evidence['_previously_ignored'] = true;
                     $status = 'ignored';
                 } elseif ($this->was_resolved($f->check_key, $f->url_example)) {
-                    $situation .= ' — previously marked resolved; verify still fixed.';
+                    $situation .= ' - previously marked resolved; verify still fixed.';
                     $evidence['_previously_resolved'] = true;
                     $status = 'resolved';
                 }

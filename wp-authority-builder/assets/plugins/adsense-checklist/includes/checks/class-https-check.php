@@ -21,7 +21,7 @@ class Https_Check implements Check
         }
         return [new Finding([
             'check_key' => $entry['key'],
-            'situation' => 'Site is not enforcing HTTPS — Google rejects unencrypted sites algorithmically.',
+            'situation' => 'Site is not enforcing HTTPS - Google rejects unencrypted sites algorithmically.',
             'severity'  => $entry['severity'],
             'url_example' => $site_ok ? null : $site,
             'evidence'  => [

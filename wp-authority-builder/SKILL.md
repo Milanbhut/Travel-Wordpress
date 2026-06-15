@@ -1,6 +1,6 @@
 ---
 name: wp-authority-builder
-description: Build a complete, premium, Google-AdSense-ready WordPress authority blog on a Hostinger site from a single niche or title — custom token-driven theme, ~90 human-voiced articles across 6 categories, real authors with photos, trust/legal pages, full schema/SEO, CMP, and QA. Use when the user wants to create a new WordPress blog from a niche/title, or scale/finish an existing Overlaytop-style site.
+description: Build a complete, premium, Google-AdSense-ready WordPress authority blog on a Hostinger site from a single niche or title - custom token-driven theme, ~90 human-voiced articles across 6 categories, real authors with photos, trust/legal pages, full schema/SEO, CMP, and QA. Use when the user wants to create a new WordPress blog from a niche/title, or scale/finish an existing Overlaytop-style site.
 ---
 
 # WP Authority Builder
@@ -34,24 +34,24 @@ Full design spec: `docs/superpowers/specs/2026-06-03-wp-authority-builder-design
 - `scripts.install_wp` → installs WordPress (core download + config + install) if not present.
 - `scripts.fix_permalinks` → writes `.htaccess` + pretty permalinks (LiteSpeed needs this).
 
-**0. Brand brief ★** — From the niche, generate `config/<domain>.brief.json` (name, tagline, 6 one-word
-category labels + full titles, 4–5 authors with voices + photo queries, contact email,
+**0. Brand brief ★** - From the niche, generate `config/<domain>.brief.json` (name, tagline, 6 one-word
+category labels + full titles, 4-5 authors with voices + photo queries, contact email,
 country-of-operation). In the `design` block, record a **recipe** (palette nudged by niche, font pair,
-radius, one layout variant per section) — choose/confirm one from `config/theme-recipes.json` and pin it
+radius, one layout variant per section) - choose/confirm one from `config/theme-recipes.json` and pin it
 under `design.recipe`, or leave it out and let `scripts.apply_theme` pick one deterministically. **Present
 for approval.**
 
-**0.5 Editorial plan** — Dispatch ONE subagent to draft 90 titles (15/category) with archetypes, unique
+**0.5 Editorial plan** - Dispatch ONE subagent to draft 90 titles (15/category) with archetypes, unique
 slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scripts.build_editorial_plan`
 (assigns uneven beat-matched authors + the internal-link graph) → `config/<domain>.editorial-plan.json`.
 
 **2. Theme + structure**
-- `scripts.apply_theme <domain>` (BEFORE deploy — writes `tokens.css` from the recipe + records it in the brief).
+- `scripts.apply_theme <domain>` (BEFORE deploy - writes `tokens.css` from the recipe + records it in the brief).
 - `scripts.deploy_theme` (SFTP upload + `wp theme activate`).
-- `scripts.apply_theme <domain> --mods` (AFTER activate — sets the `ot_v_*` layout variants, `ot_fonts_href`,
+- `scripts.apply_theme <domain> --mods` (AFTER activate - sets the `ot_v_*` layout variants, `ot_fonts_href`,
   and the about/hero/newsletter content mods on the live WP).
 - `scripts.scaffold_authors` (creates the authors with bios + real photos).
-- `scripts.build_demo` (identity, permalinks, 6 categories, one-word primary menu) — or run pieces.
+- `scripts.build_demo` (identity, permalinks, 6 categories, one-word primary menu) - or run pieces.
 - `scripts.cleanup_defaults` (removes Hello World / Sample Page).
 - The homepage is now a **fixed 5-section structure** (Hero → About text+image → Latest 6 in a 3×2 grid →
   3 bento category sections → Newsletter); only the *look* varies per recipe. Set the copy mods with
@@ -59,12 +59,15 @@ slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scri
   `ot_about_title/ot_about_body/ot_about_image/ot_about_stats`, `ot_home_cats` (3 category slugs), and
   `ot_news_title/ot_news_sub`.
 
-**3. Content (subagent-driven — the fast path)**
+**3. Content (subagent-driven - the fast path)**
 - Generate all ~90 articles with **parallel subagents via the Workflow tool** (~16 concurrent). Each
   reads its plan entry + `references/content-style-guide.md` and writes `content/<slug>.html` (raw HTML
   with an `<!--excerpt:-->` lead). Validate with the first 4 (one per archetype) before fanning out the rest.
 - `scripts.publish_article --all` → lint-gated publish (word count ≥1000, banned-phrase check) + a
   deduped featured image per post (Unsplash → Pexels fallback).
+- Articles must be **em-dash-free** (hard rule, see `references/content-style-guide.md`): never an em dash
+  or en dash anywhere. The QA `scripts.scrub_dashes` pass strips any long dashes that slip through, but the
+  writing should already be clean.
 
 **4. Trust + SEO + compliance**
 - `scripts.build_pages` → About/Contact/Privacy/Terms/Disclaimer/Editorial/Affiliate + Contact Form 7
@@ -78,19 +81,22 @@ slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scri
   install Complianz (`wp plugin install complianz-gdpr --activate`) **and run its setup wizard** for TCF.
 
 **5. QA + report**
+- `scripts.scrub_dashes` → strips every em/en dash from post content, excerpts, titles, term descriptions,
+  and theme mods. The site must contain ZERO long dashes (hard user rule). Run after all content, pages, and
+  mods are in place.
 - `scripts.audit_images` (backfill missing + perceptual-hash dedupe → all images distinct; deletes the
   replaced attachments so no byte-duplicate images linger in the media library).
 - `scripts.audit_links` (zero orphans / zero broken internal links).
 - `scripts.stagger_dates` (natural cadence over ~6 weeks; sets post_date **and** post_date_gmt so the
   oldest post clears the 30-day domain-maturity floor while the recent 30 days stay active).
-- `scripts.adsense_scan` — installs + activates the **AdSense Checklist** plugin
+- `scripts.adsense_scan` - installs + activates the **AdSense Checklist** plugin
   (`assets/plugins/adsense-checklist`) and runs it headlessly. **Run on every site and resolve every
   *open* finding before handoff**, re-running until only known exceptions remain: *analytics* needs the
   owner's GA4 ID (set `OVERLAYTOP_GA4_ID` or the `overlaytop_ga4_id` option and the theme injects gtag);
-  *HTTPS* is a CLI-only false flag (`is_ssl()` is false headless — confirm in a browser); *CDN* is optional.
+  *HTTPS* is a CLI-only false flag (`is_ssl()` is false headless - confirm in a browser); *CDN* is optional.
   The *manual-review* items are human judgment (original/edited content, genuine audience, etc.).
   Check targets to design content toward: About ≥300 words; Privacy must contain `third-party`, `google`,
-  `cookies`, `opt-out`; every article ≥1000 words with H2s and Flesch-Kincaid grade 6–12.
+  `cookies`, `opt-out`; every article ≥1000 words with H2s and Flesch-Kincaid grade 6-12.
 - `scripts.final_report` (totals, word stats, images, schema, author distribution).
 - Screenshots: `scripts.preview <path> <name>` builds a local browsable copy (works pre-DNS); once the
   domain resolves, do the live 7-breakpoint + console-error sweep.

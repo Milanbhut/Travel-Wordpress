@@ -1,6 +1,6 @@
 <?php
 /**
- * Report tab — assembles header, hero, severity groups, passing strip.
+ * Report tab - assembles header, hero, severity groups, passing strip.
  *
  * @var \AdSenseChecklist\Repository $repo
  * @var \AdSenseChecklist\Settings   $settings
@@ -67,7 +67,7 @@ $groups = [
     ['severity' => 'severe',        'label' => 'Severe',                  'window' => 'Fix within 72 hours',  'open' => false, 'findings' => $buckets['severe']],
     ['severity' => 'moderate',      'label' => 'Moderate',                'window' => 'Fix within a week',    'open' => false, 'findings' => $buckets['moderate']],
     ['severity' => 'minor',         'label' => 'Minor',                   'window' => 'Optimization',         'open' => false, 'findings' => $buckets['minor']],
-    ['severity' => 'manual',        'label' => 'Manual review required',  'window' => 'Subjective — verify',  'open' => false, 'findings' => $buckets['manual_review']],
+    ['severity' => 'manual',        'label' => 'Manual review required',  'window' => 'Subjective - verify',  'open' => false, 'findings' => $buckets['manual_review']],
 ];
 
 foreach ($groups as $group) {
@@ -82,7 +82,7 @@ foreach ($groups as $group) {
     include ADSENSE_CHECKLIST_PATH . 'admin/views/partials/group.php';
 }
 
-// Resolved group — all user-resolved findings (incl. carry-forwards from prior scans)
+// Resolved group - all user-resolved findings (incl. carry-forwards from prior scans)
 if (!empty($buckets['resolved'])) {
     $group_severity = 'manual';
     $group_label    = 'Resolved';
@@ -92,7 +92,7 @@ if (!empty($buckets['resolved'])) {
     include ADSENSE_CHECKLIST_PATH . 'admin/views/partials/group.php';
 }
 
-// Ignored group — excluded from gauge, dimmed, collapsed by default.
+// Ignored group - excluded from gauge, dimmed, collapsed by default.
 if (!empty($buckets['ignored'])) {
     $group_severity = 'ignored';
     $group_label    = 'Ignored';

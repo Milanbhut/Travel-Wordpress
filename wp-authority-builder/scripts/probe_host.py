@@ -1,7 +1,7 @@
 """Read-only host probe (Gate 1 + provisioning detection).
 
 Reports which secrets.env fields are set (secret values are MASKED, never printed),
-verifies the control channel, and — over WP-CLI — detects WordPress / database state
+verifies the control channel, and - over WP-CLI - detects WordPress / database state
 WITHOUT changing anything on the server.
 
 Run (from wp-authority-builder/, venv active):

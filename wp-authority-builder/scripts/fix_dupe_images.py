@@ -3,7 +3,7 @@
 41 byte-identical attachments exist (a fallback image the dedup pass left behind);
 only post 245 still uses one as its featured image. Source a fresh unique image for
 245, then delete the orphan duplicates. If sourcing fails, keep 245's current image
-and delete only the other 40 — either way no byte-duplicate group remains.
+and delete only the other 40 - either way no byte-duplicate group remains.
 
 Run: python -m scripts.fix_dupe_images
 """
@@ -57,7 +57,7 @@ def main() -> int:
 
     to_delete = DUPE_IDS if new_att else [i for i in DUPE_IDS if i != KEEP_ID]
     if not new_att:
-        print(f"[fallback] image sourcing failed — keeping att {KEEP_ID} on post {POST_ID}, deleting the other {len(to_delete)} orphans")
+        print(f"[fallback] image sourcing failed - keeping att {KEEP_ID} on post {POST_ID}, deleting the other {len(to_delete)} orphans")
 
     deleted = 0
     for aid in to_delete:

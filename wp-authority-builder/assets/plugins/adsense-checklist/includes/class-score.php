@@ -48,7 +48,7 @@ class Score
 
     /**
      * Count registry entries whose findings are ALL status='ignored'. An entry with no
-     * findings at all is NOT considered ignored — it simply produced no rows that scan.
+     * findings at all is NOT considered ignored - it simply produced no rows that scan.
      */
     public static function ignored_check_count(array $findings, array $registry): int
     {

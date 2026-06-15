@@ -24,7 +24,7 @@ def main() -> int:
             except WPError as e:
                 print(f"skip {ptype} {pid}: {e}")
 
-    # WordPress auto-creates a Privacy Policy page as a DRAFT. Remove only that stub —
+    # WordPress auto-creates a Privacy Policy page as a DRAFT. Remove only that stub -
     # never a published Privacy Policy (build_pages owns the real one at this slug).
     stubs = c.wp(["post", "list", "--post_type=page", "--name=privacy-policy", "--post_status=draft,auto-draft,pending", "--field=ID"]).strip()
     for pid in stubs.split():

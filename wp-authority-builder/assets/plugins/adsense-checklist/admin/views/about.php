@@ -1,6 +1,6 @@
 <?php
 /**
- * About tab — sidebar + severity legend + coverage map grouped by source-checklist section.
+ * About tab - sidebar + severity legend + coverage map grouped by source-checklist section.
  *
  * @var array $registry
  * @var array $context  Contains 'sections' (registry key → section name map).

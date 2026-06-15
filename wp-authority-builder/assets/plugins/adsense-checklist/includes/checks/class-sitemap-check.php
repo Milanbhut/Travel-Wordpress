@@ -21,7 +21,7 @@ class Sitemap_Check implements Check
         foreach (self::CANDIDATES as $path) {
             $url     = \home_url($path);
             $tried[] = $url;
-            // Use GET (not HEAD) — many WP setups (XAMPP, custom rewrites, cache plugins)
+            // Use GET (not HEAD) - many WP setups (XAMPP, custom rewrites, cache plugins)
             // either route HEAD differently than GET, or strip the Content-Type header on HEAD.
             // The user's browser uses GET, so we mimic that.
             $r       = $cache->get($url);
@@ -46,7 +46,7 @@ class Sitemap_Check implements Check
         if ($network_error && count($tried) === count(self::CANDIDATES)) {
             return [new Finding([
                 'check_key' => $entry['key'],
-                'situation' => $entry['situation'] . ' — network error while probing.',
+                'situation' => $entry['situation'] . ' - network error while probing.',
                 'severity'  => $entry['severity'],
                 'status'    => 'manual_review',
                 'evidence'  => ['searched_urls' => $tried, '_error' => 'wp_error'],
@@ -55,7 +55,7 @@ class Sitemap_Check implements Check
 
         return [new Finding([
             'check_key'   => $entry['key'],
-            'situation'   => $entry['situation'] . ' — no XML sitemap found.',
+            'situation'   => $entry['situation'] . ' - no XML sitemap found.',
             'severity'    => $entry['severity'],
             'url_example' => $tried[0] ?? \home_url('/'),
             'evidence'    => ['searched_urls' => $tried],

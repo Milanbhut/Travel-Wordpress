@@ -1,4 +1,4 @@
-/* Overlaytop — header glass, mobile drawer, search overlay. Vanilla JS, no deps. */
+/* Overlaytop - header glass, mobile drawer, search overlay. Vanilla JS, no deps. */
 (function () {
   'use strict';
   var doc = document;
@@ -62,7 +62,7 @@
     });
   }
 
-  /* FAQ accordion (progressive enhancement — without JS the answers stay visible) */
+  /* FAQ accordion (progressive enhancement - without JS the answers stay visible) */
   var faqItems = doc.querySelectorAll('.faq .faq__item');
   Array.prototype.forEach.call(faqItems, function (item, i) {
     var q = item.querySelector('.faq__q');

@@ -1,6 +1,6 @@
 <?php
 /**
- * Author archive — a profile hero (photo, role, bio, stats) above the author's articles.
+ * Author archive - a profile hero (photo, role, bio, stats) above the author's articles.
  *
  * @package Overlaytop
  */

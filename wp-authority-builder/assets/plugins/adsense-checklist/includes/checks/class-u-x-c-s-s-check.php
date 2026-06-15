@@ -24,13 +24,13 @@ class UX_CSS_Check implements Check
 
         // Extract the FIRST `body { ... }` rule (most themes have exactly one).
         if (!preg_match('/(?:^|[}\s])body\s*\{([^}]*)\}/i', $css, $m)) {
-            return [$this->manual_review($entry, $url, 'No body rule found in stylesheet — typography defined elsewhere.')];
+            return [$this->manual_review($entry, $url, 'No body rule found in stylesheet - typography defined elsewhere.')];
         }
         $body_rule = $m[1];
 
-        // Bail if the body rule references CSS variables — can't resolve values reliably.
+        // Bail if the body rule references CSS variables - can't resolve values reliably.
         if (preg_match('/var\s*\(/i', $body_rule)) {
-            return [$this->manual_review($entry, $url, 'Body rule uses CSS variables — values cannot be resolved without rendering.')];
+            return [$this->manual_review($entry, $url, 'Body rule uses CSS variables - values cannot be resolved without rendering.')];
         }
 
         $findings = [];
@@ -43,7 +43,7 @@ class UX_CSS_Check implements Check
             if ($px < self::MIN_FONT_PX) {
                 $findings[] = new Finding([
                     'check_key'   => $entry['key'],
-                    'situation'   => $entry['situation'] . " — body font-size is {$value}{$unit} (~{$px}px), below the readable floor of " . self::MIN_FONT_PX . 'px.',
+                    'situation'   => $entry['situation'] . " - body font-size is {$value}{$unit} (~{$px}px), below the readable floor of " . self::MIN_FONT_PX . 'px.',
                     'severity'    => $entry['severity'],
                     'url_example' => $url,
                     'evidence'    => ['font_size_value' => $value, 'font_size_unit' => $unit, 'computed_px' => $px],
@@ -57,7 +57,7 @@ class UX_CSS_Check implements Check
             if ($line < self::MIN_LINE_HEIGHT) {
                 $findings[] = new Finding([
                     'check_key'   => $entry['key'],
-                    'situation'   => $entry['situation'] . " — body line-height is {$line}, below the readable floor of " . self::MIN_LINE_HEIGHT . '.',
+                    'situation'   => $entry['situation'] . " - body line-height is {$line}, below the readable floor of " . self::MIN_LINE_HEIGHT . '.',
                     'severity'    => $entry['severity'],
                     'url_example' => $url,
                     'evidence'    => ['line_height' => $line],
@@ -72,7 +72,7 @@ class UX_CSS_Check implements Check
     {
         return new Finding([
             'check_key'   => $entry['key'],
-            'situation'   => $entry['situation'] . ' — ' . $note,
+            'situation'   => $entry['situation'] . ' - ' . $note,
             'severity'    => $entry['severity'],
             'status'      => 'manual_review',
             'url_example' => $url,

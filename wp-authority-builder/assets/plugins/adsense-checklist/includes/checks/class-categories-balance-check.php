@@ -30,7 +30,7 @@ class Categories_Balance_Check implements Check
             }
             $findings[] = new Finding([
                 'check_key'   => $entry['key'] . '.cat_' . $id,
-                'situation'   => $entry['situation'] . " — '{$name}' has only {$count} posts (min " . self::MIN_POSTS_PER_CATEGORY . ').',
+                'situation'   => $entry['situation'] . " - '{$name}' has only {$count} posts (min " . self::MIN_POSTS_PER_CATEGORY . ').',
                 'severity'    => $entry['severity'],
                 'url_example' => \get_category_link($id),
                 'evidence'    => [

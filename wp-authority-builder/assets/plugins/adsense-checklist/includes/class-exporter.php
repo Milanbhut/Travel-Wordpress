@@ -33,10 +33,10 @@ class Exporter
         if (!empty($meta['date'])) $lines[] = '**Date:** ' . $meta['date'];
         $lines[] = '';
         $lines[] = '## Risk Glossary';
-        $lines[] = '- **Red: Urgent** — fix within 48h';
-        $lines[] = '- **Orange: Severe** — fix within 72h';
-        $lines[] = '- **Yellow: Moderate** — fix within a week';
-        $lines[] = '- **Green: Minor** — optimization';
+        $lines[] = '- **Red: Urgent** - fix within 48h';
+        $lines[] = '- **Orange: Severe** - fix within 72h';
+        $lines[] = '- **Yellow: Moderate** - fix within a week';
+        $lines[] = '- **Green: Minor** - optimization';
         $lines[] = '';
         $lines[] = '## Findings';
         $lines[] = '| ' . implode(' | ', self::COLUMNS) . ' |';
@@ -45,7 +45,7 @@ class Exporter
             $lines[] = sprintf(
                 '| %s | %s | %s | %s |',
                 $this->md_escape((string) ($r->situation ?? '')),
-                ($r->url_example ?? '') !== '' ? $r->url_example : '—',
+                ($r->url_example ?? '') !== '' ? $r->url_example : '-',
                 ucfirst((string) ($r->severity ?? '')),
                 $this->resolved_label((string) ($r->status ?? ''))
             );

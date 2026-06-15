@@ -36,7 +36,7 @@ class Publication_Cadence_Check implements Check
         }
         return [new Finding([
             'check_key' => $entry['key'],
-            'situation' => $entry['situation'] . " — only {$distinct} of the last " . self::WINDOW_DAYS . ' days had a post (recommended ' . self::MIN_ACTIVE_DAYS . ').',
+            'situation' => $entry['situation'] . " - only {$distinct} of the last " . self::WINDOW_DAYS . ' days had a post (recommended ' . self::MIN_ACTIVE_DAYS . ').',
             'severity'  => $entry['severity'],
             'evidence'  => [
                 'distinct_days'   => $distinct,

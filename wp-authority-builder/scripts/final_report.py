@@ -54,7 +54,7 @@ def main() -> int:
     authors = Counter(a["author_name"] for a in plan["articles"])
 
     print("=" * 56)
-    print(" OVERLAYTOP — FINAL BUILD REPORT")
+    print(" OVERLAYTOP - FINAL BUILD REPORT")
     print("=" * 56)
     print(f"Total posts (published) : {post_count}")
     print(f"Total pages             : {page_count}")

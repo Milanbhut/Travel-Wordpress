@@ -25,7 +25,7 @@ ART_TITLE = "How to Travel Europe on $50 a Day (Without Missing the Good Stuff)"
 ART_SLUG = "europe-on-50-a-day"
 ART_EXCERPT = (
     "Fifty dollars a day in Europe sounds impossible until you break it down. Here is the exact mix of "
-    "trains, hostels, and street food that makes it work — with real numbers."
+    "trains, hostels, and street food that makes it work - with real numbers."
 )
 ART_HTML = """<p>The first time I tried to &ldquo;do Europe on a budget,&rdquo; I came home with three espresso receipts, a sunburn, and a credit-card bill that made my stomach drop. I had spent nearly $140 a day without once feeling like I was being extravagant. So I did what any slightly stubborn person does: I figured out exactly where the money went, then rebuilt the whole trip from the ground up.</p>
 <p>These days I move through Europe on about $50 a day and rarely feel like I'm missing out. Here is how the math actually works.</p>

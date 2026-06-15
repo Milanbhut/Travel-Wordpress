@@ -19,7 +19,7 @@
             });
     });
 
-    // Resolve dropdown — optimistic update, rollback on failure
+    // Resolve dropdown - optimistic update, rollback on failure
     $(document).on('change', '.adsc-status', function () {
         var $select = $(this);
         var $finding = $select.closest('[data-finding-id]');

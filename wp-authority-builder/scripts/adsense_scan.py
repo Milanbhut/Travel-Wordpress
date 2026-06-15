@@ -1,6 +1,6 @@
 """Install + activate the AdSense Checklist plugin (if needed) and run it headlessly.
 
-The agent's AdSense-readiness QA step — run on every site before handoff.
+The agent's AdSense-readiness QA step - run on every site before handoff.
 Run: python -m scripts.adsense_scan
 """
 from __future__ import annotations
@@ -99,7 +99,7 @@ def main() -> int:
         c.close()
         return 1
 
-    print(f"\nADSENSE CHECKLIST — PASSED={data['passed']}  OPEN={len(data['open'])}  MANUAL_REVIEW={len(data['manual'])}")
+    print(f"\nADSENSE CHECKLIST - PASSED={data['passed']}  OPEN={len(data['open'])}  MANUAL_REVIEW={len(data['manual'])}")
     if data["open"]:
         print("\nOpen (auto-detected, fix these):")
         for r in data["open"]:

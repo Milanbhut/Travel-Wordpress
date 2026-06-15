@@ -48,7 +48,7 @@ class Broken_Links_Check implements Check
                 $first_source = $source_ids[0];
                 $findings[] = new Finding([
                     'check_key'   => $entry['key'] . '.' . md5($url),
-                    'situation'   => "Broken link ({$code}) on post — target: {$url}",
+                    'situation'   => "Broken link ({$code}) on post - target: {$url}",
                     'severity'    => $entry['severity'],
                     'url_example' => get_permalink($first_source),
                     'evidence'    => [

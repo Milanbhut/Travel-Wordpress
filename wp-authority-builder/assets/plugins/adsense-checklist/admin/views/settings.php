@@ -1,6 +1,6 @@
 <?php
 /**
- * Settings tab — card-grouped sections with toggle switches + thresholds grid.
+ * Settings tab - card-grouped sections with toggle switches + thresholds grid.
  *
  * @var \AdSenseChecklist\Settings $settings
  */

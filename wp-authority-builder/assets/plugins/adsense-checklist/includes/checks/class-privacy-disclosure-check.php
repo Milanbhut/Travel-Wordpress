@@ -28,7 +28,7 @@ class Privacy_Disclosure_Check implements Check
         if ($privacy === null) {
             return [new Finding([
                 'check_key' => $entry['key'],
-                'situation' => 'Privacy Policy page not found — cannot evaluate disclosure terms.',
+                'situation' => 'Privacy Policy page not found - cannot evaluate disclosure terms.',
                 'severity'  => $entry['severity'],
             ])];
         }

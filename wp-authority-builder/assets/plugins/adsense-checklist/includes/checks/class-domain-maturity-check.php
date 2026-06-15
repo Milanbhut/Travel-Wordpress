@@ -26,7 +26,7 @@ class Domain_Maturity_Check implements Check
         if (empty($oldest)) {
             return [new Finding([
                 'check_key' => $entry['key'],
-                'situation' => 'No published posts found — cannot evaluate domain maturation.',
+                'situation' => 'No published posts found - cannot evaluate domain maturation.',
                 'severity'  => $entry['severity'],
             ])];
         }

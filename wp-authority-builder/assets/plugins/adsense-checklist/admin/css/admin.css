@@ -1,6 +1,6 @@
-/* AdSense Checklist — base styles. Component-specific styles appended in later tasks. */
+/* AdSense Checklist - base styles. Component-specific styles appended in later tasks. */
 
-/* Scope reset — keep our styles inside .adsense-checklist; don't leak to wp-admin */
+/* Scope reset - keep our styles inside .adsense-checklist; don't leak to wp-admin */
 .adsense-checklist {
   font-family: var(--adsc-font);
   color: var(--adsc-text);
@@ -55,7 +55,7 @@
   border-bottom-color: var(--adsc-accent);
 }
 
-/* Pre-existing fix-hint callout — keep the old class working but restyle via tokens */
+/* Pre-existing fix-hint callout - keep the old class working but restyle via tokens */
 .adsense-checklist .adsense-fix {
   background: var(--adsc-accent-bg);
   border-left: 3px solid var(--adsc-accent);
@@ -68,7 +68,7 @@
 }
 .adsense-checklist .adsense-fix strong { color: var(--adsc-accent-text); font-weight: 500; }
 
-/* Backwards-compat dot — used by the carried-findings table during transition */
+/* Backwards-compat dot - used by the carried-findings table during transition */
 .adsense-checklist .dot {
   display: inline-block;
   width: 10px;
@@ -453,7 +453,7 @@
 .adsc-card-sub { font-size: 12px; color: var(--adsc-text-muted); margin: 2px 0 0; }
 .adsc-card-body { padding: 8px 0; }
 
-/* ============ SETTINGS — toggle row ============ */
+/* ============ SETTINGS - toggle row ============ */
 .adsc-settings { background: var(--adsc-bg); padding-bottom: 24px; }
 .adsc-toggle-row {
     display: flex;
@@ -468,7 +468,7 @@
 .adsc-toggle-title { font-size: 14px; font-weight: 500; color: var(--adsc-text); }
 .adsc-toggle-desc  { font-size: 12px; color: var(--adsc-text-muted); margin-top: 2px; line-height: 1.5; }
 
-/* ============ SETTINGS — toggle switch ============ */
+/* ============ SETTINGS - toggle switch ============ */
 .adsc-toggle {
     position: relative;
     display: inline-block;
@@ -508,7 +508,7 @@
     box-shadow: 0 0 0 2px rgba(26,115,232,.3);
 }
 
-/* ============ SETTINGS — thresholds grid ============ */
+/* ============ SETTINGS - thresholds grid ============ */
 .adsc-thresholds {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -545,7 +545,7 @@
     padding: 24px 28px 0;
 }
 
-/* Responsive — settings */
+/* Responsive - settings */
 @media (max-width: 720px) {
     .adsc-thresholds { grid-template-columns: 1fr; }
     .adsc-threshold:nth-child(2n) { border-right: 0; }
@@ -666,7 +666,7 @@
 .adsc-coverage-list .adsc-dot--moderate { background: var(--adsc-moderate-dot); }
 .adsc-coverage-list .adsc-dot--minor    { background: var(--adsc-passing-dot); }
 
-/* Responsive — about */
+/* Responsive - about */
 @media (max-width: 720px) {
     .adsc-about { grid-template-columns: 1fr; }
     .adsc-legend { grid-template-columns: 1fr; }

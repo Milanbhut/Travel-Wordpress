@@ -16,7 +16,7 @@ class Logo_Check implements Check
         }
         return [new Finding([
             'check_key' => $entry['key'],
-            'situation' => $entry['situation'] . ' — no custom logo configured.',
+            'situation' => $entry['situation'] . ' - no custom logo configured.',
             'severity'  => $entry['severity'],
             'evidence'  => ['has_custom_logo' => false],
         ])];

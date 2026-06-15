@@ -1,6 +1,6 @@
 <?php
 /**
- * Single page — static pages (About, Contact, legal/trust pages).
+ * Single page - static pages (About, Contact, legal/trust pages).
  * Reuses the article hero/body styling, minus post-only chrome
  * (category pill, byline, TOC, author box, related posts).
  *

@@ -65,7 +65,7 @@
       "label": "Destinations",
       "title": "Affordable Destinations",
       "slug": "destinations",
-      "description": "Where your money goes furthest — affordable countries, cities, and seasons to visit."
+      "description": "Where your money goes furthest - affordable countries, cities, and seasons to visit."
     },
     {
       "label": "Hacks",
@@ -83,7 +83,7 @@
       "label": "Food",
       "title": "Eating Well for Less",
       "slug": "food",
-      "description": "Eating well for less — markets, street food, and self-catering on the road."
+      "description": "Eating well for less - markets, street food, and self-catering on the road."
     }
   ],
   "authors": [
@@ -109,7 +109,7 @@
         "destinations"
       ],
       "expertise": "Hostels, long-term stays, backpacking",
-      "voice": "Blunt, energetic, numbers-heavy — 'here's exactly what I paid'",
+      "voice": "Blunt, energetic, numbers-heavy - 'here's exactly what I paid'",
       "articles": 21,
       "photo_query": "latino man backpacker portrait"
     },

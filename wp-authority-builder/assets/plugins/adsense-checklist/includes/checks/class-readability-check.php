@@ -40,7 +40,7 @@ class Readability_Check implements Check
             $reason = $grade < self::GRADE_MIN ? 'too simplistic' : 'too academic / hard to read';
             $findings[] = new Finding([
                 'check_key'   => $entry['key'] . '.post_' . (int) $post->ID,
-                'situation'   => $entry['situation'] . ' — ' . $reason . ' (Flesch-Kincaid grade ' . number_format($grade, 1) . ').',
+                'situation'   => $entry['situation'] . ' - ' . $reason . ' (Flesch-Kincaid grade ' . number_format($grade, 1) . ').',
                 'severity'    => $entry['severity'],
                 'url_example' => \get_permalink($post->ID),
                 'evidence'    => [
@@ -76,7 +76,7 @@ class Readability_Check implements Check
         foreach ($words as $word) {
             $w = strtolower(preg_replace('/[^a-z]/i', '', $word));
             if ($w === '' || $w === null) continue;
-            // Strip trailing 'e' (silent) — common heuristic
+            // Strip trailing 'e' (silent) - common heuristic
             $w = preg_replace('/e$/', '', $w);
             $clusters = preg_match_all('/[aeiouy]+/', $w);
             $total += max(1, (int) $clusters);

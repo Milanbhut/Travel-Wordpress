@@ -66,32 +66,32 @@ return [
         'check_args' => ['aliases' => ['About','About Us','about-us','about','who-we-are','about-me','who we are','about me'], 'keywords' => ['about']],
         'fix' => 'Create an \'About\' (or \'About Us\') page explaining who you are, what the site covers, and your credentials. Aim for 300+ words.'],
 
-    ['key' => 'nav_misleading', 'situation' => 'Navigation — misleading on the site',             'severity' => 'severe', 'check_class' => Misleading_Nav_Check::class,
+    ['key' => 'nav_misleading', 'situation' => 'Navigation - misleading on the site',             'severity' => 'severe', 'check_class' => Misleading_Nav_Check::class,
         'fix' => 'Auto-checked patterns: ads inside &lt;nav&gt; blocks, fake search inputs that submit to an external host, and "Download" links pointing to unrelated hosts. The finding\'s evidence names which pattern triggered. Remove or rewire the offending element.'],
-    ['key' => 'nav_clicks',     'situation' => 'Navigation — encouraging clicks or views',         'severity' => 'urgent', 'check_class' => Encouraging_Clicks_Check::class,
+    ['key' => 'nav_clicks',     'situation' => 'Navigation - encouraging clicks or views',         'severity' => 'urgent', 'check_class' => Encouraging_Clicks_Check::class,
         'fix' => 'Auto-checked patterns: arrow glyphs (→, ➜, ►, etc.) within 200 chars of an AdSense block, or click-encouraging text like "click here" / "recommended sites" / "sponsored offer" near an ad block. The finding\'s evidence names which pattern triggered. Remove the surrounding markup or reposition the ad.'],
 
-    ['key' => 'content.illegal',      'situation' => 'Content Policy — Illegal content',                'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['buy drugs online', 'buy heroin', 'buy meth', 'buy cocaine', 'fake id maker', 'fake passport for sale', 'fake driving license', 'tax evasion guide', 'evade taxes', 'money laundering guide', 'fake currency', 'counterfeit money', 'fake degree', 'fake diploma'], 'opt_in_setting' => 'enable_illegal_scan'],
+    ['key' => 'content.illegal',      'situation' => 'Content Policy - Illegal content',                'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['buy drugs online', 'buy heroin', 'buy meth', 'buy cocaine', 'fake id maker', 'fake passport for sale', 'fake driving license', 'tax evasion guide', 'evade taxes', 'money laundering guide', 'fake currency', 'counterfeit money', 'fake degree', 'fake diploma'], 'opt_in_setting' => 'enable_illegal_scan'],
         'fix' => 'Review all posts for content that promotes illegal activities or infringes third-party rights. Delete or rewrite any offending post before re-applying.'],
-    ['key' => 'content.ip_abuse',     'situation' => 'Content Policy — Intellectual property abuse',   'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['warez', 'keygen', 'crack download', 'cracked software', 'pirated software', 'pirated movie', 'pirated game', 'torrent download site', 'free torrent download', 'free download crack', 'serial number download', 'license key generator', 'activation crack', 'patched apk', 'modded apk free', 'paid app free']],
+    ['key' => 'content.ip_abuse',     'situation' => 'Content Policy - Intellectual property abuse',   'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['warez', 'keygen', 'crack download', 'cracked software', 'pirated software', 'pirated movie', 'pirated game', 'torrent download site', 'free torrent download', 'free download crack', 'serial number download', 'license key generator', 'activation crack', 'patched apk', 'modded apk free', 'paid app free']],
         'fix' => 'Remove any copyrighted text, images, or downloads used without permission. Delete posts promoting counterfeit or pirated goods.'],
-    ['key' => 'content.derogatory',   'situation' => 'Content Policy — Dangerous or derogatory content','severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['slur1','slur2'], 'opt_in_setting' => 'enable_slur_scan'],
+    ['key' => 'content.derogatory',   'situation' => 'Content Policy - Dangerous or derogatory content','severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['slur1','slur2'], 'opt_in_setting' => 'enable_slur_scan'],
         'fix' => 'Open each flagged post and remove or replace derogatory language. Edit posts using Posts → All Posts, search for the keyword shown in evidence.'],
-    ['key' => 'content.animal',       'situation' => 'Content Policy — Animal cruelty',                'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['dog fighting', 'cock fighting', 'cockfighting ring', 'bear baiting', 'trophy hunting endangered', 'ivory trade', 'rhino horn for sale', 'shark finning', 'puppy mill', 'fur farm', 'foie gras force feeding'], 'opt_in_setting' => 'enable_animal_scan'],
+    ['key' => 'content.animal',       'situation' => 'Content Policy - Animal cruelty',                'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['dog fighting', 'cock fighting', 'cockfighting ring', 'bear baiting', 'trophy hunting endangered', 'ivory trade', 'rhino horn for sale', 'shark finning', 'puppy mill', 'fur farm', 'foie gras force feeding'], 'opt_in_setting' => 'enable_animal_scan'],
         'fix' => 'Review all posts for content promoting animal cruelty or trade in endangered species. Delete any offending post or section immediately.'],
-    ['key' => 'content.misleading',   'situation' => 'Content Policy — Misleading content',            'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['call microsoft support number', 'microsoft tech support number', 'call apple support number', 'google tech support phone', 'authorized reseller', 'verified by google', 'as seen on cnn', 'as seen on bbc', 'celebrity endorsed']],
+    ['key' => 'content.misleading',   'situation' => 'Content Policy - Misleading content',            'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['call microsoft support number', 'microsoft tech support number', 'call apple support number', 'google tech support phone', 'authorized reseller', 'verified by google', 'as seen on cnn', 'as seen on bbc', 'celebrity endorsed']],
         'fix' => 'Review posts for fake credentials, misuse of brand logos, or misleading claims about content authorship. Remove or correct anything that misrepresents the publisher.'],
-    ['key' => 'content.unreliable',   'situation' => 'Content Policy — Unreliable and harmful claims', 'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['vaccines cause autism', 'anti-vax', 'vaccine injury hoax', 'stolen election', 'rigged election', 'election fraud proof', 'covid hoax', 'covid vaccine kills', 'plandemic', 'flat earth proof', '5g causes cancer', 'chemtrails proof', 'great reset agenda', 'qanon truth'], 'opt_in_setting' => 'enable_unreliable_scan'],
+    ['key' => 'content.unreliable',   'situation' => 'Content Policy - Unreliable and harmful claims', 'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['vaccines cause autism', 'anti-vax', 'vaccine injury hoax', 'stolen election', 'rigged election', 'election fraud proof', 'covid hoax', 'covid vaccine kills', 'plandemic', 'flat earth proof', '5g causes cancer', 'chemtrails proof', 'great reset agenda', 'qanon truth'], 'opt_in_setting' => 'enable_unreliable_scan'],
         'fix' => 'Review posts for anti-vaccine content, medical misinformation, or election conspiracy claims. Edit to add factual sourcing or delete posts that cannot be corrected.'],
-    ['key' => 'content.deceptive',    'situation' => 'Content Policy — Deceptive practices',           'severity' => 'urgent', 'check_class' => Manual_Review_Check::class, 'hint' => 'Confirm no posts trick users with false pretenses or phish for personal information.',
+    ['key' => 'content.deceptive',    'situation' => 'Content Policy - Deceptive practices',           'severity' => 'urgent', 'check_class' => Manual_Review_Check::class, 'hint' => 'Confirm no posts trick users with false pretenses or phish for personal information.',
         'fix' => 'Remove any forms or pages that collect user data under false pretenses. Delete posts that mimic official sites or trick users into sharing personal information.'],
-    ['key' => 'content.dishonest',    'situation' => 'Content Policy — Enabling dishonest behavior',   'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['hacking tutorial', 'how to hack', 'phishing kit', 'phishing template', 'ddos tutorial', 'ddos for hire', 'sql injection guide', 'sql injection tutorial', 'password cracking tool', 'password cracking software', 'wifi cracking', 'router hack', 'instagram hack', 'facebook hack', 'how to bypass paywall', 'bypass paywall guide', 'jailbreak guide']],
+    ['key' => 'content.dishonest',    'situation' => 'Content Policy - Enabling dishonest behavior',   'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['hacking tutorial', 'how to hack', 'phishing kit', 'phishing template', 'ddos tutorial', 'ddos for hire', 'sql injection guide', 'sql injection tutorial', 'password cracking tool', 'password cracking software', 'wifi cracking', 'router hack', 'instagram hack', 'facebook hack', 'how to bypass paywall', 'bypass paywall guide', 'jailbreak guide']],
         'fix' => 'Remove posts that provide hacking tutorials, phishing templates, or instructions for unauthorized system access. Edit posts to remove such sections.'],
-    ['key' => 'content.sex_explicit', 'situation' => 'Content Policy — Sexually explicit content',      'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['porn','xxx','nsfw','nude','erotic']],
+    ['key' => 'content.sex_explicit', 'situation' => 'Content Policy - Sexually explicit content',      'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['porn','xxx','nsfw','nude','erotic']],
         'fix' => 'Open the flagged post (Posts → All Posts). Remove or rewrite the explicit section. If the entire post is adult content, delete it.'],
-    ['key' => 'content.mail_brides',  'situation' => 'Content Policy — Mail-order brides',             'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['mail order bride', 'mail-order bride', 'russian bride agency', 'asian wife catalog', 'ukrainian bride agency', 'foreign bride for sale', 'thai wife for marriage', 'marriage broker russian', 'find a foreign wife', 'matchmaking for marriage visa'], 'opt_in_setting' => 'enable_mail_brides_scan'],
+    ['key' => 'content.mail_brides',  'situation' => 'Content Policy - Mail-order brides',             'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['mail order bride', 'mail-order bride', 'russian bride agency', 'asian wife catalog', 'ukrainian bride agency', 'foreign bride for sale', 'thai wife for marriage', 'marriage broker russian', 'find a foreign wife', 'matchmaking for marriage visa'], 'opt_in_setting' => 'enable_mail_brides_scan'],
         'fix' => 'Review posts for content advertising or facilitating international marriage services for immigration purposes. Delete any offending posts.'],
-    ['key' => 'content.csae',         'situation' => 'Content Policy — Child sexual abuse and exploitation','severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['child porn', 'cp video', 'underage girl video', 'minor explicit', 'teen escort', 'lolita video', 'preteen explicit']],
+    ['key' => 'content.csae',         'situation' => 'Content Policy - Child sexual abuse and exploitation','severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['child porn', 'cp video', 'underage girl video', 'minor explicit', 'teen escort', 'lolita video', 'preteen explicit']],
         'fix' => 'Zero-tolerance review. Confirm no posts or images sexualize minors. If found, delete immediately and consider professional moderation tools.'],
 
     ['key' => 'restricted.sexual',      'situation' => 'Restricted: Sexual content',                       'severity' => 'severe', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['porn','nude','escort','sex toy']],
@@ -115,18 +115,18 @@ return [
     ['key' => 'restricted.unapproved',  'situation' => 'Restricted: Unapproved pharmaceuticals/supplements','severity' => 'severe', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['miracle cure','weight loss pill','testosterone booster']],
         'fix' => 'Open the linked post. If the keyword context is benign (e.g. a news article mentioning the topic), mark this finding resolved. If the post promotes, sells, or instructs how to obtain the restricted item, remove or rewrite that section.'],
 
-    ['key' => 'quality.writing', 'situation' => 'Content Quality — writing quality',          'severity' => 'moderate', 'check_class' => Readability_Check::class,
+    ['key' => 'quality.writing', 'situation' => 'Content Quality - writing quality',          'severity' => 'moderate', 'check_class' => Readability_Check::class,
         'fix' => 'Pick 5 random posts and read them for grammar, structure, and originality. Edit anything that reads as rushed or copy-pasted.'],
-    ['key' => 'quality.ai',      'situation' => 'Content Quality — AI caution',               'severity' => 'severe',   'check_class' => Manual_Review_Check::class, 'hint' => 'If AI-assisted, confirm a human editor reviewed every article before publication.',
+    ['key' => 'quality.ai',      'situation' => 'Content Quality - AI caution',               'severity' => 'severe',   'check_class' => Manual_Review_Check::class, 'hint' => 'If AI-assisted, confirm a human editor reviewed every article before publication.',
         'fix' => 'If posts were AI-generated, have a human editor read each one before publication. Google penalizes unedited AI text.'],
-    ['key' => 'quality.length',  'situation' => 'Content Quality — articles below word count threshold','severity' => 'moderate', 'check_class' => Word_Count_Check::class, 'check_args' => ['min_words' => 1000],
+    ['key' => 'quality.length',  'situation' => 'Content Quality - articles below word count threshold','severity' => 'moderate', 'check_class' => Word_Count_Check::class, 'check_args' => ['min_words' => 1000],
         'fix' => 'Open the linked post and expand it past the word threshold (see Settings → Thresholds). Add clear H2 subheadings to break up sections.'],
 
     // === Technical / E-E-A-T / Brand safety (13) ===
     ['key' => 'https',            'situation' => 'Enforce HTTPS sitewide',                          'severity' => 'urgent',   'check_class' => Https_Check::class,
         'fix' => 'Activate a free SSL certificate from your hosting control panel (most hosts offer free Let\'s Encrypt with one click). Then in Settings → General change both \'WordPress Address\' and \'Site Address\' from http:// to https://.'],
     ['key' => 'ads_txt',          'situation' => 'ads.txt configured natively',                     'severity' => 'severe',   'check_class' => Ads_Txt_Check::class,
-        'fix' => 'Create a file named `ads.txt` in your site\'s web root (same folder as wp-config.php). Add one line: `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0` — replace pub-XX with your AdSense Publisher ID.'],
+        'fix' => 'Create a file named `ads.txt` in your site\'s web root (same folder as wp-config.php). Add one line: `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0` - replace pub-XX with your AdSense Publisher ID.'],
     ['key' => 'robots_txt',       'situation' => 'robots.txt allows Mediapartners-Google',          'severity' => 'severe',   'check_class' => Robots_Txt_Check::class,
         'fix' => 'Edit `robots.txt` in your site root. Either remove the line blocking `/`, or add a Mediapartners-Google group with `Allow: /` to override the wildcard block.'],
     ['key' => 'mobile',           'situation' => 'Mobile responsiveness',                           'severity' => 'severe',   'check_class' => Mobile_Responsive_Check::class,
@@ -143,14 +143,14 @@ return [
     ['key' => 'eeat.maturity',    'situation' => 'Domain maturation period',                        'severity' => 'moderate', 'check_class' => Domain_Maturity_Check::class,
         'fix' => 'Wait. Keep publishing consistently for several more weeks before submitting the AdSense application. Domains under 30 days face higher rejection rates.'],
 
-    ['key' => 'brand.safety',     'situation' => 'Brand safety — hate speech / derogatory imagery', 'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['hatewords'], 'opt_in_setting' => 'enable_hate_scan'],
+    ['key' => 'brand.safety',     'situation' => 'Brand safety - hate speech / derogatory imagery', 'severity' => 'urgent', 'check_class' => Restricted_Keywords_Check::class, 'check_args' => ['keywords' => ['hatewords'], 'opt_in_setting' => 'enable_hate_scan'],
         'fix' => 'Audit posts for hate speech, derogatory imagery, or politically/racially polarizing content. Remove anything that violates Google\'s brand-safety guidelines.'],
     ['key' => 'brand.cmp',        'situation' => 'Deploy a certified CMP (IAB TCF v2.2)',           'severity' => 'severe', 'check_class' => Cmp_Detect_Check::class,
         'fix' => 'Install a Google-certified Consent Management Platform. Free options: CookieYes, Complianz, or Iubenda. Set up with IAB TCF v2.2 mode enabled.'],
     ['key' => 'brand.privacy',    'situation' => 'Comprehensive privacy disclosures',               'severity' => 'severe', 'check_class' => Privacy_Disclosure_Check::class,
         'fix' => 'Edit your Privacy Policy page to explicitly include the words \'third-party\', \'Google\', \'cookies\', and \'opt-out\' (e.g. \'We use third-party services including Google ads which set cookies; visit https://adssettings.google.com to opt-out\').'],
 
-    // === Blog QA expansion (2026-05-23) — see spec 2026-05-23-blog-checklist-expansion-design.md ===
+    // === Blog QA expansion (2026-05-23) - see spec 2026-05-23-blog-checklist-expansion-design.md ===
     ['key' => 'eeat.volume_aspirational', 'situation' => 'Volume tier: 80+ articles (stronger approval signal)',
         'severity' => 'moderate', 'check_class' => Article_Count_Check::class, 'check_args' => ['min_articles' => 80],
         'fix' => 'Aim for 80+ published posts before applying. AdSense approval is more reliable once the catalog feels substantial.'],
@@ -165,7 +165,7 @@ return [
 
     ['key' => 'technical.analytics', 'situation' => 'Analytics tag installed (GA4 or Google Tag Manager)',
         'severity' => 'moderate', 'check_class' => Analytics_Check::class,
-        'fix' => 'Install a GA4 or GTM tag. Use a plugin like Site Kit by Google, or paste the gtag.js snippet into your theme header. Universal Analytics (UA-) is no longer accepted — GA4 only.'],
+        'fix' => 'Install a GA4 or GTM tag. Use a plugin like Site Kit by Google, or paste the gtag.js snippet into your theme header. Universal Analytics (UA-) is no longer accepted - GA4 only.'],
 
     ['key' => 'navigation.categories_balance', 'situation' => 'Each category has at least 15 published articles',
         'severity' => 'moderate', 'check_class' => Categories_Balance_Check::class,
@@ -183,7 +183,7 @@ return [
         'severity' => 'minor', 'check_class' => CDN_Check::class,
         'fix' => 'Optional but recommended. Enable Cloudflare (free tier works), or use a managed host that fronts your site with a CDN (Kinsta, WP Engine, etc).'],
 
-    ['key' => 'quality.ux', 'situation' => 'UX & readability — verify navigation, spacing, typography are reader-friendly',
+    ['key' => 'quality.ux', 'situation' => 'UX & readability - verify navigation, spacing, typography are reader-friendly',
         'severity' => 'moderate', 'check_class' => UX_CSS_Check::class,
         'fix' => 'Adjust typography (line-height 1.5-1.6, body font 16-18px), simplify the menu, reduce ads above the fold. Run a Lighthouse audit for accessibility hints.'],
 
@@ -199,6 +199,6 @@ return [
 
     ['key' => 'eeat.audience', 'situation' => 'Genuine organic audience (rough proxy: ~250 visits/month)',
         'severity' => 'severe', 'check_class' => Manual_Review_Check::class,
-        'hint' => 'Check Google Search Console or your analytics. AdSense expects a baseline audience — not zero traffic. ~250 visits/month from organic search is a reasonable floor before applying.',
-        'fix' => 'Index the site in Google Search Console, build a few backlinks from related niches, and publish consistently. Don\'t apply with zero traffic — wait until search starts sending some.'],
+        'hint' => 'Check Google Search Console or your analytics. AdSense expects a baseline audience - not zero traffic. ~250 visits/month from organic search is a reasonable floor before applying.',
+        'fix' => 'Index the site in Google Search Console, build a few backlinks from related niches, and publish consistently. Don\'t apply with zero traffic - wait until search starts sending some.'],
 ];

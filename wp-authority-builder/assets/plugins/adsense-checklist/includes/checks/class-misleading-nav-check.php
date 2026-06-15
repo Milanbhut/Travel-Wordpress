@@ -17,7 +17,7 @@ class Misleading_Nav_Check implements Check
         if ($r['error']) {
             return [new Finding([
                 'check_key'   => $entry['key'],
-                'situation'   => $entry['situation'] . ' — network error while probing home page.',
+                'situation'   => $entry['situation'] . ' - network error while probing home page.',
                 'severity'    => $entry['severity'],
                 'status'      => 'manual_review',
                 'url_example' => $url,
@@ -33,7 +33,7 @@ class Misleading_Nav_Check implements Check
                 if (preg_match('/<ins\b[^>]*class\s*=\s*["\'][^"\']*(adsbygoogle|adsense)/i', $inner)) {
                     $findings[] = new Finding([
                         'check_key'   => $entry['key'],
-                        'situation'   => $entry['situation'] . ' — ad inside navigation block #' . ($i + 1) . '.',
+                        'situation'   => $entry['situation'] . ' - ad inside navigation block #' . ($i + 1) . '.',
                         'severity'    => $entry['severity'],
                         'url_example' => $url,
                         'evidence'    => ['pattern' => 'ad_inside_nav'],
@@ -56,7 +56,7 @@ class Misleading_Nav_Check implements Check
                 if ($action_host !== null && $action_host !== '' && $action_host !== $home_host) {
                     $findings[] = new Finding([
                         'check_key'   => $entry['key'],
-                        'situation'   => $entry['situation'] . " — fake search input submits to {$action_host}.",
+                        'situation'   => $entry['situation'] . " - fake search input submits to {$action_host}.",
                         'severity'    => $entry['severity'],
                         'url_example' => $url,
                         'evidence'    => ['pattern' => 'fake_search', 'action_host' => $action_host],
@@ -78,7 +78,7 @@ class Misleading_Nav_Check implements Check
                 if ($href_host !== null && $href_host !== '' && $href_host !== $home_host) {
                     $findings[] = new Finding([
                         'check_key'   => $entry['key'],
-                        'situation'   => $entry['situation'] . " — fake download link points to {$href_host}.",
+                        'situation'   => $entry['situation'] . " - fake download link points to {$href_host}.",
                         'severity'    => $entry['severity'],
                         'url_example' => $url,
                         'evidence'    => ['pattern' => 'fake_download', 'link_host' => $href_host, 'link_text' => $text],

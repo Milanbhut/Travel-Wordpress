@@ -1,6 +1,6 @@
 <?php
 /**
- * Single post — full editorial article anatomy.
+ * Single post - full editorial article anatomy.
  *
  * @package Overlaytop
  */

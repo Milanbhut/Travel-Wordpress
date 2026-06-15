@@ -2,7 +2,7 @@
 
 Tries the configured DB user; if access is denied, also tries the prefixed/unprefixed
 variant (Hostinger prefixes names with the account id). Prints which user connected
-and the databases/tables visible — revealing the real DB name.
+and the databases/tables visible - revealing the real DB name.
 
 Run: python -m scripts.check_db
 """

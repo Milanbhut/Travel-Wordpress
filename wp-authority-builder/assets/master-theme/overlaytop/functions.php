@@ -93,7 +93,7 @@ function overlaytop_resource_hints( $hints, $relation ) {
 add_filter( 'wp_resource_hints', 'overlaytop_resource_hints', 10, 2 );
 
 /**
- * Inject a GA4 (gtag) tag when a Measurement ID is configured — via the
+ * Inject a GA4 (gtag) tag when a Measurement ID is configured - via the
  * OVERLAYTOP_GA4_ID constant or the 'overlaytop_ga4_id' option. No ID, no output.
  */
 function overlaytop_analytics() {
@@ -109,7 +109,7 @@ function overlaytop_analytics() {
 }
 add_action( 'wp_head', 'overlaytop_analytics', 20 );
 
-// Let the theme own Contact Form 7 markup — our form template is already valid HTML,
+// Let the theme own Contact Form 7 markup - our form template is already valid HTML,
 // so skip CF7's auto-paragraph/<br> insertion.
 add_filter( 'wpcf7_autop_or_not', '__return_false' );
 

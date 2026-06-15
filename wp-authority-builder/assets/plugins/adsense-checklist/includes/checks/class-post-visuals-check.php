@@ -37,7 +37,7 @@ class Post_Visuals_Check implements Check
             }
             $findings[] = new Finding([
                 'check_key'   => $entry['key'] . '.post_' . (int) $post->ID,
-                'situation'   => $entry['situation'] . ' — no visuals in this post.',
+                'situation'   => $entry['situation'] . ' - no visuals in this post.',
                 'severity'    => $entry['severity'],
                 'url_example' => \get_permalink($post->ID),
                 'evidence'    => [

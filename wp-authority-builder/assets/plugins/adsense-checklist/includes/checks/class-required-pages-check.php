@@ -22,7 +22,7 @@ class Required_Pages_Check implements Check
         }
         return [new Finding([
             'check_key' => $entry['key'],
-            'situation' => $entry['situation'] . ' — page missing or not published.',
+            'situation' => $entry['situation'] . ' - page missing or not published.',
             'severity'  => $entry['severity'],
             'evidence'  => [
                 'searched_aliases'  => $aliases,

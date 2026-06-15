@@ -1,6 +1,6 @@
 <?php
 /**
- * Front page — recipe-driven modular homepage.
+ * Front page - recipe-driven modular homepage.
  *
  * Fixed section order (never changes): Hero -> About -> Latest 6 (3x2)
  * -> 3 bento category sections -> Newsletter. The LOOK varies per build:
@@ -226,7 +226,7 @@ endforeach;
 	<div class="container news__inner">
 		<div class="news__copy">
 			<h2 class="news__title"><?php echo esc_html( get_theme_mod( 'ot_news_title', __( 'Get the weekly dispatch', 'overlaytop' ) ) ); ?></h2>
-			<p class="news__sub"><?php echo esc_html( get_theme_mod( 'ot_news_sub', __( 'One useful email a week — the best new guides and a few things worth your time. No spam, unsubscribe anytime.', 'overlaytop' ) ) ); ?></p>
+			<p class="news__sub"><?php echo esc_html( get_theme_mod( 'ot_news_sub', __( 'One useful email a week - the best new guides and a few things worth your time. No spam, unsubscribe anytime.', 'overlaytop' ) ) ); ?></p>
 		</div>
 		<div class="news__form">
 			<?php

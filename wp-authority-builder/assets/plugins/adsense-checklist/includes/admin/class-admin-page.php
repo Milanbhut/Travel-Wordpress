@@ -124,7 +124,7 @@ class Admin_Page
         ];
 
         echo '<div class="wrap adsense-checklist">';
-        echo '<h1 style="display:none">AdSense Checklist</h1>'; // hidden — header partial renders the real title
+        echo '<h1 style="display:none">AdSense Checklist</h1>'; // hidden - header partial renders the real title
         $base_url = admin_url('tools.php?page=' . self::SLUG);
         echo '<nav class="adsc-tabs">';
         foreach (['report' => 'Report', 'settings' => 'Settings', 'about' => 'About'] as $key => $label) {

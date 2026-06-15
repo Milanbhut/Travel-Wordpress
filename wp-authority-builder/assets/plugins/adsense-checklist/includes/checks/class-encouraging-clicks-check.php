@@ -28,7 +28,7 @@ class Encouraging_Clicks_Check implements Check
         if ($r['error']) {
             return [new Finding([
                 'check_key'   => $entry['key'],
-                'situation'   => $entry['situation'] . ' — network error while probing home page.',
+                'situation'   => $entry['situation'] . ' - network error while probing home page.',
                 'severity'    => $entry['severity'],
                 'status'      => 'manual_review',
                 'url_example' => $url,
@@ -75,7 +75,7 @@ class Encouraging_Clicks_Check implements Check
     {
         return new Finding([
             'check_key'   => $entry['key'],
-            'situation'   => $entry['situation'] . ' — ' . $description,
+            'situation'   => $entry['situation'] . ' - ' . $description,
             'severity'    => $entry['severity'],
             'url_example' => $url,
             'evidence'    => ['pattern' => $description],

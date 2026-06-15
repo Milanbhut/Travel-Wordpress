@@ -28,7 +28,7 @@ class CDN_Check implements Check
         if ($r['error']) {
             return [new Finding([
                 'check_key'   => $entry['key'],
-                'situation'   => $entry['situation'] . ' — network error while probing.',
+                'situation'   => $entry['situation'] . ' - network error while probing.',
                 'severity'    => $entry['severity'],
                 'status'      => 'manual_review',
                 'url_example' => $url,
@@ -41,7 +41,7 @@ class CDN_Check implements Check
         }
         return [new Finding([
             'check_key'   => $entry['key'],
-            'situation'   => $entry['situation'] . ' — no CDN headers detected.',
+            'situation'   => $entry['situation'] . ' - no CDN headers detected.',
             'severity'    => $entry['severity'],
             'url_example' => $url,
             'evidence'    => ['server_header' => $headers['server'] ?? ''],

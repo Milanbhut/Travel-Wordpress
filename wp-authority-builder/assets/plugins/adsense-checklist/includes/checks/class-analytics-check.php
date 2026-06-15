@@ -24,7 +24,7 @@ class Analytics_Check implements Check
         if ($r['error']) {
             return [new Finding([
                 'check_key'   => $entry['key'],
-                'situation'   => $entry['situation'] . ' — network error while probing.',
+                'situation'   => $entry['situation'] . ' - network error while probing.',
                 'severity'    => $entry['severity'],
                 'status'      => 'manual_review',
                 'url_example' => $url,
@@ -37,11 +37,11 @@ class Analytics_Check implements Check
                 return [];
             }
         }
-        // Legacy UA detection — fail with a more specific message.
+        // Legacy UA detection - fail with a more specific message.
         if (preg_match('/UA-\d+-\d+/', $body)) {
             return [new Finding([
                 'check_key'   => $entry['key'],
-                'situation'   => $entry['situation'] . ' — only legacy Universal Analytics found; UA was sunset July 2023.',
+                'situation'   => $entry['situation'] . ' - only legacy Universal Analytics found; UA was sunset July 2023.',
                 'severity'    => $entry['severity'],
                 'url_example' => $url,
                 'evidence'    => ['detected' => 'legacy_ua'],
@@ -49,7 +49,7 @@ class Analytics_Check implements Check
         }
         return [new Finding([
             'check_key'   => $entry['key'],
-            'situation'   => $entry['situation'] . ' — no analytics tag detected on home page.',
+            'situation'   => $entry['situation'] . ' - no analytics tag detected on home page.',
             'severity'    => $entry['severity'],
             'url_example' => $url,
             'evidence'    => ['detected' => 'none'],

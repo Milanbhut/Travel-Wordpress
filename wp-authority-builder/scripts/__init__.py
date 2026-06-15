@@ -1,1 +1,1 @@
-"""WP Authority Builder — automation scripts package."""
+"""WP Authority Builder - automation scripts package."""
