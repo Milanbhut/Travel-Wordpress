@@ -191,6 +191,10 @@ p{margin-bottom:1.1em}
    Footer
    ========================================================================== */
 .site-footer{margin-top:clamp(3rem,2rem + 4vw,6rem);background:var(--ink-900);color:#d7ddd9}
+/* The homepage's last section (newsletter band/card) provides its own spacing; the footer
+   top margin would leave an empty gap above it. Use body.home so this beats the footer-variant
+   margin rules (e.g. .v-footer-minimal) regardless of source order. */
+body.home .site-footer{margin-top:0}
 .footer__top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:2.5rem;padding-block:clamp(2.6rem,2rem + 2vw,3.6rem)}
 .footer__brand .brand{color:#fff}
 .footer__brand p{color:#aab4af;max-width:34ch;margin-top:.9rem;font-size:.95rem}
@@ -592,6 +596,10 @@ p{margin-bottom:1.1em}
 .news__fields input::placeholder{color:var(--text-muted)}
 .news__fields input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px color-mix(in srgb,var(--primary) 18%,transparent)}
 .news__fields .btn{flex:none}
+
+/* band + split: tighten the full-bleed dark bands. The shared section uses --section-y (up to 7rem),
+   which leaves a tall dead space below the short form; a CTA band wants snugger vertical padding. */
+.news--band,.news--split{padding-block:clamp(2.75rem,1.5rem + 4vw,4.5rem)}
 
 /* band - full-width dark band, centered single column */
 .news--band{background:var(--dark);color:#fff}
