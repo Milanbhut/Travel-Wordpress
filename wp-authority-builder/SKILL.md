@@ -56,13 +56,21 @@ slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scri
 - The homepage is now a **fixed 5-section structure** (Hero → About text+image → Latest 6 in a 3×2 grid →
   3 bento category sections → Newsletter); only the *look* varies per recipe. Set the copy mods with
   `wp theme mod set` during build: `ot_hero_title/ot_hero_sub/ot_hero_eyebrow`,
-  `ot_about_title/ot_about_body/ot_about_image/ot_about_stats`, `ot_home_cats` (3 category slugs), and
-  `ot_news_title/ot_news_sub`.
+  `ot_about_title/ot_about_body/ot_about_image`, `ot_home_cats` (3 category slugs), and
+  `ot_news_title/ot_news_sub`. Do NOT set `ot_about_stats` or `ot_hero_trust` - the user does not
+  want stat-counter labels ("90 guides / 6 topics / 5 experts") on blog homepages by default.
 
 **3. Content (subagent-driven - the fast path)**
-- Generate all ~90 articles with **parallel subagents via the Workflow tool** (~16 concurrent). Each
-  reads its plan entry + `references/content-style-guide.md` and writes `content/<slug>.html` (raw HTML
-  with an `<!--excerpt:-->` lead). Validate with the first 4 (one per archetype) before fanning out the rest.
+- Generate the **validation sample first** - the first 4-6 articles (one per archetype) - with subagents via
+  the **Workflow tool**. Each reads its plan entry + `references/content-style-guide.md` and writes
+  `content/<slug>.html` (raw HTML with an `<!--excerpt:-->` lead). Review them for quality.
+- **Plagiarism-gate the sample before writing the rest** (cost control - scanning all 90 is ~216k credits):
+  `scripts.winston_qa --prepare --files content/<slug>.html ...` (the 4-6 sample files) → scan each with the
+  **winston-ai MCP** (`plagiarism-detection` only) → `scripts.winston_qa --report`. Fan out the remaining ~84
+  articles **only once every sample article is 0% copied** (score ≤5%, no matched source). The whole batch
+  comes from the same model + style guide, so a clean sample predicts a clean full set - the other 84 are not
+  scanned. If a sample article matches a source, fix the generation and re-scan before fanning out.
+- Then generate the remaining ~84 articles (~16 concurrent) the same way.
 - `scripts.publish_article --all` → lint-gated publish (word count ≥1000, banned-phrase check) + a
   deduped featured image per post (Unsplash → Pexels fallback).
 - Articles must be **em-dash-free** (hard rule, see `references/content-style-guide.md`): never an em dash
@@ -84,6 +92,12 @@ slugs, image queries, and angles → `config/<domain>.plan-raw.json`. Then `scri
 - `scripts.scrub_dashes` → strips every em/en dash from post content, excerpts, titles, term descriptions,
   and theme mods. The site must contain ZERO long dashes (hard user rule). Run after all content, pages, and
   mods are in place.
+- Plagiarism is already gated on the validation sample in **Step 3** (winston-ai `plagiarism-detection` on the
+  first 4-6 articles), so there is **no full 90-article scan here** - that would cost ~216k credits and a clean
+  sample already predicts a clean full set. Optional extra assurance: `scripts.winston_qa --prepare --sample 6`
+  pulls 6 evenly-spread published posts to spot-check, then scan each + `scripts.winston_qa --report`;
+  regenerate any with matches. **No AI-detection scan** - off the table: AdSense judges originality +
+  helpfulness, not a third-party AI score.
 - `scripts.audit_images` (backfill missing + perceptual-hash dedupe → all images distinct; deletes the
   replaced attachments so no byte-duplicate images linger in the media library).
 - `scripts.audit_links` (zero orphans / zero broken internal links).
